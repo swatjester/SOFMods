@@ -4,7 +4,7 @@
     "id": "modern_sof_vehicles",
     "name": "Modern Mil/SOF - Vehicles",
     "authors": [ "Dan" ],
-    "description": "Vehicles add-on for the modern U.S. military / SOF simulation set. Adds modern tactical ground mobility platforms: the M1301 Infantry Squad Vehicle (ISV), with the RSOV and Polaris MRZR-2/-4 planned. Loads standalone; pairs with the MRGG, Equipment, and Forces modules.",
+    "description": "Vehicles add-on for the modern U.S. military / SOF simulation set. Adds modern tactical ground mobility platforms: the M1301 Infantry Squad Vehicle (ISV), with the RSOV and Polaris MRZR-2/-4 planned. Loads standalone; pairs with the Equipment module, which includes the MRGG rifles, and the Forces module.",
     "category": "vehicles",
     "dependencies": [ "tlg" ],
     "version": "0.1"
