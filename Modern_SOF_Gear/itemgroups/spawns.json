@@ -111,6 +111,42 @@
   },
   {
     "type": "item_group",
+    "id": "guns_rifle_milspec",
+    "copy-from": "guns_rifle_milspec",
+    "subtype": "distribution",
+    "//": "Military weapon caches - MRGG rifles, conversion barrel, magazines, and 6.5 Creedmoor ammo.",
+    "extend": {
+      "entries": [
+        { "item": "mrgg_a", "prob": 25, "contents-item": [ "mrgg_mag" ] },
+        { "item": "mrgg_s", "prob": 12, "contents-item": [ "mrgg_mag" ] },
+        { "item": "mrgg_barrel_308", "prob": 10 },
+        { "item": "mrgg_mag", "prob": 30 },
+        { "item": "mrgg_mag_308", "prob": 12 },
+        { "item": "65creedmoor_fmj", "prob": 40 },
+        { "item": "65creedmoor_match", "prob": 12 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_common",
+    "copy-from": "guns_rifle_common",
+    "subtype": "distribution",
+    "//": "Gun store rifle racks - MRGG rifles are a rare find here.",
+    "extend": {
+      "entries": [
+        { "item": "mrgg_a", "prob": 5, "contents-item": [ "mrgg_mag" ] },
+        { "item": "mrgg_s", "prob": 4, "contents-item": [ "mrgg_mag" ] },
+        { "item": "mrgg_barrel_308", "prob": 4 },
+        { "item": "mrgg_mag", "prob": 10 },
+        { "item": "mrgg_mag_308", "prob": 6 },
+        { "item": "65creedmoor_fmj", "prob": 15 },
+        { "item": "65creedmoor_match", "prob": 8 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
     "id": "infantry_common_gear",
     "copy-from": "infantry_common_gear",
     "subtype": "collection",

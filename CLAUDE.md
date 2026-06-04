@@ -6,10 +6,9 @@ Overarching goal: a comprehensive set of mods simulating modern-day U.S. militar
 
 ## Mods & load order (dependency order)
 
-1. **MRGG_Rifles** (`mrgg_rifles`) — deps `["tlg"]`. MRGG-A/-S modular battle rifles, 6.5 Creedmoor + .308 swap barrel, the 6.5 Creedmoor cartridge.
-2. **Modern_SOF_Gear** (`modern_sof_gear`) — deps `["tlg", "mrgg_rifles"]`. The big equipment + weapons module (see below).
-3. **Modern_SOF_Forces** (`modern_sof_forces`) — deps `["tlg", "mrgg_rifles", "modern_sof_gear"]`. Professions + solo-start scenarios (75th Rangers, Multifunctional Reconnaissance Company).
-4. **Modern_SOF_Vehicles** (`modern_sof_vehicles`) — deps `["tlg"]`. ISV, RSOV (M240/M2/Mk19 variants), MRZR-2/-4, Flyer, GMV (endgame).
+1. **Modern_SOF_Gear** (`modern_sof_gear`) — deps `["tlg"]`. The big equipment + weapons module (see below), including MRGG-A/-S modular battle rifles, 6.5 Creedmoor + .308 swap barrel, and the 6.5 Creedmoor cartridge.
+2. **Modern_SOF_Forces** (`modern_sof_forces`) — deps `["tlg", "modern_sof_gear"]`. Professions + solo-start scenarios (75th Rangers, Multifunctional Reconnaissance Company).
+3. **Modern_SOF_Vehicles** (`modern_sof_vehicles`) — deps `["tlg"]`. ISV, RSOV (M240/M2/Mk19 variants), MRZR-2/-4, Flyer, GMV (endgame).
 
 ## CRITICAL TLG gotchas (these cause hard load/character-creation errors)
 
@@ -33,8 +32,7 @@ Overarching goal: a comprehensive set of mods simulating modern-day U.S. militar
 
 ## What's been built
 
-- **MRGG_Rifles**: MRGG-A, MRGG-S, SOF kitted builds, 6.5 Creedmoor ammo/mags, .308 conversion.
-- **Modern_SOF_Gear**: SOF rifle builds; LVAW (.300 BLK) + SOF; modular AR uppers (GL/SSC 12.5", recce 16", Mk12 SPR 18"); short suppressor; grippod; M249-para/M240-collapsible stocks + short barrels; MOLLE battle belts (assaulter/breacher/grenadier/drone) + pouches incl. breaching tool hooks; **added weapons**: NGSW M7/M8/M250 + `277fury` (.277 Fury) cartridge; M110 SASS; KAC SR-25 (with Mk 11 variant); Colt 9mm SMG (Uzi mags); KAC LAMG; M252 81mm mortar + shell; Mk 153 SMAW + rocket; FGM-148 Javelin + missile. All wired into military spawn groups.
+- **Modern_SOF_Gear**: MRGG-A, MRGG-S, SOF kitted builds, 6.5 Creedmoor ammo/mags, .308 conversion; SOF rifle builds; LVAW (.300 BLK) + SOF; modular AR uppers (GL/SSC 12.5", recce 16", Mk12 SPR 18"); short suppressor; grippod; M249-para/M240-collapsible stocks + short barrels; MOLLE battle belts (assaulter/breacher/grenadier/drone) + pouches incl. breaching tool hooks; **added weapons**: NGSW M7/M8/M250 + `277fury` (.277 Fury) cartridge; M110 SASS; KAC SR-25 (with Mk 11 variant); Colt 9mm SMG (Uzi mags); KAC LAMG; M252 81mm mortar + shell; Mk 153 SMAW + rocket; FGM-148 Javelin + missile. All wired into military spawn groups.
 - **Modern_SOF_Forces**: 75th Ranger professions (assaulter, sniper, breacher, grenadier, drone operator, machine gunner [M249-para], weapons-squad gunner [M240]) + "Rangers Lead the Way" scenario; MFRC professions (scout, sniper, machine gunner [M249-para], grenadier, drone operator [M4A1]) + "Eyes Forward" scenario. Solo-start only so far.
 - **Modern_SOF_Vehicles**: `isv` (9-seat, unarmed), `rsov_m240`/`rsov_m2`/`rsov_mk19` (M249 pintle on all), `mrzr2`/`mrzr4` (M249 pintle, diesel_engine_inline4), `flyer` (ATGM turret + M240 pintle), `gmv` (M1288: Mk19 + HEL-AD laser + 6 batteries + 6 solar + JP8 APU; NOT in spawn groups — debug-spawn only). Custom parts: `turret_rmes_laser` (HEL-AD), `hel_apu`.
 
@@ -44,7 +42,6 @@ Overarching goal: a comprehensive set of mods simulating modern-day U.S. militar
 - **NPC companions + the solo→duo→fireteam→section→squad progression** wired onto the existing solo scenarios.
 - **Zombified preset versions** of the SOF forces (enemy spawns reusing the role loadouts).
 - **Low-visibility / undercover operator scenario** — the LVAW (.300 BLK) is reserved for this; keep it out of the standard Ranger/MFRC kits.
-- **Still-missing real-world weapons** from the gap analysis: M38 DMR, Mk 20 SSR, M40, Mk 13 (needs .300 Win Mag), Mk 47 Striker AGL, M120 120mm mortar, M141 BDM, FIM-92 Stinger; and cartridges .300 Win Mag, .300 Norma Mag, .338 Norma Mag (note: .338 Lapua exists as a substitute).
 
 ## Style / policy
 
