@@ -17,6 +17,12 @@ Overarching goal: a comprehensive set of mods simulating modern-day U.S. militar
   - NOT items (leave as-is): `ammunition_type`, `ammo_effect`, `effect_type`, `item_group`, `profession`, `scenario`, `vehicle`, `vehicle_part`, `furniture`, `effect_on_condition`, `recipe`, `MOD_INFO`, `migration`.
 - After ANY change, validate JSON parse + cross-references before considering it done. A standard validation script lives in the chat history; it builds an id universe from `data/json` + all mods and checks copy-from / ammo / magazine `item_restriction` / `ammo_restriction` / ammo_effects / deploy-furniture / spawn-group refs.
 
+## Git / GitHub workflow
+
+- Prefer HTTPS pushes for this repo, not SSH. SSH consistently fails in Codex sessions with `git@github.com: Permission denied (publickey)`.
+- Before GitHub operations, clear the stale invalid `GITHUB_TOKEN` for the current shell so `gh` can use the valid `swatjester` keyring login: `Remove-Item Env:GITHUB_TOKEN -ErrorAction SilentlyContinue`.
+- If `origin` is still SSH, push over HTTPS without changing the saved remote by using the `gh` keyring token, e.g. `Remove-Item Env:GITHUB_TOKEN -ErrorAction SilentlyContinue; $token = gh auth token; $basic = [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes("x-access-token:$token")); git -c http.https://github.com/.extraheader="AUTHORIZATION: Basic $basic" push -u https://github.com/swatjester/SOFMods.git <branch>`.
+
 ## Key implementation patterns
 
 - **Modular guns** (M4 family): a frame item (`modular_m4_carbine`, ammo NULL) + `retool_ar15_*` upper-receiver GUNMODs (location `bore`, with `ammo_modifier`, `magazine_adaptor`, `barrel_length`, `add_mod`). Pre-made configs are item_groups that spawn the frame with a cosmetic `variant` + `contents-item` parts (see `m4_cqbr` / our `m4_glssc`).
