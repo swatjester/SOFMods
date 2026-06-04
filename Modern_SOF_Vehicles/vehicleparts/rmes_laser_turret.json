@@ -1,0 +1,11 @@
+[
+  {
+    "id": "turret_rmes_laser",
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "name": { "str": "HEL-AD laser system" },
+    "//": "Vehicle-mounted RMES marksman laser (recon_mech_laser). It is a USE_UPS energy weapon, so as a vehicle turret it draws its shots from the vehicle's electrical grid rather than a magazine - hence the GMV's oversized battery bank and solar array. Defined explicitly (mirroring how turret_generic is built from a gun) so it does not depend on runtime turret auto-generation.",
+    "item": "recon_mech_laser",
+    "looks_like": "turret_generic"
+  }
+]

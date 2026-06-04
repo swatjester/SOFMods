@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "modern_sof_forces",
+    "name": "Modern Mil/SOF - Forces",
+    "authors": [ "Dan" ],
+    "description": "Forces add-on for the modern U.S. military / SOF simulation set. Adds playable professions and solo-start scenarios for the 75th Ranger Regiment (assaulter, sniper, breacher, grenadier, drone operator, machine gunner) and the Multifunctional Reconnaissance Company (scout, sniper, machine gunner, grenadier, drone operator), kitted out with the Equipment module's gear. NPC companions and larger team-size starts are planned. Requires the MRGG and Equipment modules; vehicles ship as a separate add-on.",
+    "category": "content",
+    "dependencies": [ "tlg", "mrgg_rifles", "modern_sof_gear" ],
+    "version": "0.1"
+  }
+]

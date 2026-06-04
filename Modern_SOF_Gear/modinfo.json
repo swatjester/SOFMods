@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "modern_sof_gear",
+    "name": "Modern Mil/SOF - Equipment",
+    "authors": [ "Dan" ],
+    "description": "Core equipment module for a modern U.S. military / SOF simulation set. Adds kitted 'SOF' rifle variants, an LVAW in .300 BLK, modular AR uppers (12.5\" GL/SSC, 16\" recce, 18\" Mk12 SPR), a K-length short suppressor, a grippod, collapsible/para stocks for the M240/M249 (with dedicated short variants), and a family of MOLLE battle belts. Forces/scenario content lives in a separate dependent add-on.",
+    "category": "items",
+    "dependencies": [ "tlg", "mrgg_rifles" ],
+    "version": "0.1"
+  }
+]

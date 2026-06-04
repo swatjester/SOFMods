@@ -1,0 +1,239 @@
+[
+  {
+    "type": "profession",
+    "id": "recon_scout",
+    "name": { "male": "Recon Company - Scout", "female": "Recon Company - Scout" },
+    "description": "You are a scout in a Multifunctional Reconnaissance Company, the soldier who goes forward to find the enemy so the rest of the force does not have to stumble into them.  You travel light, move quiet, and see more than you are seen.  Your MRGG-A is there for when looking turns into shooting, but your job is to come back with the picture.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 6,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar", "prof_spotting" ],
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 4, "name": "rifle" },
+      { "level": 3, "name": "pistol" },
+      { "level": 3, "name": "dodge" },
+      { "level": 4, "name": "survival" },
+      { "level": 2, "name": "firstaid" },
+      { "level": 2, "name": "traps" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "combat_shirt" },
+          { "item": "jacket_army_modern" },
+          { "item": "tank_top" },
+          { "item": "pants_army" },
+          { "item": "gloves_tactical" },
+          { "item": "socks" },
+          { "item": "boots_combat" },
+          { "item": "helmet_army" },
+          { "item": "balaclava" },
+          { "item": "military_nvg" },
+          { "item": "binoculars" },
+          { "item": "roadmap" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "group": "military_ballistic_vest_pristine" },
+          { "group": "charged_two_way_radio" },
+          { "group": "battle_belt_assaulter" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "knife_combat_marine", "container-item": "sheath" },
+          { "item": "m18", "ammo-item": "9mm", "container-item": "holster", "charges": 17 },
+          { "item": "p320mag_17rd_9x19mm", "ammo-item": "9mm", "charges": 17, "count": 2 },
+          { "item": "mrgg_a", "ammo-item": "65creedmoor_fmj", "charges": 20, "contents-item": [ "holo_sight", "shoulder_strap" ] },
+          { "item": "mrgg_mag", "ammo-item": "65creedmoor_fmj", "charges": 20, "count": 3 }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] }
+    },
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "id": "recon_sniper",
+    "name": { "male": "Recon Company - Sniper", "female": "Recon Company - Sniper" },
+    "description": "You are a sniper in a Multifunctional Reconnaissance Company, half observer and half executioner.  You can lie in a hide for a day reporting what you see, then end a high-value target with a single round from your suppressed MRGG-S and melt back into the treeline.  Patience is a weapon, and you are very patient.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 7,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_rifles_pro", "prof_spotting", "prof_handloading", "prof_auto_pistols_familiar" ],
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 6, "name": "rifle" },
+      { "level": 3, "name": "pistol" },
+      { "level": 4, "name": "survival" },
+      { "level": 3, "name": "firstaid" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "combat_shirt" },
+          { "item": "jacket_army_modern" },
+          { "item": "tank_top" },
+          { "item": "pants_army" },
+          { "item": "gloves_tactical" },
+          { "item": "socks" },
+          { "item": "boots_combat" },
+          { "item": "helmet_army" },
+          { "item": "balaclava" },
+          { "item": "military_nvg" },
+          { "item": "binoculars" },
+          { "item": "roadmap" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "group": "military_ballistic_vest_pristine" },
+          { "group": "charged_two_way_radio" },
+          { "group": "battle_belt_assaulter" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "knife_combat_marine", "container-item": "sheath" },
+          { "item": "m18", "ammo-item": "9mm", "container-item": "holster", "charges": 17 },
+          { "item": "p320mag_17rd_9x19mm", "ammo-item": "9mm", "charges": 17, "count": 2 },
+          { "item": "mrgg_s_sof", "ammo-item": "65creedmoor_match", "charges": 20 },
+          { "item": "mrgg_mag", "ammo-item": "65creedmoor_match", "charges": 20, "count": 3 }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] }
+    },
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "id": "recon_machinegunner",
+    "name": { "male": "Recon Company - Machine Gunner", "female": "Recon Company - Machine Gunner" },
+    "description": "You are the machine gunner for a Multifunctional Reconnaissance Company element, the reason a small recon team can punch far above its weight if it gets caught.  Your para-length M249 is light enough to carry far and fast yet turns a chance contact into a one-sided affair long enough for the team to break clean.  You carry the gun, and the gun carries the team.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 7,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_rifles_pro", "prof_auto_pistols_familiar" ],
+    "skills": [
+      { "level": 5, "name": "gun" },
+      { "level": 4, "name": "rifle" },
+      { "level": 2, "name": "pistol" },
+      { "level": 3, "name": "survival" },
+      { "level": 2, "name": "firstaid" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "combat_shirt" },
+          { "item": "jacket_army_modern" },
+          { "item": "tank_top" },
+          { "item": "pants_army" },
+          { "item": "gloves_tactical" },
+          { "item": "socks" },
+          { "item": "boots_combat" },
+          { "item": "helmet_army" },
+          { "item": "balaclava" },
+          { "item": "military_nvg" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "group": "military_ballistic_vest_pristine" },
+          { "group": "charged_two_way_radio" },
+          { "group": "battle_belt_assaulter" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "knife_combat_marine", "container-item": "sheath" },
+          { "item": "m18", "ammo-item": "9mm", "container-item": "holster", "charges": 17 },
+          { "item": "p320mag_17rd_9x19mm", "ammo-item": "9mm", "charges": 17, "count": 2 },
+          { "item": "m249_para", "ammo-item": "556", "charges": 200, "contents-item": [ "holo_sight", "shoulder_strap" ] },
+          { "item": "belt223", "ammo-item": "556", "charges": 200, "count": 2 }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] }
+    },
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "id": "recon_grenadier",
+    "name": { "male": "Recon Company - Grenadier", "female": "Recon Company - Grenadier" },
+    "description": "You are the grenadier in a Multifunctional Reconnaissance Company element, the team's break-contact button.  When a recon patrol is compromised, the 40mm under your GL/SSC carbine buys the seconds the team needs to disappear.  You favor a light load and a fast exit over a stand-up fight.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 6,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar" ],
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 4, "name": "rifle" },
+      { "level": 4, "name": "launcher" },
+      { "level": 3, "name": "pistol" },
+      { "level": 3, "name": "survival" },
+      { "level": 2, "name": "firstaid" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "combat_shirt" },
+          { "item": "jacket_army_modern" },
+          { "item": "tank_top" },
+          { "item": "pants_army" },
+          { "item": "gloves_tactical" },
+          { "item": "socks" },
+          { "item": "boots_combat" },
+          { "item": "helmet_army" },
+          { "item": "balaclava" },
+          { "item": "military_nvg" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "group": "military_ballistic_vest_pristine" },
+          { "group": "charged_two_way_radio" },
+          { "group": "battle_belt_grenadier" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "knife_combat_marine", "container-item": "sheath" },
+          { "item": "m18", "ammo-item": "9mm", "container-item": "holster", "charges": 17 },
+          { "item": "p320mag_17rd_9x19mm", "ammo-item": "9mm", "charges": 17, "count": 2 },
+          { "item": "40x46mm_m433", "count": 6 },
+          { "item": "40x46mm_m576", "count": 2 },
+          { "item": "40x46mm_m651", "count": 2 },
+          { "group": "m4_glssc", "ammo-item": "556", "charges": 30 }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] }
+    },
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "id": "recon_drone_op",
+    "name": { "male": "Recon Company - Drone Operator", "female": "Recon Company - Drone Operator" },
+    "description": "You are the UAS operator for a Multifunctional Reconnaissance Company element, and in a recon unit that makes you the main effort.  Your first-person-view strike drones - small rotorcraft carrying a grenade or a charge of C-4 - do the reaching out so the team never has to expose itself, and your M4A1 handles anything that closes the distance.  You are the unit's eyes and, when it comes to it, its reach.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 7,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar", "prof_elec_circuits", "prof_elec_soldering" ],
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 3, "name": "rifle" },
+      { "level": 3, "name": "pistol" },
+      { "level": 4, "name": "computer" },
+      { "level": 3, "name": "electronics" },
+      { "level": 3, "name": "survival" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "combat_shirt" },
+          { "item": "jacket_army_modern" },
+          { "item": "tank_top" },
+          { "item": "pants_army" },
+          { "item": "gloves_tactical" },
+          { "item": "socks" },
+          { "item": "boots_combat" },
+          { "item": "helmet_army" },
+          { "item": "balaclava" },
+          { "item": "military_nvg" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "group": "military_ballistic_vest_pristine" },
+          { "group": "charged_two_way_radio" },
+          { "group": "battle_belt_drone" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "knife_combat_marine", "container-item": "sheath" },
+          { "item": "m18", "ammo-item": "9mm", "container-item": "holster", "charges": 17 },
+          { "item": "p320mag_17rd_9x19mm", "ammo-item": "9mm", "charges": 17, "count": 2 },
+          { "item": "bot_grenade_hack", "count": 3 },
+          { "item": "bot_c4_hack", "count": 1 },
+          { "group": "modular_m4a1", "ammo-item": "556", "charges": 30, "contents-item": [ "pistol_grip", "adjustable_stock", "holo_sight", "shoulder_strap" ] },
+          { "item": "stanag30", "ammo-item": "556", "charges": 30, "count": 3 }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] }
+    },
+    "flags": [ "SCEN_ONLY" ]
+  }
+]

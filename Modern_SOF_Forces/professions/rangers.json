@@ -1,0 +1,342 @@
+[
+  {
+    "type": "profession",
+    "id": "ranger_assaulter",
+    "name": { "male": "75th Ranger - Assaulter", "female": "75th Ranger - Assaulter" },
+    "description": "You are a Rifleman/assaulter in the 75th Ranger Regiment, the tip of the spear in any direct-action raid.  When the breachers open the door, you are the one flowing through it.  You run a suppressed MRGG-A set up exactly the way you like it, and you have put more rounds downrange in training than most people will see in a lifetime.  Rangers lead the way.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 7,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_rifles_pro", "prof_auto_pistols_familiar" ],
+    "skills": [
+      { "level": 5, "name": "gun" },
+      { "level": 5, "name": "rifle" },
+      { "level": 3, "name": "pistol" },
+      { "level": 3, "name": "melee" },
+      { "level": 3, "name": "dodge" },
+      { "level": 2, "name": "firstaid" },
+      { "level": 3, "name": "throw" },
+      { "level": 2, "name": "survival" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "combat_shirt" },
+          { "item": "jacket_army_modern" },
+          { "item": "tank_top" },
+          { "item": "pants_army" },
+          { "item": "gloves_tactical" },
+          { "item": "socks" },
+          { "item": "boots_combat" },
+          { "item": "tac_helmet" },
+          { "item": "balaclava" },
+          { "item": "advanced_gpnvg" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "group": "military_ballistic_vest_pristine" },
+          { "group": "charged_two_way_radio" },
+          { "group": "battle_belt_assaulter" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "knife_combat_marine", "container-item": "sheath" },
+          { "item": "m18", "ammo-item": "9mm", "container-item": "holster", "charges": 17 },
+          { "item": "p320mag_17rd_9x19mm", "ammo-item": "9mm", "charges": 17, "count": 2 },
+          { "item": "grenade", "count": 2 },
+          { "item": "flashbang", "count": 2 },
+          { "item": "smokebomb", "count": 1 },
+          { "item": "mrgg_a_sof", "ammo-item": "65creedmoor_fmj", "charges": 20 },
+          { "item": "mrgg_mag", "ammo-item": "65creedmoor_fmj", "charges": 20, "count": 3 }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] }
+    },
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "id": "ranger_sniper",
+    "name": { "male": "75th Ranger - Sniper", "female": "75th Ranger - Sniper" },
+    "description": "You are a sniper attached to a 75th Ranger Regiment element, the quiet professional who shapes the fight before it starts.  Your suppressed MRGG-S in 6.5 Creedmoor reaches well past anything the assaulters carry, and you have the patience and the eye to use it.  One shot is usually all you need.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 7,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_rifles_pro", "prof_spotting", "prof_handloading", "prof_auto_pistols_familiar" ],
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 6, "name": "rifle" },
+      { "level": 3, "name": "pistol" },
+      { "level": 2, "name": "melee" },
+      { "level": 3, "name": "firstaid" },
+      { "level": 3, "name": "survival" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "combat_shirt" },
+          { "item": "jacket_army_modern" },
+          { "item": "tank_top" },
+          { "item": "pants_army" },
+          { "item": "gloves_tactical" },
+          { "item": "socks" },
+          { "item": "boots_combat" },
+          { "item": "tac_helmet" },
+          { "item": "balaclava" },
+          { "item": "advanced_gpnvg" },
+          { "item": "binoculars" },
+          { "item": "roadmap" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "group": "military_ballistic_vest_pristine" },
+          { "group": "charged_two_way_radio" },
+          { "group": "battle_belt_assaulter" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "knife_combat_marine", "container-item": "sheath" },
+          { "item": "m18", "ammo-item": "9mm", "container-item": "holster", "charges": 17 },
+          { "item": "p320mag_17rd_9x19mm", "ammo-item": "9mm", "charges": 17, "count": 2 },
+          { "item": "mrgg_s_sof", "ammo-item": "65creedmoor_match", "charges": 20 },
+          { "item": "mrgg_mag", "ammo-item": "65creedmoor_match", "charges": 20, "count": 3 }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] }
+    },
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "id": "ranger_breacher",
+    "name": { "male": "75th Ranger - Breacher", "female": "75th Ranger - Breacher" },
+    "description": "You are a breacher in the 75th Ranger Regiment, the one who turns a locked door into an open one.  Halligan, sledge, breaching shotgun, or a charge of C-4 - whatever the door demands, you bring it.  Your short GL/SSC carbine keeps you in the fight the instant the wall comes down.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 7,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar", "prof_trapsetting", "prof_traps" ],
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 4, "name": "rifle" },
+      { "level": 3, "name": "shotgun" },
+      { "level": 3, "name": "pistol" },
+      { "level": 3, "name": "melee" },
+      { "level": 2, "name": "bashing" },
+      { "level": 2, "name": "mechanics" },
+      { "level": 2, "name": "firstaid" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "combat_shirt" },
+          { "item": "jacket_army_modern" },
+          { "item": "tank_top" },
+          { "item": "pants_army" },
+          { "item": "gloves_tactical" },
+          { "item": "socks" },
+          { "item": "boots_combat" },
+          { "item": "tac_helmet" },
+          { "item": "balaclava" },
+          { "item": "advanced_gpnvg" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "group": "military_ballistic_vest_pristine" },
+          { "group": "charged_two_way_radio" },
+          { "group": "battle_belt_breacher" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "knife_combat_marine", "container-item": "sheath" },
+          { "item": "m18", "ammo-item": "9mm", "container-item": "holster", "charges": 17 },
+          { "item": "p320mag_17rd_9x19mm", "ammo-item": "9mm", "charges": 17, "count": 2 },
+          { "item": "halligan" },
+          { "item": "hammer_sledge" },
+          { "item": "c4", "count": 2 },
+          { "item": "flashbang", "count": 2 },
+          { "item": "remington_870_breacher", "ammo-item": "shot_00", "charges": 5 },
+          { "item": "shot_00", "count": 15 },
+          { "group": "m4_glssc", "ammo-item": "556", "charges": 30 }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] }
+    },
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "id": "ranger_grenadier",
+    "name": { "male": "75th Ranger - Grenadier", "female": "75th Ranger - Grenadier" },
+    "description": "You are a grenadier in the 75th Ranger Regiment, the squad's pocket artillery.  The M203 slung under your GL/SSC carbine lets you reach over cover and put high-explosive exactly where the squad leader points.  You carry the weight of a basic load of 40mm so nobody has to ask twice.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 7,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_rifles_pro", "prof_auto_pistols_familiar" ],
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 4, "name": "rifle" },
+      { "level": 4, "name": "launcher" },
+      { "level": 3, "name": "pistol" },
+      { "level": 2, "name": "melee" },
+      { "level": 2, "name": "firstaid" },
+      { "level": 2, "name": "throw" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "combat_shirt" },
+          { "item": "jacket_army_modern" },
+          { "item": "tank_top" },
+          { "item": "pants_army" },
+          { "item": "gloves_tactical" },
+          { "item": "socks" },
+          { "item": "boots_combat" },
+          { "item": "tac_helmet" },
+          { "item": "balaclava" },
+          { "item": "advanced_gpnvg" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "group": "military_ballistic_vest_pristine" },
+          { "group": "charged_two_way_radio" },
+          { "group": "battle_belt_grenadier" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "knife_combat_marine", "container-item": "sheath" },
+          { "item": "m18", "ammo-item": "9mm", "container-item": "holster", "charges": 17 },
+          { "item": "p320mag_17rd_9x19mm", "ammo-item": "9mm", "charges": 17, "count": 2 },
+          { "item": "40x46mm_m433", "count": 8 },
+          { "item": "40x46mm_m576", "count": 2 },
+          { "item": "40x46mm_m651", "count": 2 },
+          { "item": "grenade", "count": 1 },
+          { "group": "m4_glssc", "ammo-item": "556", "charges": 30 }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] }
+    },
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "id": "ranger_drone_op",
+    "name": { "male": "75th Ranger - Drone Operator", "female": "75th Ranger - Drone Operator" },
+    "description": "You are the small-UAS operator for a 75th Ranger Regiment element, the squad's eyes in the sky and, when needed, its sharpest fist.  Your kit runs to first-person-view strike drones - palm-sized rotorcraft carrying a grenade or a slug of C-4 that you fly straight down a target's throat.  You fight with a trim MRGG-A when you have to, but your real weapons buzz.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 7,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar", "prof_elec_circuits", "prof_elec_soldering" ],
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 3, "name": "rifle" },
+      { "level": 3, "name": "pistol" },
+      { "level": 3, "name": "computer" },
+      { "level": 3, "name": "electronics" },
+      { "level": 2, "name": "firstaid" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "combat_shirt" },
+          { "item": "jacket_army_modern" },
+          { "item": "tank_top" },
+          { "item": "pants_army" },
+          { "item": "gloves_tactical" },
+          { "item": "socks" },
+          { "item": "boots_combat" },
+          { "item": "tac_helmet" },
+          { "item": "balaclava" },
+          { "item": "advanced_gpnvg" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "group": "military_ballistic_vest_pristine" },
+          { "group": "charged_two_way_radio" },
+          { "group": "battle_belt_drone" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "knife_combat_marine", "container-item": "sheath" },
+          { "item": "m18", "ammo-item": "9mm", "container-item": "holster", "charges": 17 },
+          { "item": "p320mag_17rd_9x19mm", "ammo-item": "9mm", "charges": 17, "count": 2 },
+          { "item": "bot_grenade_hack", "count": 3 },
+          { "item": "bot_c4_hack", "count": 1 },
+          { "item": "mrgg_a", "ammo-item": "65creedmoor_fmj", "charges": 20, "contents-item": [ "holo_sight", "shoulder_strap" ] },
+          { "item": "mrgg_mag", "ammo-item": "65creedmoor_fmj", "charges": 20, "count": 3 }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] }
+    },
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "id": "ranger_machinegunner",
+    "name": { "male": "75th Ranger - Machine Gunner", "female": "75th Ranger - Machine Gunner" },
+    "description": "You are a machine gunner in the 75th Ranger Regiment, the one who owns the base of fire.  Your para-length M249 lays down the wall of lead that lets everyone else move.  You carry more belted ammunition than seems reasonable, because there is no such thing as too much when it counts.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 7,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_rifles_pro", "prof_auto_pistols_familiar" ],
+    "skills": [
+      { "level": 5, "name": "gun" },
+      { "level": 4, "name": "rifle" },
+      { "level": 2, "name": "pistol" },
+      { "level": 3, "name": "melee" },
+      { "level": 2, "name": "firstaid" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "combat_shirt" },
+          { "item": "jacket_army_modern" },
+          { "item": "tank_top" },
+          { "item": "pants_army" },
+          { "item": "gloves_tactical" },
+          { "item": "socks" },
+          { "item": "boots_combat" },
+          { "item": "tac_helmet" },
+          { "item": "balaclava" },
+          { "item": "advanced_gpnvg" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "group": "military_ballistic_vest_pristine" },
+          { "group": "charged_two_way_radio" },
+          { "group": "battle_belt_assaulter" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "knife_combat_marine", "container-item": "sheath" },
+          { "item": "m18", "ammo-item": "9mm", "container-item": "holster", "charges": 17 },
+          { "item": "p320mag_17rd_9x19mm", "ammo-item": "9mm", "charges": 17, "count": 2 },
+          { "item": "m249_para", "ammo-item": "556", "charges": 200, "contents-item": [ "holo_sight", "shoulder_strap" ] },
+          { "item": "belt223", "ammo-item": "556", "charges": 200, "count": 2 }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] }
+    },
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "id": "ranger_weapons_gunner",
+    "name": { "male": "75th Ranger - Weapons Squad Gunner", "female": "75th Ranger - Weapons Squad Gunner" },
+    "description": "You are a gunner in a 75th Ranger Regiment weapons squad, the heavier half of the regiment's firepower.  Where the line squad's SAW gunner suppresses, you reach out and hammer with a collapsed-stock M240 in 7.62 - more weight, more range, more authority.  When the weapons squad sets up its guns, the fight is already decided.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 7,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_rifles_pro", "prof_auto_pistols_familiar" ],
+    "skills": [
+      { "level": 5, "name": "gun" },
+      { "level": 4, "name": "rifle" },
+      { "level": 2, "name": "pistol" },
+      { "level": 3, "name": "melee" },
+      { "level": 2, "name": "firstaid" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "combat_shirt" },
+          { "item": "jacket_army_modern" },
+          { "item": "tank_top" },
+          { "item": "pants_army" },
+          { "item": "gloves_tactical" },
+          { "item": "socks" },
+          { "item": "boots_combat" },
+          { "item": "tac_helmet" },
+          { "item": "balaclava" },
+          { "item": "advanced_gpnvg" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "group": "military_ballistic_vest_pristine" },
+          { "group": "charged_two_way_radio" },
+          { "group": "battle_belt_assaulter" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "knife_combat_marine", "container-item": "sheath" },
+          { "item": "m18", "ammo-item": "9mm", "container-item": "holster", "charges": 17 },
+          { "item": "p320mag_17rd_9x19mm", "ammo-item": "9mm", "charges": 17, "count": 2 },
+          { "item": "m240_shorty", "ammo-item": "762_51", "charges": 100, "contents-item": [ "holo_sight", "shoulder_strap" ] },
+          { "item": "belt308", "ammo-item": "762_51", "charges": 100, "count": 2 }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] }
+    },
+    "flags": [ "SCEN_ONLY" ]
+  }
+]

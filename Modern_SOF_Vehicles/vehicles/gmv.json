@@ -1,0 +1,402 @@
+[
+  {
+    "id": "gmv",
+    "type": "vehicle",
+    "name": "Ground Mobility Vehicle",
+    "//": "M1288 GMV (Ground Mobility Vehicle): SOF gun truck on a Humvee-class chassis (chassis copied from the humvee). Endgame power-level build: Mk 19 40mm AGL in the center ring turret PLUS a chassis-mounted RMES laser turret firing off the vehicle's electrical grid, operable from the driver or passenger seat via turret controls. Carries an oversized bank of very-large storage batteries and six advanced reinforced solar panels to feed the laser; TLG has no plutonium/reactor vehicle part, so battery + solar is the base solution, plus a mounted JP8/diesel auxiliary power unit (hel_apu, REACTOR mechanic) that burns the vehicle's fuel to recharge the bank. NOT in any vehicle_group - spawn it in directly (debug 'spawn vehicle' -> gmv).",
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [
+          "hdframe#cross",
+          "hdroof",
+          {
+            "part": "tank",
+            "fuel": "jp8"
+          },
+          "controls",
+          "integrated_heater_small",
+          "dashboard",
+          "horn_big",
+          "seat",
+          "seatbelt",
+          "controls_turret",
+          "reinforced_solar_panel_v2"
+        ]
+      },
+      {
+        "x": 0,
+        "y": -1,
+        "parts": [
+          "hdframe#vertical_left",
+          "hddoor#left"
+        ]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "parts": [
+          "hdframe#cross",
+          "recharge_station",
+          "hdroof",
+          "large_storage_battery"
+        ]
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "parts": [
+          "hdframe#cross",
+          "hdroof",
+          {
+            "part": "tank",
+            "fuel": "jp8"
+          },
+          "seat",
+          "seatbelt",
+          "controls_turret",
+          "reinforced_solar_panel_v2"
+        ]
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "parts": [
+          "hdframe#vertical_right",
+          "hddoor#right"
+        ]
+      },
+      {
+        "x": 1,
+        "y": -1,
+        "parts": [
+          "hdframe#vertical_T_left",
+          "reinforced_windshield#nw"
+        ]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "parts": [
+          "hdframe#horizontal_2",
+          "reinforced_windshield#horizontal_front",
+          "headlight_reinforced"
+        ]
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "parts": [
+          "hdframe#horizontal_2",
+          "reinforced_windshield#horizontal_front"
+        ]
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "parts": [
+          "hdframe#horizontal_2",
+          "reinforced_windshield#horizontal_front"
+        ]
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "parts": [
+          "hdframe#vertical_T_right",
+          "reinforced_windshield#ne"
+        ]
+      },
+      {
+        "x": 2,
+        "y": -1,
+        "parts": [
+          "hdframe#vertical_T_left",
+          "hdhalfboard#nw",
+          "plating_military",
+          "wheel_mount_heavy_steerable",
+          "wheel_armor"
+        ]
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [
+          "hdframe#horizontal_2",
+          "hdhalfboard#horizontal",
+          "plating_military",
+          "headlight_reinforced"
+        ]
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "parts": [
+          "hdframe#horizontal_2",
+          "hdhalfboard#horizontal",
+          "plating_military",
+          "diesel_engine_v8",
+          "alternator_truck",
+          "battery_car"
+        ]
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "parts": [
+          "hdframe#horizontal_2",
+          "hdhalfboard#horizontal",
+          "plating_military",
+          "headlight_reinforced"
+        ]
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "parts": [
+          "hdframe#vertical_T_right",
+          "hdhalfboard#ne",
+          "plating_military",
+          "wheel_mount_heavy_steerable",
+          "wheel_armor"
+        ]
+      },
+      {
+        "x": 3,
+        "y": -1,
+        "parts": [
+          "hdframe#nw",
+          "plating_military"
+        ]
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "parts": [
+          "hdframe#horizontal_front",
+          "plating_military"
+        ]
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "parts": [
+          "hdframe#horizontal_front",
+          "plating_military"
+        ]
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "parts": [
+          "hdframe#horizontal_front",
+          "plating_military"
+        ]
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "parts": [
+          "hdframe#ne",
+          "plating_military"
+        ]
+      },
+      {
+        "x": -1,
+        "y": -1,
+        "parts": [
+          "hdframe#vertical_left",
+          "hddoor#left"
+        ]
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [
+          "hdframe#cross",
+          "seat",
+          "seatbelt",
+          "hdroof",
+          "storage_battery",
+          "reinforced_solar_panel_v2"
+        ]
+      },
+      {
+        "x": -1,
+        "y": 1,
+        "parts": [
+          "hdframe#cross",
+          "aisle#horizontal",
+          "hdroof",
+          "turret_mount",
+          {
+            "part": "turret_mark19",
+            "ammo": 48,
+            "ammo_types": [
+              "40x53mm_m430a1"
+            ],
+            "ammo_qty": [
+              6,
+              48
+            ]
+          }
+        ]
+      },
+      {
+        "x": -1,
+        "y": 2,
+        "parts": [
+          "hdframe#cross",
+          "seat",
+          "seatbelt",
+          "hdroof",
+          "storage_battery",
+          "reinforced_solar_panel_v2"
+        ]
+      },
+      {
+        "x": -1,
+        "y": 3,
+        "parts": [
+          "hdframe#vertical_right",
+          "hddoor#right"
+        ]
+      },
+      {
+        "x": -2,
+        "y": -1,
+        "parts": [
+          "hdframe#vertical_left",
+          "hdboard#vertical_left",
+          "plating_military"
+        ]
+      },
+      {
+        "x": -2,
+        "y": 0,
+        "parts": [
+          "hdframe#cross",
+          "hdroof",
+          "large_storage_battery",
+          "reinforced_solar_panel_v2"
+        ]
+      },
+      {
+        "x": -2,
+        "y": 1,
+        "parts": [
+          "hdframe#cross",
+          "hdroof",
+          "turret_mount",
+          {
+            "part": "turret_rmes_laser"
+          }
+        ]
+      },
+      {
+        "x": -2,
+        "y": 2,
+        "parts": [
+          "hdframe#cross",
+          "hdroof",
+          "large_storage_battery",
+          "reinforced_solar_panel_v2"
+        ]
+      },
+      {
+        "x": -2,
+        "y": 3,
+        "parts": [
+          "hdframe#vertical_right",
+          "hdboard#vertical_right",
+          "plating_military"
+        ]
+      },
+      {
+        "x": -3,
+        "y": -1,
+        "parts": [
+          "hdframe#sw",
+          "hdboard#sw",
+          "plating_military",
+          "wheel_mount_heavy",
+          "wheel_armor"
+        ]
+      },
+      {
+        "x": -3,
+        "y": 0,
+        "parts": [
+          "hdframe#horizontal_rear",
+          "hddoor_trunk",
+          "muffler",
+          "plating_military"
+        ]
+      },
+      {
+        "x": -3,
+        "y": 1,
+        "parts": [
+          "hdframe#horizontal_rear",
+          "hddoor_trunk",
+          "plating_military",
+          "large_storage_battery"
+        ]
+      },
+      {
+        "x": -3,
+        "y": 2,
+        "parts": [
+          "hdframe#horizontal_rear",
+          "hddoor_trunk",
+          "plating_military"
+        ]
+      },
+      {
+        "x": -3,
+        "y": 3,
+        "parts": [
+          "hdframe#se",
+          "hdboard#se",
+          "plating_military",
+          "wheel_mount_heavy",
+          "wheel_armor"
+        ]
+      },
+      {
+        "x": -3,
+        "y": 0,
+        "parts": [
+          "hel_apu"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "x": 0,
+        "y": 0,
+        "chance": 5,
+        "items": [
+          "id_military"
+        ]
+      },
+      {
+        "x": -2,
+        "y": 2,
+        "chance": 15,
+        "item_groups": [
+          "fuel_jp8"
+        ]
+      },
+      {
+        "x": -2,
+        "y": 1,
+        "chance": 7,
+        "item_groups": [
+          "military_standard_sniper_rifles"
+        ]
+      }
+    ]
+  }
+]

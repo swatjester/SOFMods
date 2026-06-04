@@ -1,0 +1,42 @@
+[
+  {
+    "id": "m249_para_stock",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
+    "name": { "str": "M249 para stock" },
+    "//": "Sliding collapsible 'Para' stock unique to the M249. Goes in the 'stock mount' slot the MGs use instead of a normal buttstock.",
+    "description": "The collapsing tubular 'Para' stock developed for the paratrooper M249.  It slides closed to shorten the weapon dramatically for jumps and vehicles, then extends to a firing length.  Mounts to the squad automatic's stock interface rather than a standard buttstock.",
+    "weight": "900 g",
+    "volume": "700 ml",
+    "price": "200 USD",
+    "price_postapoc": "10 USD",
+    "material": [ "steel", "plastic" ],
+    "symbol": ":",
+    "color": "dark_gray",
+    "location": "stock mount",
+    "mod_targets": [ "rifle" ],
+    "install_time": "10 m",
+    "handling_modifier": 4,
+    "min_skills": [ [ "weapon", 1 ] ]
+  },
+  {
+    "id": "m240_collapsible_stock",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
+    "name": { "str": "machine gun collapsible stock" },
+    "//": "M4-pattern collapsible (non-folding) stock fitted to an M240's stock mount.",
+    "description": "An M4-style multi-position collapsible buttstock adapted to fit a medium machine gun's stock interface.  It slides to several length-of-pull positions to shorten the weapon, but unlike a side-folder it cannot fold flat.  A common field modification to tame the unwieldy length of a belt-fed gun.",
+    "weight": "700 g",
+    "volume": "600 ml",
+    "price": "150 USD",
+    "price_postapoc": "8 USD",
+    "material": [ "steel", "plastic" ],
+    "symbol": ":",
+    "color": "dark_gray",
+    "location": "stock mount",
+    "mod_targets": [ "rifle" ],
+    "install_time": "10 m",
+    "handling_modifier": 3,
+    "min_skills": [ [ "weapon", 1 ] ]
+  }
+]

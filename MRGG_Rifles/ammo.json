@@ -1,0 +1,124 @@
+[
+  {
+    "type": "ammunition_type",
+    "id": "65creedmoor",
+    "name": "6.5mm Creedmoor",
+    "default": "65creedmoor_fmj"
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [
+      "AMMO"
+    ],
+    "id": "65creedmoor_fmj",
+    "category": "ammo",
+    "name": {
+      "str": "6.5mm Creedmoor FMJ",
+      "str_pl": "6.5mm Creedmoor FMJ"
+    },
+    "description": "A 6.5mm Creedmoor full metal jacket round. Designed for accurate, flat-shooting fire at longer ranges than .308, with noticeably less recoil. The boat-tail bullet retains energy well downrange.",
+    "weight": "23 g",
+    "volume": "1 ml",
+    "price": 90,
+    "price_postapoc": 250,
+    "material": [
+      "copper",
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 20,
+    "stack_size": 20,
+    "ammo_type": "65creedmoor",
+    "casing": "308_casing",
+    "range": 86,
+    "dispersion": 12,
+    "recoil": 2100,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 55,
+      "armor_penetration": 6
+    },
+    "effects": [
+      "COOKOFF"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [
+      "AMMO"
+    ],
+    "id": "65creedmoor_match",
+    "category": "ammo",
+    "name": {
+      "str": "6.5mm Creedmoor match",
+      "str_pl": "6.5mm Creedmoor match"
+    },
+    "description": "A precision-loaded 6.5mm Creedmoor match round with a high-ballistic-coefficient bullet. Built for tight groups and maximum effective range, at the cost of stopping power against armor compared to dedicated AP loads.",
+    "weight": "23 g",
+    "volume": "1 ml",
+    "price": 160,
+    "price_postapoc": 400,
+    "material": [
+      "copper",
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "light_red",
+    "count": 20,
+    "stack_size": 20,
+    "ammo_type": "65creedmoor",
+    "casing": "308_casing",
+    "range": 96,
+    "dispersion": 6,
+    "recoil": 2100,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 58,
+      "armor_penetration": 8
+    },
+    "effects": [
+      "COOKOFF",
+      "NEVER_MISFIRES"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [
+      "AMMO"
+    ],
+    "id": "reloaded_65creedmoor",
+    "category": "ammo",
+    "name": {
+      "str": "6.5mm Creedmoor, reloaded",
+      "str_pl": "6.5mm Creedmoor, reloaded"
+    },
+    "description": "A hand-loaded 6.5mm Creedmoor round. Reliable enough, though hand loads are never quite as consistent as factory ammunition.",
+    "weight": "23 g",
+    "volume": "1 ml",
+    "price": 45,
+    "price_postapoc": 150,
+    "material": [
+      "copper",
+      "powder"
+    ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 10,
+    "stack_size": 20,
+    "ammo_type": "65creedmoor",
+    "casing": "308_casing",
+    "range": 82,
+    "dispersion": 18,
+    "recoil": 2100,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 52,
+      "armor_penetration": 5
+    },
+    "effects": [
+      "COOKOFF",
+      "RECYCLED"
+    ]
+  }
+]

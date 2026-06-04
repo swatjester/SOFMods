@@ -1,0 +1,229 @@
+[
+  {
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "id": "mrgg_a",
+    "name": {
+      "str": "MRGG-A"
+    },
+    "//": "Mid-Range Gas Gun - Assaulter. SCAR-H sized select-fire battle rifle in 6.5mm Creedmoor.",
+    "description": "The MRGG-A, or Mid-Range Gas Gun - Assaulter, is a short-stroke gas piston battle rifle natively chambered in 6.5mm Creedmoor. Built around a SCAR-H-class receiver, it trades a touch of raw stopping power for a flatter trajectory, tighter groups, and softer recoil. A 16-inch barrel and select-fire trigger group make it handy enough for fighting at closer ranges. The barrel can be swapped for a .308 conversion barrel.",
+    "weight": "3600 g",
+    "volume": "3700 ml",
+    "longest_side": "905 mm",
+    "price": 250000,
+    "price_postapoc": 8000,
+    "to_hit": -1,
+    "bashing": 12,
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "skill": "rifle",
+    "ammo": [
+      "65creedmoor"
+    ],
+    "dispersion": 90,
+    "sight_dispersion": 30,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi",
+        1
+      ],
+      [
+        "AUTO",
+        "auto",
+        6
+      ]
+    ],
+    "loudness": 220,
+    "min_cycle_recoil": 2000,
+    "handling": 22,
+    "range": 1,
+    "reload": 350,
+    "barrel_volume": "660 ml",
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "iron sights",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        4
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
+        "item_restriction": [
+          "mrgg_mag"
+        ]
+      }
+    ],
+    "flags": [
+      "RELOAD_EJECT"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "id": "mrgg_s",
+    "name": {
+      "str": "MRGG-S"
+    },
+    "//": "Mid-Range Gas Gun - Sniper. Long-barreled semi-auto precision variant in 6.5mm Creedmoor.",
+    "description": "The MRGG-S, or Mid-Range Gas Gun - Sniper, is the designated marksman variant of the MRGG platform. A heavier 20-inch match barrel, free-floated handguard, and a precision semi-automatic trigger group wring every bit of accuracy out of the 6.5mm Creedmoor cartridge, reaching well past the range of a standard battle rifle while keeping recoil mild. Like the Assaulter, its barrel can be swapped for a .308 conversion barrel.",
+    "weight": "4200 g",
+    "volume": "4100 ml",
+    "longest_side": "1055 mm",
+    "price": 320000,
+    "price_postapoc": 10000,
+    "to_hit": -1,
+    "bashing": 12,
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "skill": "rifle",
+    "ammo": [
+      "65creedmoor"
+    ],
+    "dispersion": 50,
+    "sight_dispersion": 18,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi",
+        1
+      ]
+    ],
+    "loudness": 230,
+    "min_cycle_recoil": 2000,
+    "handling": 25,
+    "range": 3,
+    "reload": 350,
+    "barrel_volume": "820 ml",
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "iron sights",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        4
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
+        "item_restriction": [
+          "mrgg_mag"
+        ]
+      }
+    ],
+    "flags": [
+      "RELOAD_EJECT"
+    ]
+  }
+]

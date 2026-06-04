@@ -1,0 +1,71 @@
+[
+  {
+    "id": "m110_sass",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
+    "copy-from": "m110a1",
+    "name": { "str": "M110 SASS rifle", "str_pl": "M110 SASS rifles" },
+    "//": "Knight's Armament M110 Semi-Automatic Sniper System: 7.62x51 NATO, 20-inch barrel, AR-10/SR-25 pattern. The full-length Army SASS, longer and a touch heavier than the compact M110A1.",
+    "description": "The M110 Semi-Automatic Sniper System, a 7.62 NATO precision rifle built on the Knight's Armament SR-25.  Its 20-inch match barrel and free-floating rail give a designated marksman accurate, rapid follow-up shots out past 800 meters.  Feeds from AR-10 pattern magazines.",
+    "barrel_length": "508 mm",
+    "weight": "5550 g",
+    "price": "3300 USD",
+    "price_postapoc": "60 USD",
+    "dispersion": 105,
+    "pocket_data": [
+      { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "ar10mag_20rd", "ar10mag_10rd", "ar10mag_25rd", "ar10mag_50rd" ] }
+    ]
+  },
+  {
+    "id": "sr25",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
+    "copy-from": "m110a1",
+    "name": { "str": "KAC SR-25 rifle", "str_pl": "KAC SR-25 rifles" },
+    "//": "Knight's Armament SR-25 / Mk 11 Mod 0: 7.62x51 NATO semi-auto precision rifle, 20-inch barrel. The Mk 11 is the Naval Special Warfare designation of the same rifle (cosmetic variant).",
+    "description": "The Knight's Armament SR-25, an AR-10 pattern 7.62 NATO semi-automatic rifle prized by special operations marksmen for marrying near-bolt-gun accuracy to a fast semi-automatic action.  Feeds from AR-10 pattern magazines.",
+    "barrel_length": "508 mm",
+    "weight": "4990 g",
+    "price": "3200 USD",
+    "price_postapoc": "60 USD",
+    "dispersion": 110,
+    "variant_type": "gun",
+    "variants": [
+      { "id": "sr25", "name": { "str": "KAC SR-25 rifle" }, "description": "A Knight's Armament SR-25, an AR-10 pattern 7.62 NATO semi-automatic precision rifle.", "weight": 1000 },
+      { "id": "mk11", "name": { "str": "Mk 11 Mod 0 rifle" }, "description": "A Mk 11 Mod 0 - the Naval Special Warfare designation for the Knight's Armament SR-25 7.62 NATO semi-automatic sniper rifle.", "weight": 1000 }
+    ],
+    "pocket_data": [
+      { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "ar10mag_20rd", "ar10mag_10rd", "ar10mag_25rd", "ar10mag_50rd" ] }
+    ]
+  },
+  {
+    "id": "kac_lamg",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
+    "copy-from": "m249",
+    "name": { "str": "KAC LAMG" },
+    "//": "Knight's Armament Light Assault Machine Gun: 5.56x45 NATO belt-fed, constant-recoil action, dramatically lighter (~4.3 kg) than the M249 it competes with. Feeds the same belts and STANAG mags.",
+    "description": "The Knight's Armament Light Assault Machine Gun, a 5.56 NATO belt-fed weapon built around a constant-recoil action that tames muzzle climb and slashes weight to barely more than a loaded rifle.  It feeds from disintegrating belts or, in a pinch, STANAG magazines.",
+    "weight": "4300 g",
+    "price": "4500 USD",
+    "price_postapoc": "70 USD"
+  },
+  {
+    "id": "colt_9mm_smg",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
+    "copy-from": "smg_9mm",
+    "name": { "str": "Colt 9mm SMG" },
+    "//": "Colt 9mm SMG (Model 635 / RO635): 9x19mm select-fire submachine gun built by Colt on the M16 platform, as issued to U.S. forces. Feeds from Uzi-pattern magazines via a magazine-well adapter.",
+    "description": "The Colt 9mm Submachine Gun, a compact select-fire 9x19mm weapon Colt built on the M16 platform for close-quarters work.  A magazine-well adapter lets it run reliable Uzi-pattern magazines, and its closed-bolt action makes it accurate and easy to control.  Familiar controls and select-fire give an operator a quiet, controllable bullet hose.",
+    "barrel_length": "267 mm",
+    "weight": "2680 g",
+    "price": "1600 USD",
+    "price_postapoc": "40 USD",
+    "dispersion": 300,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 6 ] ],
+    "pocket_data": [
+      { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "uzimag", "uzimag_20rd", "uzimag_25rd", "uzimag_40rd" ] }
+    ]
+  }
+]

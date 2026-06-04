@@ -1,0 +1,39 @@
+[
+  {
+    "id": "m249_para",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
+    "copy-from": "m249",
+    "//": "Pre-configured spawn of the M249 in the paratrooper setup: collapsing Para stock + 13.7-inch Para barrel pre-installed (both removable). No rename: it shares the base M249 name, and the configuration is purely a function of the installed mods, so a player-built Para and this spawned one are identical.",
+    "default_mods": [ "m249_para_stock", "m249_para_barrel" ]
+  },
+  {
+    "id": "m240_shorty",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
+    "copy-from": "m240",
+    "//": "Pre-configured spawn of the M240 in the 'shorty' setup: M4-style collapsible stock + short barrel pre-installed (both removable). Shares the base M240 name; the config is defined entirely by the mods.",
+    "default_mods": [ "m240_collapsible_stock", "m240_short_barrel" ]
+  },
+  {
+    "id": "m240_shorty_assault",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
+    "copy-from": "m240",
+    "//": "Pre-configured assaulter M240 spawn: grippod, short suppressor, collapsible stock, short barrel, holo sight (all removable defaults). Built-in bipod removed (the grippod braces) and an underbarrel slot added so the grippod can mount. Shares the base M240 name.",
+    "delete": { "built_in_mods": [ "bipod" ] },
+    "valid_mod_locations": [
+      [ "barrel", 1 ],
+      [ "brass catcher", 1 ],
+      [ "mechanism", 2 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock accessory", 1 ],
+      [ "stock mount", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "default_mods": [ "grippod", "suppressor_short", "m240_collapsible_stock", "m240_short_barrel", "holo_sight" ]
+  }
+]

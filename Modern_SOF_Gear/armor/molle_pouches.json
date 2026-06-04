@@ -1,0 +1,270 @@
+[
+  {
+    "id": "pistol_mag_pouch_single",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "name": { "str": "single pistol mag pouch", "str_pl": "single pistol mag pouches" },
+    "description": "A slim MOLLE pouch sized to hold a single pistol magazine, keeping it accessible and secure.  Has MOLLE straps for attaching to a belt or vest.",
+    "weight": "90 g",
+    "volume": "100 ml",
+    "price": "12 USD",
+    "price_postapoc": "1 USD",
+    "material": [ "nylon" ],
+    "symbol": "[",
+    "looks_like": "holster",
+    "color": "dark_gray",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_item_length": "130 mm",
+        "max_contains_volume": "150 ml",
+        "max_contains_weight": "1 kg",
+        "moves": 40,
+        "flag_restriction": [ "MAG_COMPACT" ],
+        "volume_encumber_modifier": 0.3
+      }
+    ],
+    "material_thickness": 0.5,
+    "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY", "PALS_SMALL" ],
+    "armor": [ { "encumbrance": 1, "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
+  },
+  {
+    "id": "pistol_mag_pouch_double",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "name": { "str": "double pistol mag pouch", "str_pl": "double pistol mag pouches" },
+    "description": "A MOLLE pouch with two side-by-side pockets, each sized to hold a pistol magazine.  Has MOLLE straps for attaching to a belt or vest.",
+    "weight": "150 g",
+    "volume": "200 ml",
+    "price": "18 USD",
+    "price_postapoc": "1 USD 50 cent",
+    "material": [ "nylon" ],
+    "symbol": "[",
+    "looks_like": "holster",
+    "color": "dark_gray",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_item_length": "130 mm",
+        "max_contains_volume": "150 ml",
+        "max_contains_weight": "1 kg",
+        "moves": 40,
+        "flag_restriction": [ "MAG_COMPACT" ],
+        "volume_encumber_modifier": 0.3
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_item_length": "130 mm",
+        "max_contains_volume": "150 ml",
+        "max_contains_weight": "1 kg",
+        "moves": 40,
+        "flag_restriction": [ "MAG_COMPACT" ],
+        "volume_encumber_modifier": 0.3
+      }
+    ],
+    "material_thickness": 0.5,
+    "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY", "PALS_SMALL" ],
+    "armor": [ { "encumbrance": 1, "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
+  },
+  {
+    "id": "rifle_mag_pouch_single",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "name": { "str": "single rifle mag pouch", "str_pl": "single rifle mag pouches" },
+    "description": "A MOLLE pouch sized to hold a single rifle magazine, keeping it accessible and secure.  Fits STANAG and similar box magazines.  Has MOLLE straps for attaching to a belt or vest.",
+    "weight": "130 g",
+    "volume": "150 ml",
+    "price": "14 USD",
+    "price_postapoc": "1 USD",
+    "material": [ "nylon" ],
+    "symbol": "[",
+    "looks_like": "holster",
+    "color": "dark_gray",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_item_length": "240 mm",
+        "max_contains_volume": "400 ml",
+        "max_contains_weight": "2 kg",
+        "moves": 50,
+        "flag_restriction": [ "MAG_COMPACT" ],
+        "volume_encumber_modifier": 0.3
+      }
+    ],
+    "material_thickness": 0.5,
+    "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY", "PALS_SMALL" ],
+    "armor": [ { "encumbrance": 1, "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
+  },
+  {
+    "id": "grenade_40mm_pouch",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "name": { "str": "40mm grenade pouch", "str_pl": "40mm grenade pouches" },
+    "description": "A padded MOLLE pouch with elastic loops sized for 40mm low-velocity grenades, keeping a grenadier's payload organized and ready.  Has MOLLE straps for attaching to a belt or vest.",
+    "weight": "320 g",
+    "volume": "300 ml",
+    "price": "25 USD",
+    "price_postapoc": "3 USD",
+    "material": [ "nylon" ],
+    "symbol": "[",
+    "looks_like": "tactical_shotshell_pouch",
+    "color": "dark_gray",
+    "pocket_data": [ { "ammo_restriction": { "40x46mm": 8 }, "moves": 40 } ],
+    "material_thickness": 0.5,
+    "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY", "PALS_MEDIUM" ],
+    "armor": [ { "encumbrance": 2, "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
+  },
+  {
+    "id": "tactical_holster_large",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "copy-from": "tactical_holster",
+    "name": { "str": "large tactical holster" },
+    "//": "Bigger sibling of the tactical_holster, sized for oversized handguns (large-frame revolvers, machine pistols, hand cannons).",
+    "description": "An oversized tactical holster built to ride on a belt or vest and swallow a hand cannon: a large-frame revolver, a machine pistol, or a stockless pistol-caliber carbine.  The extra bulk makes it slower to draw from than a normal holster.",
+    "weight": "320 g",
+    "volume": "900 ml",
+    "price": "110 USD",
+    "price_postapoc": "3 USD",
+    "pocket_data": [
+      {
+        "magazine_well": "500 ml",
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "min_item_volume": "500 ml",
+        "max_contains_volume": "2500 ml",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "45 cm",
+        "moves": 90
+      }
+    ],
+    "flags": [ "BELTED", "OVERSIZE", "PALS_MEDIUM" ]
+  },
+  {
+    "id": "drone_bag",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "name": { "str": "drone carry bag", "str_pl": "drone carry bags" },
+    "//": "Roomy padded MOLLE pouch sized to carry compact deployable drones/robots (the mod's drones are reskinned hack-class robots).",
+    "description": "A padded, foam-lined MOLLE bag built to carry compact deployable drones and their controllers without rattling them to pieces.  Roomy enough for several palm-sized rotorcraft.  Has MOLLE straps for attaching to a belt or vest.",
+    "weight": "600 g",
+    "volume": "500 ml",
+    "price": "60 USD",
+    "price_postapoc": "5 USD",
+    "material": [ { "type": "nylon", "portion": 3 }, { "type": "plastic", "portion": 1 } ],
+    "symbol": "[",
+    "looks_like": "triple_stacker_pouch",
+    "color": "dark_gray",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_item_length": "30 cm",
+        "max_contains_volume": "3000 ml",
+        "max_contains_weight": "6 kg",
+        "moves": 60,
+        "volume_encumber_modifier": 0.4
+      }
+    ],
+    "material_thickness": 1,
+    "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY", "PALS_LARGE" ],
+    "armor": [ { "encumbrance": 3, "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
+  },
+  {
+    "id": "shotgun_retention_magnets",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "name": { "str": "breaching shotgun magnets", "str_pl": "sets of breaching shotgun magnets" },
+    "//": "Magnetic weapon-retention panel for carrying a short breaching shotgun on a belt or plate carrier. Holster pocket sized for a compact shotgun.",
+    "description": "A pair of stout magnetic retention pads on a MOLLE backing, the kind breachers use to slap a stubby door-buster shotgun onto a belt or plate carrier where it can be ripped free in an instant.  Sized for a short breaching shotgun.",
+    "weight": "400 g",
+    "volume": "300 ml",
+    "price": "70 USD",
+    "price_postapoc": "4 USD",
+    "material": [ { "type": "nylon", "portion": 3 }, { "type": "steel", "portion": 1 } ],
+    "symbol": "[",
+    "looks_like": "tactical_holster",
+    "color": "dark_gray",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "3500 ml",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "65 cm",
+        "moves": 60
+      }
+    ],
+    "use_action": { "type": "holster" },
+    "material_thickness": 1,
+    "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY", "PALS_LARGE" ],
+    "armor": [ { "encumbrance": 2, "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
+  },
+  {
+    "id": "gl_retention_magnets",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "name": { "str": "grenade launcher magnets", "str_pl": "sets of grenade launcher magnets" },
+    "//": "Magnetic weapon-retention panel for carrying a standalone grenade launcher (e.g. M320) on a belt or plate carrier.",
+    "description": "A magnetic retention panel on a MOLLE backing, set up to carry a standalone grenade launcher like the M320 slung off a belt or plate carrier where a grenadier can snatch it up fast.",
+    "weight": "380 g",
+    "volume": "250 ml",
+    "price": "70 USD",
+    "price_postapoc": "4 USD",
+    "material": [ { "type": "nylon", "portion": 3 }, { "type": "steel", "portion": 1 } ],
+    "symbol": "[",
+    "looks_like": "tactical_holster",
+    "color": "dark_gray",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "2500 ml",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "50 cm",
+        "moves": 60
+      }
+    ],
+    "use_action": { "type": "holster" },
+    "material_thickness": 1,
+    "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY", "PALS_LARGE" ],
+    "armor": [ { "encumbrance": 2, "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
+  },
+  {
+    "id": "breaching_tool_hooks",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "name": { "str": "breaching tool hooks", "str_pl": "sets of breaching tool hooks" },
+    "//": "MOLLE tool-retention hangers for carrying breaching tools (Halligan bar, sledgehammer, hooligan tool) on a belt or plate carrier. Two holster pockets sized for long entry tools.",
+    "description": "A pair of heavy-duty MOLLE tool hooks with quick-release retention straps, the kind breachers use to hang a Halligan bar and a sledgehammer off a war belt or plate carrier so both hands stay free until the door needs opening.  Built to carry long, heavy entry tools and let them be ripped loose in a hurry.",
+    "weight": "450 g",
+    "volume": "350 ml",
+    "price": "60 USD",
+    "price_postapoc": "4 USD",
+    "material": [ { "type": "nylon", "portion": 3 }, { "type": "steel", "portion": 1 } ],
+    "symbol": "[",
+    "looks_like": "tactical_holster",
+    "color": "dark_gray",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "3500 ml",
+        "max_contains_weight": "5 kg",
+        "max_item_length": "95 cm",
+        "moves": 70
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "3500 ml",
+        "max_contains_weight": "5 kg",
+        "max_item_length": "95 cm",
+        "moves": 70
+      }
+    ],
+    "use_action": { "type": "holster", "holster_prompt": "Hang breaching tool", "holster_msg": "You hang your %1$s on your %2$s" },
+    "material_thickness": 1,
+    "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY", "PALS_LARGE" ],
+    "armor": [ { "encumbrance": 3, "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
+  }
+]
