@@ -1,0 +1,121 @@
+[
+  {
+    "id": "EXPLOSIVE_81mmHE",
+    "type": "ammo_effect",
+    "explosion": {
+      "power": 2050,
+      "shrapnel": {
+        "casing_mass": 1500,
+        "fragment_mass": 0.1
+      }
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "aimed_81mm",
+    "max_duration": "3 m",
+    "name": [
+      ""
+    ],
+    "desc": [
+      ""
+    ]
+  },
+  {
+    "type": "ammunition_type",
+    "id": "mortar_81mm",
+    "name": "81 mm mortar cartridge",
+    "default": "81mm_shell_m821"
+  },
+  {
+    "id": "81mm_shell_m821",
+    "type": "ITEM",
+    "subtypes": [
+      "AMMO"
+    ],
+    "copy-from": "60mm_shell_m720a1",
+    "name": {
+      "str": "M821 81mm mortar shell",
+      "str_pl": "M821 81mm mortar shells"
+    },
+    "//": "81mm HE mortar shell for the M252. Heavier and substantially more destructive than the 60mm M720.",
+    "description": "A large 81mm high-explosive mortar shell with a tapered nose and fin-stabilized base.  Heavier and far more destructive than a 60mm round, it is fired from a medium mortar against troops, structures, and light vehicles at long range.",
+    "weight": "4200 g",
+    "volume": "1500 ml",
+    "longest_side": "450 mm",
+    "price": "700 USD",
+    "ammo_type": "mortar_81mm",
+    "effects": [
+      "SPECIAL_COOKOFF",
+      "NEVER_MISFIRES",
+      "EXPLOSIVE_81mmHE"
+    ]
+  },
+  {
+    "type": "ammunition_type",
+    "id": "smaw_83mm",
+    "name": "83mm SMAW rocket",
+    "default": "smaw_83mm_hedp"
+  },
+  {
+    "id": "smaw_83mm_hedp",
+    "type": "ITEM",
+    "subtypes": [
+      "AMMO"
+    ],
+    "copy-from": "84x246mm_he",
+    "name": {
+      "str": "83mm HEDP rocket",
+      "str_pl": "83mm HEDP rockets"
+    },
+    "//": "Mk 3 HEDP rocket for the Mk 153 SMAW. Dual-purpose: shaped charge for light armor/bunkers plus blast/frag.",
+    "description": "An 83mm High-Explosive Dual-Purpose rocket for the SMAW.  A shaped charge punches through a bunker wall or light armor, while the follow-through blast and fragmentation clear whatever is behind it.",
+    "weight": "5000 g",
+    "volume": "2200 ml",
+    "ammo_type": "smaw_83mm",
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 160,
+      "armor_penetration": 120
+    },
+    "range": 24,
+    "effects": [
+      "SPECIAL_COOKOFF",
+      "NEVER_MISFIRES",
+      "EXPLOSIVE_84x246HEDP"
+    ]
+  },
+  {
+    "type": "ammunition_type",
+    "id": "javelin",
+    "name": "FGM-148 Javelin missile",
+    "default": "javelin_missile"
+  },
+  {
+    "id": "javelin_missile",
+    "type": "ITEM",
+    "subtypes": [
+      "AMMO"
+    ],
+    "copy-from": "atgm_heat",
+    "name": {
+      "str": "FGM-148 Javelin missile",
+      "str_pl": "FGM-148 Javelin missiles"
+    },
+    "//": "Fire-and-forget top-attack ATGM missile. Tandem HEAT, devastating against armor.",
+    "description": "An FGM-148 Javelin missile, a fire-and-forget anti-tank guided munition.  Its tandem shaped-charge warhead and top-attack flight profile gut even heavy armor from above.  Once launched it guides itself, freeing the gunner to move.",
+    "weight": "11800 g",
+    "volume": "9 L",
+    "ammo_type": "javelin",
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 2600,
+      "armor_penetration": 800
+    },
+    "range": 100,
+    "effects": [
+      "EXPLOSIVE_ATGMHEAT",
+      "NEVER_MISFIRES"
+    ]
+  }
+]

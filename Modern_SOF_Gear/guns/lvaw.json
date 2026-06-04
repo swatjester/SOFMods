@@ -1,0 +1,50 @@
+[
+  {
+    "id": "lvaw_300blk",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
+    "copy-from": "sig_mcx_rattler_sbr",
+    "looks_like": "sig_mcx_rattler_sbr",
+    "name": { "str": "LVAW carbine", "str_pl": "LVAW carbines" },
+    "//": "Low Visibility Assault Weapon: SOCOM's suppressed SIG MCX in .300 BLK. Longer barrel than the Rattler SBR, optimized to run quiet with subsonic loads.",
+    "description": "The Low Visibility Assault Weapon, a special operations carbine built on the SIG MCX and chambered in .300 AAC Blackout.  Its short, gas-piston action was designed from the ground up to run a suppressor with subsonic ammunition, letting an operator put accurate, quiet fire on a target at close range.  A side-folding stock and full-length top rail round out the package.  Feeds from standard STANAG magazines.",
+    "weight": "2900 g",
+    "volume": "2900 ml",
+    "//2": "Unfolded length. The 9-inch barrel is longer than the Rattler's 5.5 inch tube.",
+    "longest_side": "860 mm",
+    "barrel_length": "229 mm",
+    "price": "3100 USD",
+    "price_postapoc": "45 USD",
+    "color": "dark_gray",
+    "ammo": [ "300blk" ],
+    "dispersion": 145,
+    "durability": 8,
+    "min_cycle_recoil": 1700,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 4 ] ],
+    "built_in_mods": [ "folding_stock" ],
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "magnifier", 1 ],
+      [ "mechanism", 2 ],
+      [ "muzzle", 1 ],
+      [ "rail", 4 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock mount", 1 ],
+      [ "underbarrel", 1 ]
+    ]
+  },
+  {
+    "id": "lvaw_300blk_sof",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
+    "copy-from": "lvaw_300blk",
+    "//": "Tricked-out LVAW. No rename: shares the base LVAW carbine name; the config is defined entirely by the removable default_mods.",
+    "description": "A special operations configuration of the LVAW carbine, set up to disappear into the dark: a short suppressor on the muzzle, a holographic sight, a weapon light and an aiming laser on the rails, a vertical foregrip, and a sling.  Quiet, handy, and ready to work.",
+    "price_postapoc": "85 USD",
+    "default_mods": [ "suppressor_short", "holo_sight", "flashlight_mod", "rail_laser_sight", "grip_mod", "shoulder_strap" ]
+  }
+]

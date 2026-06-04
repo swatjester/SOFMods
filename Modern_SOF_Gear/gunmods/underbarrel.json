@@ -1,0 +1,25 @@
+[
+  {
+    "id": "grippod",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
+    "name": { "str": "grippod" },
+    "//": "Combination vertical foregrip + bipod (e.g. Grip Pod). Does both jobs, neither as well as a dedicated unit.",
+    "description": "A vertical foregrip with spring-loaded legs folded into the body, combining a forward grip and a bipod in a single unit.  It is bulkier and heavier than either alone, and is a jack-of-both-trades: it steadies your aim like a foregrip and can brace like a bipod, but is less effective than a dedicated version of each.",
+    "weight": "520 g",
+    "volume": "600 ml",
+    "price": "120 USD",
+    "price_postapoc": "8 USD",
+    "to_hit": -1,
+    "material": [ "steel", "plastic" ],
+    "symbol": ":",
+    "color": "dark_gray",
+    "location": "underbarrel",
+    "mod_targets": [ "shotgun", "smg", "rifle", "crossbow", "launcher" ],
+    "install_time": "1 m",
+    "handling_modifier": 12,
+    "min_skills": [ [ "weapon", 1 ] ],
+    "flags": [ "BIPOD", "SLOW_WIELD" ],
+    "melee_damage": { "bash": 6 }
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "m7_spear",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
+    "copy-from": "scar_h",
+    "name": { "str": "M7 rifle", "str_pl": "M7 rifles" },
+    "//": "M7 (SIG MCX-SPEAR), the U.S. Army's NGSW rifle in 6.8x51 Common Cartridge, 13-inch barrel, select-fire. Replaces the M4 in close-combat formations.",
+    "description": "The M7, the U.S. Army's Next Generation Squad Weapon rifle, a SIG MCX-SPEAR chambered for the high-pressure 6.8x51mm Common Cartridge.  It hits harder and punches through body armor that would shrug off 5.56, at the cost of weight and recoil.  Feeds from 20- or 25-round SPEAR magazines.",
+    "ammo": [ "277fury" ],
+    "barrel_length": "330 mm",
+    "weight": "3900 g",
+    "price": "4000 USD",
+    "price_postapoc": "70 USD",
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 4 ] ],
+    "pocket_data": [
+      { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "277fury_mag_20rd", "277fury_mag_25rd" ] }
+    ]
+  },
+  {
+    "id": "m8_carbine",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
+    "copy-from": "m7_spear",
+    "name": { "str": "M8 carbine", "str_pl": "M8 carbines" },
+    "//": "M8, the short-barreled carbine variant of the M7 SPEAR in 6.8x51, ~11.5-inch barrel for CQB and vehicle crews. Louder and a touch less reach than the M7, far handier.",
+    "description": "The M8, a short-barreled carbine cut down from the M7 SPEAR for close quarters and vehicle crews.  The stubby 6.8x51 barrel trades a little velocity and a lot of muzzle blast for a weapon that swings fast inside a building.  Feeds from SPEAR magazines.",
+    "barrel_length": "292 mm",
+    "weight": "3550 g",
+    "price_postapoc": "65 USD"
+  },
+  {
+    "id": "m250",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
+    "copy-from": "m249",
+    "name": { "str": "M250 machine gun", "str_pl": "M250 machine guns" },
+    "//": "M250 (XM250), the U.S. Army's NGSW automatic rifle/LMG in 6.8x51 Common Cartridge, belt-fed, replacing the M249 SAW in the squad. Heavier-hitting, armor-defeating support fire.",
+    "description": "The M250, the belt-fed half of the Next Generation Squad Weapon program, a light machine gun in 6.8x51mm Common Cartridge.  It gives a squad's automatic rifleman the reach and armor penetration of a 7.62 gun in a package not much heavier than the 5.56 SAW it replaces.  Feeds from disintegrating belts.",
+    "ammo": [ "277fury" ],
+    "weight": "6800 g",
+    "price": "9000 USD",
+    "price_postapoc": "85 USD",
+    "pocket_data": [
+      { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "belt277", "277fury_mag_20rd", "277fury_mag_25rd" ] }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "retool_ar15_223_glssc",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
+    "copy-from": "retool_ar15_223rem",
+    "name": { "str": "12.5-inch GL/SSC upper receiver" },
+    "//": "Daniel Defense GL/SSC-style 12.5-inch .223 upper. Stats sit between the 14.5-inch M4A1 and the 10.3-inch Mk18 CQBR.",
+    "description": "A complete 12.5-inch upper receiver assembly chambered in .223 Remington / 5.56 NATO, modeled on the Daniel Defense GL/SSC.  The carbine-length barrel splits the difference between a full M4 and a stubby CQBR, keeping things handy without giving up too much velocity.  Pairs naturally with a stand-off grenade launcher and a short can.  Feeds from standard STANAG magazines.",
+    "weight": "2120 g",
+    "integral_weight": "2120 g",
+    "longest_side": "420 mm",
+    "integral_longest_side": "37 cm",
+    "barrel_length": "318 mm"
+  },
+  {
+    "id": "retool_ar15_223_recce",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
+    "copy-from": "retool_ar15_223rem",
+    "name": { "str": "16-inch recce upper receiver" },
+    "//": "Accurized 16-inch recce build. Same length as the standard mid-length upper but tuned for a tighter group.",
+    "description": "A 16-inch 'recce' upper receiver in .223 Remington / 5.56 NATO, built around a heavier match-grade barrel and free-float rail.  A favorite of reconnaissance elements who want carbine handling with rifle-grade precision.  Feeds from standard STANAG magazines.",
+    "weight": "2350 g",
+    "integral_weight": "2350 g",
+    "barrel_length": "406 mm",
+    "dispersion_modifier": -20
+  },
+  {
+    "id": "retool_ar15_223_spr",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
+    "copy-from": "retool_ar15_223rem",
+    "name": { "str": "18-inch Mk12 SPR upper receiver" },
+    "//": "Mk12 Special Purpose Rifle. 18-inch precision upper for the AR/M4 lower.",
+    "description": "An 18-inch Mk 12 Special Purpose Rifle upper receiver in .223 Remington / 5.56 NATO.  The long, heavy match barrel and rifle-length gas system wring maximum accuracy and range out of the cartridge, turning an ordinary carbine lower into a designated marksman's rifle.  Feeds from standard STANAG magazines.",
+    "weight": "2600 g",
+    "integral_weight": "2600 g",
+    "longest_side": "560 mm",
+    "integral_longest_side": "47 cm",
+    "barrel_length": "457 mm",
+    "dispersion_modifier": -35
+  }
+]

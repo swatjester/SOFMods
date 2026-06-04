@@ -1,0 +1,109 @@
+[
+  {
+    "id": "battle_belt",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "copy-from": "webbing_belt",
+    "name": { "str": "tactical battle belt" },
+    "//": "Padded 'war belt' platform: an inner belt plus a MOLLE-covered outer sub-belt that carries far more than a plain webbing belt. Base item for the role-specific battle belt presets.",
+    "description": "A modern two-part 'battle belt': a rigid padded outer sub-belt covered in MOLLE webbing, worn over an inner riggers belt.  It distributes weight onto the hips and carries a heavy fighting load of pouches and a holstered sidearm without sagging.  Pouches and holsters attach to the webbing.",
+    "weight": "700 g",
+    "volume": "1000 ml",
+    "price": "120 USD",
+    "price_postapoc": "8 USD",
+    "use_action": [
+      { "type": "holster", "holster_prompt": "Store tool or blade", "holster_msg": "You put your %1$s in your %2$s" },
+      { "type": "attach_molle", "size": 18 },
+      { "type": "detach_molle" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "battle_belt_assaulter",
+    "subtype": "collection",
+    "//": "Assaulter battle belt preset: pistol holster, IFAK, dump pouch, double pistol mag pouch, two single rifle mag pouches, grenade pouch, knife sheath.",
+    "entries": [ { "item": "battle_belt", "contents-group": "battle_belt_assaulter_contents" } ]
+  },
+  {
+    "type": "item_group",
+    "id": "battle_belt_assaulter_contents",
+    "subtype": "collection",
+    "entries": [
+      { "item": "tactical_holster" },
+      { "item": "ifak_pouch" },
+      { "item": "dump_pouch" },
+      { "item": "pistol_mag_pouch_double" },
+      { "item": "rifle_mag_pouch_single", "count": 2 },
+      { "item": "tactical_grenade_pouch" },
+      { "item": "sheath" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "battle_belt_breacher",
+    "subtype": "collection",
+    "//": "Breacher battle belt preset: large holster, single pistol mag pouch, single rifle mag pouch, shotgun shell bag, breaching shotgun magnets, breaching tool hooks (Halligan/sledge), IFAK, dump pouch, grenade pouch, knife sheath.",
+    "entries": [ { "item": "battle_belt", "contents-group": "battle_belt_breacher_contents" } ]
+  },
+  {
+    "type": "item_group",
+    "id": "battle_belt_breacher_contents",
+    "subtype": "collection",
+    "entries": [
+      { "item": "tactical_holster_large" },
+      { "item": "pistol_mag_pouch_single" },
+      { "item": "rifle_mag_pouch_single" },
+      { "item": "tactical_shotshell_pouch" },
+      { "item": "shotgun_retention_magnets" },
+      { "item": "breaching_tool_hooks" },
+      { "item": "ifak_pouch" },
+      { "item": "dump_pouch" },
+      { "item": "tactical_grenade_pouch" },
+      { "item": "sheath" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "battle_belt_grenadier",
+    "subtype": "collection",
+    "//": "Grenadier battle belt preset: like the breacher but trades the shell bag for a 40mm grenade pouch and the shotgun magnets for grenade launcher magnets.",
+    "entries": [ { "item": "battle_belt", "contents-group": "battle_belt_grenadier_contents" } ]
+  },
+  {
+    "type": "item_group",
+    "id": "battle_belt_grenadier_contents",
+    "subtype": "collection",
+    "entries": [
+      { "item": "tactical_holster_large" },
+      { "item": "pistol_mag_pouch_single" },
+      { "item": "rifle_mag_pouch_single" },
+      { "item": "grenade_40mm_pouch" },
+      { "item": "gl_retention_magnets" },
+      { "item": "ifak_pouch" },
+      { "item": "dump_pouch" },
+      { "item": "tactical_grenade_pouch" },
+      { "item": "sheath" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "battle_belt_drone",
+    "subtype": "collection",
+    "//": "Drone operator battle belt preset: pistol holster, IFAK, dump pouch, single pistol mag pouch, single rifle mag pouch, drone carry bag, knife sheath.",
+    "entries": [ { "item": "battle_belt", "contents-group": "battle_belt_drone_contents" } ]
+  },
+  {
+    "type": "item_group",
+    "id": "battle_belt_drone_contents",
+    "subtype": "collection",
+    "entries": [
+      { "item": "tactical_holster" },
+      { "item": "ifak_pouch" },
+      { "item": "dump_pouch" },
+      { "item": "pistol_mag_pouch_single" },
+      { "item": "rifle_mag_pouch_single" },
+      { "item": "drone_bag" },
+      { "item": "sheath" }
+    ]
+  }
+]

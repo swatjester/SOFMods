@@ -1,0 +1,25 @@
+[
+  {
+    "type": "vehicle_group",
+    "id": "military_vehicles",
+    "//": "Overrides the base military_vehicles spawn group to add this mod's vehicles (the ISV, the three RSOV turret variants, the MRZR-2/-4, and the Flyer). vehicle_group has no copy-from/extend support in TLG, so the base entries are reproduced verbatim and the mod's vehicles are appended. If upstream changes its military_vehicles list, re-sync this block.",
+    "vehicles": [
+      [ "military_cargo_truck", 1000 ],
+      [ "military_cargo_truck_b", 1000 ],
+      [ "humvee", 500 ],
+      [ "humvee_gl", 250 ],
+      [ "humvee_tow", 125 ],
+      [ "apc", 500 ],
+      [ "apc-gl", 250 ],
+      [ "aapc-mg", 250 ],
+      [ "aapc-gl", 125 ],
+      [ "isv", 500 ],
+      [ "rsov_m240", 200 ],
+      [ "rsov_m2", 150 ],
+      [ "rsov_mk19", 150 ],
+      [ "mrzr2", 150 ],
+      [ "mrzr4", 150 ],
+      [ "flyer", 75 ]
+    ]
+  }
+]

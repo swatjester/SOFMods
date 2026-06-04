@@ -1,0 +1,305 @@
+[
+  {
+    "id": "isv",
+    "type": "vehicle",
+    "name": "Infantry Squad Vehicle",
+    "//": "M1301 Infantry Squad Vehicle (ISV): open tube-frame light troop carrier on the Chevrolet Colorado ZR2 platform, 4x4. Carries a 9-soldier squad in a 2/3/2/2 seat layout (2 front, 3 second row, 2 third row, 2 rear). No doors or roof. Engine bumped to a diesel V6 to fit its 'fast, lots of seats' role.",
+    "parts": [
+      {
+        "x": 3,
+        "y": -1,
+        "parts": [
+          "frame#nw"
+        ]
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "parts": [
+          "frame#horizontal_front",
+          "headlight"
+        ]
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "parts": [
+          "frame#horizontal_front"
+        ]
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "parts": [
+          "frame#horizontal_front",
+          "headlight"
+        ]
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "parts": [
+          "frame#ne"
+        ]
+      },
+      {
+        "x": 2,
+        "y": -1,
+        "parts": [
+          "frame#vertical_left",
+          "wheel_mount_medium_steerable",
+          "wheel_wide"
+        ]
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [
+          "frame#horizontal",
+          "halfboard#cover_left"
+        ]
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "parts": [
+          "frame#cover",
+          "halfboard#cover",
+          "diesel_engine_v6",
+          "alternator_truck",
+          "battery_car"
+        ]
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "parts": [
+          "frame#horizontal",
+          "halfboard#cover_right"
+        ]
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "parts": [
+          "frame#vertical_right",
+          "wheel_mount_medium_steerable",
+          "wheel_wide"
+        ]
+      },
+      {
+        "x": 1,
+        "y": -1,
+        "parts": [
+          "frame#vertical_left"
+        ]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "parts": [
+          "frame#cross",
+          "seat",
+          "seatbelt",
+          "controls",
+          "dashboard",
+          "horn_car",
+          "vehicle_alarm",
+          "stereo"
+        ]
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "parts": [
+          "frame#cross",
+          "dashboard"
+        ]
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "parts": [
+          "frame#cross",
+          "seat",
+          "seatbelt"
+        ]
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "parts": [
+          "frame#vertical_right"
+        ]
+      },
+      {
+        "x": 0,
+        "y": -1,
+        "parts": [
+          "frame#vertical_left"
+        ]
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [
+          "frame#cross",
+          "seat",
+          "seatbelt"
+        ]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "parts": [
+          "frame#cross",
+          "seat",
+          "seatbelt"
+        ]
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "parts": [
+          "frame#cross",
+          "seat",
+          "seatbelt"
+        ]
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "parts": [
+          "frame#vertical_right"
+        ]
+      },
+      {
+        "x": -1,
+        "y": -1,
+        "parts": [
+          "frame#vertical_left",
+          {
+            "part": "tank",
+            "fuel": "diesel"
+          }
+        ]
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [
+          "frame#cross",
+          "seat",
+          "seatbelt"
+        ]
+      },
+      {
+        "x": -1,
+        "y": 1,
+        "parts": [
+          "frame#cross",
+          "cargo_space"
+        ]
+      },
+      {
+        "x": -1,
+        "y": 2,
+        "parts": [
+          "frame#cross",
+          "seat",
+          "seatbelt"
+        ]
+      },
+      {
+        "x": -1,
+        "y": 3,
+        "parts": [
+          "frame#vertical_right",
+          {
+            "part": "tank",
+            "fuel": "diesel"
+          }
+        ]
+      },
+      {
+        "x": -2,
+        "y": -1,
+        "parts": [
+          "frame#vertical_left",
+          "wheel_mount_medium",
+          "wheel_wide"
+        ]
+      },
+      {
+        "x": -2,
+        "y": 0,
+        "parts": [
+          "frame#cross",
+          "seat",
+          "seatbelt"
+        ]
+      },
+      {
+        "x": -2,
+        "y": 1,
+        "parts": [
+          "frame#cross",
+          "cargo_space"
+        ]
+      },
+      {
+        "x": -2,
+        "y": 2,
+        "parts": [
+          "frame#cross",
+          "seat",
+          "seatbelt"
+        ]
+      },
+      {
+        "x": -2,
+        "y": 3,
+        "parts": [
+          "frame#vertical_right",
+          "wheel_mount_medium",
+          "wheel_wide"
+        ]
+      },
+      {
+        "x": -3,
+        "y": -1,
+        "parts": [
+          "frame#sw"
+        ]
+      },
+      {
+        "x": -3,
+        "y": 0,
+        "parts": [
+          "frame#horizontal"
+        ]
+      },
+      {
+        "x": -3,
+        "y": 1,
+        "parts": [
+          "frame#horizontal"
+        ]
+      },
+      {
+        "x": -3,
+        "y": 2,
+        "parts": [
+          "frame#horizontal"
+        ]
+      },
+      {
+        "x": -3,
+        "y": 3,
+        "parts": [
+          "frame#se"
+        ]
+      }
+    ]
+  }
+]

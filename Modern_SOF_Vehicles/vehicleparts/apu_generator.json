@@ -1,0 +1,23 @@
+[
+  {
+    "id": "hel_apu",
+    "type": "vehicle_part",
+    "name": { "str": "auxiliary power unit" },
+    "categories": [ "energy" ],
+    "color": "green_white",
+    "broken_color": "blue",
+    "location": "engine_block",
+    "damage_modifier": 80,
+    "durability": 450,
+    "description": "A militarized JP8/diesel auxiliary power unit (APU).  Switch it on and it burns fuel from the vehicle's tanks to trickle-charge the battery bank - the practical way to keep a power-hungry directed-energy weapon fed in the field.  The solar panels and the engine's alternator also feed the batteries on their own; the APU is the heavy lifter when the sun won't cut it.",
+    "//": "BIZARRE FIELD NAMES (lifted from TLG's working portable generator, ap_portable_generator): 'epower' = how fast fuel is converted to grid power; 'power' = fuel efficiency (ratio of fuel mL to battery charges output). fuel_type 'diesel' burns the GMV's jp8 (diesel-family parts accept jp8, same as its engine).",
+    "power": "10 W",
+    "epower": "6000 W",
+    "m2c": 5,
+    "fuel_type": "diesel",
+    "item": "portable_generator",
+    "flags": [ "ENGINE", "E_DIESEL_FUEL", "REACTOR", "FLUIDTANK" ],
+    "breaks_into": [ { "item": "portable_generator", "damage": 4 } ],
+    "damage_reduction": { "all": 60 }
+  }
+]

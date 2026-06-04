@@ -1,0 +1,19 @@
+[
+  {
+    "id": "suppressor_short",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
+    "copy-from": "suppressor",
+    "name": { "str": "short suppressor" },
+    "//": "K-length suppressor. Shorter and lighter than a full-length can, at the cost of a bit more noise.",
+    "description": "A short, 'K-length' rifle suppressor.  By trading away some length, it is noticeably lighter and handier than a full-size can, though it doesn't tame the report quite as well.  Still brings gunfire down to safer levels for your hearing.",
+    "weight": "380 g",
+    "volume": "150 ml",
+    "longest_side": "140 mm",
+    "integral_longest_side": "130 mm",
+    "price": "820 USD",
+    "price_postapoc": "20 USD",
+    "handling_modifier": 1,
+    "loudness_multiplier": 0.82
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "modular_m4_carbine",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
+    "copy-from": "modular_m4_carbine",
+    "//": "Adds an 'M4 GL/SSC' cosmetic variant to the vanilla modular M4 lower, exactly the way 'm4_cqbr' (Mk 18) is defined on this same gun. The variant is purely a display name/description; the actual configuration is realized by the parts installed in the m4_glssc item_group below.",
+    "extend": {
+      "variants": [
+        {
+          "id": "m4_glssc",
+          "name": { "str": "M4 GL/SSC" },
+          "description": "A door-kicker's M4 built around the Daniel Defense GL/SSC: a 12.5-inch upper receiver that splits the difference between a full M4 and a stubby CQBR, mated to an M203 grenade launcher under the barrel and a short suppressor on the muzzle.  Feeds from standard STANAG magazines.",
+          "weight": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "m4_glssc",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "Mirrors the 'm4_cqbr' item_group: spawns the modular M4 lower wearing the m4_glssc variant with its respective parts pre-installed — the GL/SSC 12.5-inch upper, an M203 stand-off launcher, a short suppressor, a pistol grip, and a collapsible stock. All parts remain removable/swappable, just like a Mk 18 spawned this way.",
+    "entries": [
+      {
+        "item": "modular_m4_carbine",
+        "variant": "m4_glssc",
+        "contents-item": [ "pistol_grip", "retool_ar15_223_glssc", "m203", "suppressor_short", "adjustable_stock" ]
+      }
+    ]
+  }
+]

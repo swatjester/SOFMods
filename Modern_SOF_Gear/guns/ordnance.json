@@ -1,0 +1,76 @@
+[
+  {
+    "id": "mortar_m252",
+    "type": "ITEM",
+    "copy-from": "mortar_m224",
+    "name": {
+      "str_sp": "M252 mortar"
+    },
+    "//": "M252 81mm medium mortar. Deploys to a firing furniture; uses 81mm shells. Heavier and longer-ranged than the M224.",
+    "description": "The M252 is the U.S. military's 81mm medium mortar - a crew-served tube that lobs heavy high-explosive shells far beyond the reach of the lighter 60mm M224.  Deploy it on open ground and, with enough launcher skill to read the firing tables, rain shells on a distant target.",
+    "use_action": {
+      "type": "deploy_furn",
+      "furn_type": "f_m252_mortar"
+    },
+    "weight": "35000 g",
+    "volume": "70 L",
+    "longest_side": "130 cm",
+    "price": "22000 USD"
+  },
+  {
+    "id": "smaw",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "copy-from": "m3_carlgustav",
+    "name": {
+      "str": "Mk 153 SMAW"
+    },
+    "//": "Mk 153 Shoulder-Launched Multipurpose Assault Weapon, 83mm, reloadable. Bunker-busting/anti-armor.",
+    "description": "The Mk 153 SMAW, a reloadable 83mm shoulder-fired rocket launcher used to crack bunkers, breach walls, and kill light armor.  Bulky and heavy, but it reloads in the field unlike a disposable rocket.",
+    "ammo": [
+      "smaw_83mm"
+    ],
+    "weight": "7500 g",
+    "price": "6000 USD",
+    "price_postapoc": "35 USD",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "smaw_83mm": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "javelin_clu",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "copy-from": "m3_carlgustav",
+    "name": {
+      "str": "FGM-148 Javelin"
+    },
+    "//": "FGM-148 Javelin: man-portable fire-and-forget top-attack ATGM (CLU + missile). Reloadable.",
+    "description": "The FGM-148 Javelin, a man-portable anti-tank missile system: a reusable Command Launch Unit mated to a fire-and-forget missile.  Lock on, launch, and move - the missile climbs and dives onto its target's thin top armor on its own.",
+    "ammo": [
+      "javelin"
+    ],
+    "weight": "11000 g",
+    "price": "240000 USD",
+    "price_postapoc": "50 USD",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "javelin": 1
+        }
+      }
+    ]
+  }
+]

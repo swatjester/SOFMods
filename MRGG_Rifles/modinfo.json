@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "mrgg_rifles",
+    "name": "MRGG Mid-Range Gas Guns",
+    "authors": [ "Dan" ],
+    "description": "Adds two modular battle rifles: the MRGG-A (Assaulter) and MRGG-S (Sniper). Both are natively chambered in 6.5mm Creedmoor and accept a swappable .308/7.62 NATO conversion barrel. Stats are based on the SCAR-H/SCAR-17 with slightly lower base damage, better accuracy and range, and reduced recoil.",
+    "category": "items",
+    "dependencies": [ "tlg" ],
+    "version": "1.0"
+  }
+]
