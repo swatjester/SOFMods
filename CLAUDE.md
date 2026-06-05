@@ -33,13 +33,13 @@ Overarching goal: a comprehensive set of mods simulating modern-day U.S. militar
 ## What's been built
 
 - **Modern_SOF_Gear**: MRGG-A, MRGG-S, SOF kitted builds, 6.5 Creedmoor ammo/mags, .308 conversion; SOF rifle builds; LVAW (.300 BLK) + SOF; modular AR uppers (GL/SSC 12.5", recce 16", Mk12 SPR 18"); short suppressor; grippod; M249-para/M240-collapsible stocks + short barrels; MOLLE battle belts (assaulter/breacher/grenadier/drone) + pouches incl. breaching tool hooks; **added weapons**: NGSW M7/M8/M250 + `277fury` (.277 Fury) cartridge; M110 SASS; KAC SR-25 (with Mk 11 variant); Colt 9mm SMG (Uzi mags); KAC LAMG; M252 81mm mortar + shell; Mk 153 SMAW + rocket; FGM-148 Javelin + missile. All wired into military spawn groups.
-- **Modern_SOF_Forces**: 75th Ranger professions (assaulter, sniper, breacher, grenadier, drone operator, machine gunner [M249-para], weapons-squad gunner [M240]) + "Rangers Lead the Way" scenario; MFRC professions (scout, sniper, machine gunner [M249-para], grenadier, drone operator [M4A1]) + "Eyes Forward" scenario. Solo-start only so far.
+- **Modern_SOF_Forces**: 75th Ranger professions (assaulter, sniper, breacher, grenadier, drone operator, machine gunner [M249-para], weapons-squad gunner [M240]) + bionic mirrors with role-specific CBMs + "Rangers Lead the Way" scenario; MFRC professions (scout, sniper, machine gunner [M249-para], grenadier, drone operator [M4A1]) + bionic mirrors with role-specific CBMs + "Eyes Forward" scenario. Solo-start only so far.
 - **Modern_SOF_Vehicles**: `isv` (9-seat, unarmed), `rsov_m240`/`rsov_m2`/`rsov_mk19` (M249 pintle on all), `mrzr2`/`mrzr4` (M249 pintle, diesel_engine_inline4), `flyer` (ATGM turret + M240 pintle), `gmv` (M1288: Mk19 + HEL-AD laser + 6 batteries + 6 solar + JP8 APU; NOT in spawn groups — debug-spawn only). Custom parts: `turret_rmes_laser` (HEL-AD), `hel_apu`.
 
 ## Remaining backlog (not yet built)
 
-- **Bionic versions of every SOF profession** (mirror vanilla `bio_soldier`/`bio_sniper`): role-appropriate CBMs + bionic power on top of the existing loadouts. Decide whether to surface in the existing scenarios or dedicated augmented-start scenarios.
 - **NPC companions + the solo→duo→fireteam→section→squad progression** wired onto the existing solo scenarios.
+- **Starting vehicles for SOF scenarios** after profession testing: decide which starts should receive ISV/RSOV/MRZR/Flyer support and wire them into scenarios only after the non-vehicle starts are verified.
 - **Zombified preset versions** of the SOF forces (enemy spawns reusing the role loadouts).
 - **Low-visibility / undercover operator scenario** — the LVAW (.300 BLK) is reserved for this; keep it out of the standard Ranger/MFRC kits.
 

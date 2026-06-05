@@ -14,10 +14,15 @@
     ],
     "professions": [
       "recon_scout",
+      "recon_scout_bionic",
       "recon_sniper",
+      "recon_sniper_bionic",
       "recon_machinegunner",
+      "recon_machinegunner_bionic",
       "recon_grenadier",
-      "recon_drone_op"
+      "recon_grenadier_bionic",
+      "recon_drone_op",
+      "recon_drone_op_bionic"
     ],
     "flags": [ "LONE_START" ]
   }

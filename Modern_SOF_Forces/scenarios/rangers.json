@@ -14,12 +14,19 @@
     ],
     "professions": [
       "ranger_assaulter",
+      "ranger_assaulter_bionic",
       "ranger_sniper",
+      "ranger_sniper_bionic",
       "ranger_breacher",
+      "ranger_breacher_bionic",
       "ranger_grenadier",
+      "ranger_grenadier_bionic",
       "ranger_drone_op",
+      "ranger_drone_op_bionic",
       "ranger_machinegunner",
-      "ranger_weapons_gunner"
+      "ranger_machinegunner_bionic",
+      "ranger_weapons_gunner",
+      "ranger_weapons_gunner_bionic"
     ],
     "flags": [ "LONE_START", "CITY_START" ]
   }
