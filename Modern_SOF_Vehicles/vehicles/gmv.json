@@ -21,6 +21,7 @@
           "horn_big",
           "seat",
           "seatbelt",
+          "turret_mount",
           "controls_turret",
           "reinforced_solar_panel_v2"
         ]
@@ -38,6 +39,7 @@
         "y": 1,
         "parts": [
           "hdframe#cross",
+          "cargo_space",
           "recharge_station",
           "hdroof",
           "large_storage_battery"
@@ -55,6 +57,7 @@
           },
           "seat",
           "seatbelt",
+          "turret_mount",
           "controls_turret",
           "reinforced_solar_panel_v2"
         ]
@@ -277,6 +280,7 @@
         "y": 0,
         "parts": [
           "hdframe#cross",
+          "cargo_space",
           "hdroof",
           "large_storage_battery",
           "reinforced_solar_panel_v2"
@@ -299,6 +303,7 @@
         "y": 2,
         "parts": [
           "hdframe#cross",
+          "cargo_space",
           "hdroof",
           "large_storage_battery",
           "reinforced_solar_panel_v2"
@@ -391,7 +396,7 @@
       },
       {
         "x": -2,
-        "y": 1,
+        "y": 2,
         "chance": 7,
         "item_groups": [
           "military_standard_sniper_rifles"

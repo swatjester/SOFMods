@@ -730,6 +730,13 @@
             "group": "charged_two_way_radio"
           },
           {
+            "group": "charged_smart_phone"
+          },
+          {
+            "group": "charged_laptop",
+            "contents-item": "software_robotics"
+          },
+          {
             "group": "battle_belt_drone"
           },
           {
