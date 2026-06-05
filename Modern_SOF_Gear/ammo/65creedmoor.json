@@ -19,8 +19,8 @@
     "description": "A 6.5mm Creedmoor full metal jacket round. Designed for accurate, flat-shooting fire at longer ranges than .308, with noticeably less recoil. The boat-tail bullet retains energy well downrange.",
     "weight": "23 g",
     "volume": "1 ml",
-    "price": 90,
-    "price_postapoc": 250,
+    "price": "90 cent",
+    "price_postapoc": "2 USD 50 cent",
     "material": [
       "copper",
       "powder"
@@ -57,8 +57,8 @@
     "description": "A precision-loaded 6.5mm Creedmoor match round with a high-ballistic-coefficient bullet. Built for tight groups and maximum effective range, at the cost of stopping power against armor compared to dedicated AP loads.",
     "weight": "23 g",
     "volume": "1 ml",
-    "price": 160,
-    "price_postapoc": 400,
+    "price": "1 USD 60 cent",
+    "price_postapoc": "4 USD",
     "material": [
       "copper",
       "powder"
@@ -96,8 +96,8 @@
     "description": "A hand-loaded 6.5mm Creedmoor round. Reliable enough, though hand loads are never quite as consistent as factory ammunition.",
     "weight": "23 g",
     "volume": "1 ml",
-    "price": 45,
-    "price_postapoc": 150,
+    "price": "45 cent",
+    "price_postapoc": "1 USD 50 cent",
     "material": [
       "copper",
       "powder"
@@ -134,8 +134,8 @@
     "description": "A 20-round steel box magazine for the MRGG family of rifles, chambered for 6.5mm Creedmoor.",
     "weight": "248 g",
     "volume": "300 ml",
-    "price": 6000,
-    "price_postapoc": 1500,
+    "price": "60 USD",
+    "price_postapoc": "15 USD",
     "material": [
       "steel"
     ],
@@ -144,7 +144,15 @@
     "ammo_type": [
       "65creedmoor"
     ],
-    "capacity": 20,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "65creedmoor": 20
+        }
+      }
+    ],
     "reload_time": 100,
     "flags": [
       "MAG_BULKY",
@@ -164,8 +172,8 @@
     "description": "A 20-round steel box magazine for the MRGG family of rifles, configured for .308 Winchester / 7.62x51mm NATO. Used when the rifle is fitted with its .308 conversion barrel.",
     "weight": "255 g",
     "volume": "300 ml",
-    "price": 6000,
-    "price_postapoc": 1500,
+    "price": "60 USD",
+    "price_postapoc": "15 USD",
     "material": [
       "steel"
     ],
@@ -174,7 +182,15 @@
     "ammo_type": [
       "308"
     ],
-    "capacity": 20,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "308": 20
+        }
+      }
+    ],
     "reload_time": 100,
     "flags": [
       "MAG_BULKY",
@@ -189,6 +205,7 @@
     "subcategory": "CSC_AMMO_RIFLE",
     "skill_used": "fabrication",
     "difficulty": 5,
+    "activity_level": "MODERATE_EXERCISE",
     "time": "3 m",
     "reversible": false,
     "autolearn": [ [ "fabrication", 5 ] ],
@@ -199,7 +216,7 @@
       [ [ "308_casing", 10 ] ],
       [ [ "gunpowder", 160 ] ],
       [ [ "lead", 90 ] ],
-      [ [ "primer_large", 10 ] ]
+      [ [ "lgrifle_primer", 10 ] ]
     ]
   }
 ]

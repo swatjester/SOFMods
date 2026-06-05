@@ -7,6 +7,14 @@
     "color": "green_white",
     "broken_color": "blue",
     "location": "engine_block",
+    "variants": [
+      {
+        "id": "standard",
+        "label": "Standard",
+        "symbols": "O",
+        "symbols_broken": "x"
+      }
+    ],
     "damage_modifier": 80,
     "durability": 450,
     "description": "A militarized JP8/diesel auxiliary power unit (APU).  Switch it on and it burns fuel from the vehicle's tanks to trickle-charge the battery bank - the practical way to keep a power-hungry directed-energy weapon fed in the field.  The solar panels and the engine's alternator also feed the batteries on their own; the APU is the heavy lifter when the sun won't cut it.",

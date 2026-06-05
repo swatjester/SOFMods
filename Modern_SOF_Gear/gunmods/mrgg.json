@@ -12,8 +12,8 @@
     "description": "A drop-in barrel, bolt, and magazine-well kit that converts an MRGG rifle from 6.5mm Creedmoor to .308 Winchester / 7.62x51mm NATO. With it installed the rifle hits a little harder up close, at the cost of some accuracy and range and a bit more recoil. Requires MRGG .308 magazines to feed.",
     "weight": "780 g",
     "volume": "500 ml",
-    "price": 40000,
-    "price_postapoc": 1500,
+    "price": "400 USD",
+    "price_postapoc": "15 USD",
     "material": [
       "steel"
     ],

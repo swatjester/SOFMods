@@ -285,6 +285,7 @@
     "ammo_type": [
       "277fury"
     ],
+    "default_ammo": "277fury",
     "name": {
       "str": "6.8x51mm 20-round magazine"
     },
@@ -310,6 +311,7 @@
     "ammo_type": [
       "277fury"
     ],
+    "default_ammo": "277fury",
     "name": {
       "str": "6.8x51mm 25-round magazine"
     },
@@ -334,6 +336,7 @@
     "ammo_type": [
       "277fury"
     ],
+    "default_ammo": "277fury",
     "name": {
       "str": "6.8x51mm ammo belt"
     },

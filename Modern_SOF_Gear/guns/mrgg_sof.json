@@ -6,7 +6,7 @@
     "copy-from": "mrgg_a",
     "//": "Tricked-out assaulter MRGG-A. No rename: it shares the base MRGG-A name. The kit is purely a function of the installed default_mods (all removable/swappable), so a player-built copy and this spawned one are identical.",
     "description": "A special operations configuration of the MRGG-A Assaulter, set up exactly the way a door-kicker would run it: a grippod up front, a holographic sight backed by a flip-to-side magnifier, a short suppressor, a weapon light and an aiming laser on the rails, and a sling.  Ready to fight straight out of the case.",
-    "price_postapoc": 14000,
+    "price_postapoc": "140 USD",
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -32,7 +32,7 @@
     "copy-from": "mrgg_s",
     "//": "Tricked-out sniper MRGG-S. No rename: shares the base MRGG-S name; the config is defined entirely by the removable default_mods.",
     "description": "A special operations configuration of the MRGG-S Sniper variant, kitted for precision work: a bipod, a high-end variable rifle scope, a full-size suppressor, an aiming laser, a tuned match trigger, and a sling.  Reach out and touch something.",
-    "price_postapoc": 17000,
+    "price_postapoc": "170 USD",
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
