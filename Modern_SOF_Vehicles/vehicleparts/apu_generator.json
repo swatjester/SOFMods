@@ -7,6 +7,14 @@
     "color": "green_white",
     "broken_color": "blue",
     "location": "engine_block",
+    "variants": [
+      {
+        "id": "standard",
+        "label": "Standard",
+        "symbols": "O",
+        "symbols_broken": "x"
+      }
+    ],
     "damage_modifier": 80,
     "durability": 450,
     "description": "A ruggedized auxiliary electrical bay built around the vehicle's generator hardware and power conditioning equipment.  The GMV's solar panels, engine alternator, and storage batteries provide its usable electrical supply.",

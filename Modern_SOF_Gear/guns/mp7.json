@@ -1,0 +1,37 @@
+[
+  {
+    "id": "sof_mp7",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
+    "copy-from": "hk_mp5",
+    "name": { "str": "H&K MP7A2", "str_pl": "H&K MP7A2s" },
+    "description": "A compact H&K MP7A2 personal-defense weapon chambered in 4.6x30mm. Light, controllable, and easier to manage alongside drone equipment than a full rifle, it gives an operator useful close-range fire without taking over the whole kit.",
+    "weight": "2180 g",
+    "volume": "2330 ml",
+    "longest_side": "420 mm",
+    "barrel_length": "180 mm",
+    "price": "2600 USD",
+    "price_postapoc": "40 USD",
+    "ammo": [ "46x30_sof" ],
+    "dispersion": 260,
+    "durability": 7,
+    "min_cycle_recoil": 300,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
+    "built_in_mods": [ "folding_stock" ],
+    "valid_mod_locations": [
+      [ "accessories", 3 ],
+      [ "barrel", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 2 ],
+      [ "muzzle", 1 ],
+      [ "rail", 3 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "pocket_data": [
+      { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "sof_mp7_mag_40" ] }
+    ]
+  }
+]

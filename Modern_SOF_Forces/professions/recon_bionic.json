@@ -1,0 +1,870 @@
+[
+  {
+    "type": "profession",
+    "id": "recon_scout_bionic",
+    "name": {
+      "male": "Recon Company - Bionic Scout",
+      "female": "Recon Company - Bionic Scout"
+    },
+    "description": "You are an augmented scout in a Multifunctional Reconnaissance Company, rebuilt to notice danger before it notices you.  Implanted night vision, enhanced hearing, a silent alarm, scent masking, and metabolic power help you move ahead of the patrol and come back with the picture.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 8,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_spotting"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      },
+      {
+        "level": 4,
+        "name": "survival"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "traps"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "helmet_army"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "item": "m18",
+            "ammo-item": "9mm",
+            "container-item": "holster",
+            "charges": 17
+          },
+          {
+            "item": "p320mag_17rd_9x19mm",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "count": 2
+          },
+          {
+            "item": "mrgg_a",
+            "ammo-item": "65creedmoor_fmj",
+            "charges": 20,
+            "contents-item": [
+              "holo_sight",
+              "shoulder_strap"
+            ]
+          },
+          {
+            "item": "mrgg_mag",
+            "ammo-item": "65creedmoor_fmj",
+            "charges": 20,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_night_vision",
+      "bio_ears",
+      "bio_alarm",
+      "bio_scent_mask",
+      "bio_metabolics",
+      "bio_power_storage"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "recon_sniper_bionic",
+    "name": {
+      "male": "Recon Company - Bionic Sniper",
+      "female": "Recon Company - Bionic Sniper"
+    },
+    "description": "You are an augmented sniper in a Multifunctional Reconnaissance Company, a field observer and precision shooter with just enough bionics to sharpen the work.  Enhanced perception, targeting assistance, night vision, scent masking, and metabolic power help you stay hidden and make the one shot that matters.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 9,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_spotting",
+      "prof_handloading",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 6,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "survival"
+      },
+      {
+        "level": 3,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "hat_boonie"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "item": "m18",
+            "ammo-item": "9mm",
+            "container-item": "holster",
+            "charges": 17
+          },
+          {
+            "item": "p320mag_17rd_9x19mm",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "count": 2
+          },
+          {
+            "item": "mrgg_s_sof",
+            "ammo-item": "65creedmoor_match",
+            "charges": 20
+          },
+          {
+            "item": "mrgg_mag",
+            "ammo-item": "65creedmoor_match",
+            "charges": 20,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_eye_enhancer",
+      "bio_targeting",
+      "bio_night_vision",
+      "bio_scent_mask",
+      "bio_metabolics",
+      "bio_power_storage"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "recon_machinegunner_bionic",
+    "name": {
+      "male": "Recon Company - Bionic Machine Gunner",
+      "female": "Recon Company - Bionic Machine Gunner"
+    },
+    "description": "You are an augmented machine gunner for a Multifunctional Reconnaissance Company element, carrying the patrol's break-contact gun without falling behind it.  Recoil compensation, joint servos, metabolic power, and compact storage let you keep the SAW moving when the team needs to disappear.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 9,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 5,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 2,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "helmet_army"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "item": "m18",
+            "ammo-item": "9mm",
+            "container-item": "holster",
+            "charges": 17
+          },
+          {
+            "item": "p320mag_17rd_9x19mm",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "count": 2
+          },
+          {
+            "item": "m249_para",
+            "ammo-item": "556",
+            "charges": 200,
+            "contents-item": [
+              "holo_sight",
+              "shoulder_strap"
+            ]
+          },
+          {
+            "item": "belt223",
+            "ammo-item": "556",
+            "charges": 200,
+            "count": 2
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_recoil",
+      "bio_jointservo",
+      "bio_metabolics",
+      "bio_power_storage"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "recon_grenadier_bionic",
+    "name": {
+      "male": "Recon Company - Bionic Grenadier",
+      "female": "Recon Company - Bionic Grenadier"
+    },
+    "description": "You are an augmented grenadier in a Multifunctional Reconnaissance Company element, carrying the patrol's quickest answer to a compromised route.  Throwing assistance, recoil compensation, night vision, and metabolic power help you put 40mm and hand-thrown explosives where they buy the team seconds to vanish.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 8,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 4,
+        "name": "launcher"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "helmet_army"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "group": "battle_belt_grenadier"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "item": "m18",
+            "ammo-item": "9mm",
+            "container-item": "holster",
+            "charges": 17
+          },
+          {
+            "item": "p320mag_17rd_9x19mm",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "count": 2
+          },
+          {
+            "item": "40x46mm_m433",
+            "charges": 12
+          },
+          {
+            "item": "40x46mm_m576",
+            "charges": 6
+          },
+          {
+            "item": "40x46mm_m651",
+            "charges": 6
+          },
+          {
+            "group": "m4_glssc",
+            "ammo-item": "556",
+            "charges": 30
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_pitch_perfect",
+      "bio_recoil",
+      "bio_night_vision",
+      "bio_metabolics",
+      "bio_power_storage"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "recon_drone_op_bionic",
+    "name": {
+      "male": "Recon Company - Bionic Drone Operator",
+      "female": "Recon Company - Bionic Drone Operator"
+    },
+    "description": "You are an augmented UAS operator for a Multifunctional Reconnaissance Company element, lightly wired for drone control, overlays, comms, and field charging.  Your bionics are not as lavish as a direct-action network specialist's, but they keep your small drones in the air and your team informed.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 9,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_elec_circuits",
+      "prof_elec_soldering"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 3,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "computer"
+      },
+      {
+        "level": 3,
+        "name": "electronics"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "helmet_army"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "group": "charged_smart_phone"
+          },
+          {
+            "group": "charged_laptop",
+            "contents-item": "software_robotics"
+          },
+          {
+            "group": "battle_belt_drone"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "item": "m18",
+            "ammo-item": "9mm",
+            "container-item": "holster",
+            "charges": 17
+          },
+          {
+            "item": "p320mag_17rd_9x19mm",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "count": 2
+          },
+          {
+            "item": "bot_grenade_hack",
+            "count": 3
+          },
+          {
+            "item": "bot_c4_hack",
+            "count": 1
+          },
+          {
+            "group": "modular_m4a1",
+            "ammo-item": "556",
+            "charges": 30,
+            "contents-item": [
+              "pistol_grip",
+              "adjustable_stock",
+              "holo_sight",
+              "shoulder_strap"
+            ]
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_remote",
+      "bio_ar",
+      "bio_cable",
+      "bio_radio",
+      "bio_power_storage"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "recon_medic_bionic",
+    "name": { "male": "Recon Company - Bionic Medic", "female": "Recon Company - Bionic Medic" },
+    "description": "You are an augmented medic in a Multifunctional Reconnaissance Company, built to keep a small patrol alive when evacuation is a rumor.  You carry an M4A1, field trauma gear, and enough bionic support to stay useful while the rest of the team is bleeding, moving, or both.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 8,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar", "prof_spotting" ],
+    "skills": [ { "level": 4, "name": "gun" }, { "level": 4, "name": "rifle" }, { "level": 3, "name": "pistol" }, { "level": 3, "name": "dodge" }, { "level": 4, "name": "survival" }, { "level": 6, "name": "firstaid" }, { "level": 2, "name": "traps" } ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "combat_shirt" }, { "item": "jacket_army_modern" }, { "item": "tank_top" }, { "item": "pants_army" }, { "item": "gloves_tactical" }, { "item": "socks" }, { "item": "boots_combat" }, { "item": "helmet_army" }, { "item": "balaclava" }, { "item": "military_nvg" }, { "item": "binoculars" }, { "item": "roadmap" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] }, { "item": "ballistic_vest_esapi" }, { "group": "charged_two_way_radio" }, { "group": "battle_belt_assaulter" }, { "item": "water_clean", "container-item": "canteen" }, { "item": "knife_hunting", "container-item": "sheath" }, { "item": "m18", "ammo-item": "9mm", "container-item": "holster", "charges": 17 }, { "item": "p320mag_17rd_9x19mm", "ammo-item": "9mm", "charges": 17, "count": 2 },
+          { "item": "bandages", "count": 20 }, { "item": "disinfectant", "count": 2 },
+          { "group": "modular_m4a1", "ammo-item": "556", "charges": 30, "contents-item": [ "pistol_grip", "adjustable_stock", "holo_sight", "shoulder_strap" ] }, { "item": "stanag30", "ammo-item": "556", "charges": 30, "count": 3 }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] }
+    },
+    "flags": [ "SCEN_ONLY" ],
+    "CBMs": [ "bio_purifier", "bio_metabolics", "bio_night_vision", "bio_power_storage" ]
+  },
+  {
+    "type": "profession",
+    "id": "recon_jtac_bionic",
+    "name": { "male": "Recon Company - Bionic JTAC", "female": "Recon Company - Bionic JTAC" },
+    "description": "You are an augmented JTAC for a Multifunctional Reconnaissance Company element, carrying enough optics, maps, smoke, and comms to keep the patrol oriented when the wider fight has gone silent.  You are the person who sees the fight clearly and marks what matters.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 8,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar", "prof_spotting" ],
+    "skills": [ { "level": 3, "name": "gun" }, { "level": 3, "name": "rifle" }, { "level": 3, "name": "pistol" }, { "level": 2, "name": "launcher" }, { "level": 3, "name": "dodge" }, { "level": 4, "name": "survival" }, { "level": 2, "name": "firstaid" }, { "level": 2, "name": "traps" } ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "combat_shirt" }, { "item": "jacket_army_modern" }, { "item": "tank_top" }, { "item": "pants_army" }, { "item": "gloves_tactical" }, { "item": "socks" }, { "item": "boots_combat" }, { "item": "helmet_army" }, { "item": "balaclava" }, { "item": "military_nvg" }, { "item": "binoculars" }, { "item": "roadmap" }, { "item": "militarymap" }, { "item": "eink_tablet_pc" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] }, { "item": "ballistic_vest_esapi" }, { "group": "charged_two_way_radio" }, { "group": "battle_belt_assaulter" }, { "item": "water_clean", "container-item": "canteen" }, { "item": "knife_hunting", "container-item": "sheath" }, { "item": "m18", "ammo-item": "9mm", "container-item": "holster", "charges": 17 }, { "item": "p320mag_17rd_9x19mm", "ammo-item": "9mm", "charges": 17, "count": 2 },
+          { "item": "smokebomb", "count": 4 }, { "item": "flaregun", "ammo-item": "signal_flare", "charges": 1 }, { "item": "signal_flare", "count": 3 }, { "item": "m320_standalone_sof", "ammo-item": "40x46mm_smoke_sof", "charges": 1 }, { "item": "40x46mm_smoke_sof", "charges": 4 },
+          { "group": "m4_spr", "ammo-item": "556", "charges": 30 }, { "item": "stanag30", "ammo-item": "556", "charges": 30, "count": 2 }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] }
+    },
+    "flags": [ "SCEN_ONLY" ],
+    "CBMs": [ "bio_radio", "bio_ar", "bio_targeting", "bio_eye_enhancer", "bio_night_vision", "bio_alarm", "bio_power_storage" ]
+  }
+]

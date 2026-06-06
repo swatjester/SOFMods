@@ -1,0 +1,1274 @@
+[
+  {
+    "type": "profession",
+    "id": "ranger_assaulter_bionic",
+    "name": {
+      "male": "75th Ranger - Bionic Assaulter",
+      "female": "75th Ranger - Bionic Assaulter"
+    },
+    "description": "You are an augmented assaulter in the 75th Ranger Regiment, built for the brutal seconds after the breach.  Reinforced organs and ballistic eye protection keep you in the fight, while your adrenaline pump and close-quarters combat controller turn room-clearing into a practiced machine rhythm.  Rangers lead the way, and you were rebuilt to be first through the door.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 10,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 5,
+        "name": "gun"
+      },
+      {
+        "level": 5,
+        "name": "smg"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 3,
+        "name": "throw"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "container-item": "holster",
+            "charges": 17
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "grenade",
+            "count": 2
+          },
+          {
+            "item": "flashbang",
+            "count": 2
+          },
+          {
+            "item": "smokebomb",
+            "count": 1
+          },
+          {
+            "item": "mrgg_a_sof",
+            "ammo-item": "65creedmoor_fmj",
+            "charges": 20
+          },
+          {
+            "item": "mrgg_mag",
+            "ammo-item": "65creedmoor_fmj",
+            "charges": 20,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_adrenaline",
+      "bio_armor_torso",
+      "bio_armor_eyes",
+      "bio_cqb",
+      "bio_metabolics",
+      "bio_power_storage_mkII"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "ranger_sniper_bionic",
+    "name": {
+      "male": "75th Ranger - Bionic Sniper",
+      "female": "75th Ranger - Bionic Sniper"
+    },
+    "description": "You are an augmented sniper attached to a 75th Ranger Regiment element, a patient hunter whose eyes and nervous system were rebuilt for the long shot.  Bionic optics, thermal vision, targeting assistance, scent suppression, climate control, and metabolic power let you wait motionless until the world offers a single clean angle.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 10,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_spotting",
+      "prof_handloading",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 6,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 3,
+        "name": "firstaid"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "hat_boonie"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "container-item": "holster",
+            "charges": 17
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "mrgg_s_sof",
+            "ammo-item": "65creedmoor_match",
+            "charges": 20
+          },
+          {
+            "item": "mrgg_mag",
+            "ammo-item": "65creedmoor_match",
+            "charges": 20,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_eye_enhancer",
+      "bio_eye_optic",
+      "bio_targeting",
+      "bio_infrared",
+      "bio_power_storage_mkII",
+      "bio_metabolics",
+      "bio_scent_mask",
+      "bio_climate"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "ranger_breacher_bionic",
+    "name": {
+      "male": "75th Ranger - Bionic Breacher",
+      "female": "75th Ranger - Bionic Breacher"
+    },
+    "description": "You are an augmented breacher in the 75th Ranger Regiment, a walking entry package of hydraulic strength, armored limbs, flash protection, filtered air, and sonic force.  Doors, walls, smoke, dust, and shock are problems for ordinary bodies; yours was rebuilt to make openings.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 10,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_trapsetting",
+      "prof_traps"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "shotgun"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "bashing"
+      },
+      {
+        "level": 2,
+        "name": "mechanics"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "group": "battle_belt_breacher"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "container-item": "holster",
+            "charges": 17
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "halligan"
+          },
+          {
+            "item": "hammer_sledge"
+          },
+          {
+            "item": "c4",
+            "count": 2
+          },
+          {
+            "item": "flashbang",
+            "count": 2
+          },
+          {
+            "item": "remington_870_breacher",
+            "ammo-item": "shot_00",
+            "charges": 5
+          },
+          {
+            "item": "shot_00",
+            "charges": 20
+          },
+          {
+            "group": "m4_cqbr",
+            "ammo-item": "556",
+            "charges": 30
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_torsionratchet",
+      "bio_power_storage_mkII",
+      "bio_hydraulics",
+      "bio_armor_arms",
+      "bio_armor_eyes",
+      "bio_resonator",
+      "bio_purifier",
+      "bio_flashbang"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "ranger_grenadier_bionic",
+    "name": {
+      "male": "75th Ranger - Bionic Grenadier",
+      "female": "75th Ranger - Bionic Grenadier"
+    },
+    "description": "You are an augmented grenadier in the 75th Ranger Regiment, the squad's pocket artillery with bionic fire-control support.  Targeting systems, recoil compensation, throwing assistance, armored hands and eyes, and assisted joints help you move, aim, and place explosive force exactly where the squad needs it.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 10,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 4,
+        "name": "launcher"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "throw"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "group": "battle_belt_grenadier"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "container-item": "holster",
+            "charges": 17
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "40x46mm_m433",
+            "charges": 12
+          },
+          {
+            "item": "40x46mm_m576",
+            "charges": 6
+          },
+          {
+            "item": "40x46mm_m651",
+            "charges": 6
+          },
+          {
+            "item": "grenade",
+            "count": 1
+          },
+          {
+            "group": "m4_glssc",
+            "ammo-item": "556",
+            "charges": 30
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_targeting",
+      "bio_recoil",
+      "bio_pitch_perfect",
+      "bio_armor_eyes",
+      "bio_armor_arms",
+      "bio_jointservo",
+      "bio_metabolics",
+      "bio_power_storage_mkII"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "ranger_drone_op_bionic",
+    "name": {
+      "male": "75th Ranger - Bionic Drone Operator",
+      "female": "75th Ranger - Bionic Drone Operator"
+    },
+    "description": "You are an augmented small-UAS operator for a 75th Ranger Regiment element, wired into radios, drones, overlays, and battlefield electronics.  Remote control, integrated AR, hacking tools, circuitry implants, enhanced cognition, and targeting support make you the squad's networked eye and striking hand.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 10,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_elec_circuits",
+      "prof_elec_soldering"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 3,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "computer"
+      },
+      {
+        "level": 3,
+        "name": "electronics"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "group": "charged_smart_phone"
+          },
+          {
+            "group": "charged_laptop",
+            "contents-item": "software_robotics"
+          },
+          {
+            "group": "battle_belt_drone"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "container-item": "holster",
+            "charges": 17
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "bot_grenade_hack",
+            "count": 3
+          },
+          {
+            "item": "bot_c4_hack",
+            "count": 1
+          },
+          {
+            "item": "sof_mp7",
+            "ammo-item": "46x30_fmj_sof",
+            "charges": 40,
+            "contents-item": [
+              "holo_sight",
+              "shoulder_strap"
+            ]
+          },
+          {
+            "item": "sof_mp7_mag_40",
+            "ammo-item": "46x30_fmj_sof",
+            "charges": 40,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_remote",
+      "bio_fingerhack",
+      "bio_ar",
+      "bio_int_enhancer",
+      "bio_electrokit",
+      "bio_cable",
+      "bio_targeting",
+      "bio_power_storage_mkII",
+      "bio_alarm",
+      "bio_radio"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "ranger_machinegunner_bionic",
+    "name": {
+      "male": "75th Ranger - Bionic Machine Gunner",
+      "female": "75th Ranger - Bionic Machine Gunner"
+    },
+    "description": "You are an augmented machine gunner in the 75th Ranger Regiment, a mobile base of fire built to keep moving with the assault.  Recoil compensation, targeting support, armored arms, skeletal bracing, joint servos, and metabolic power let you carry the SAW, feed it, and shift positions before the enemy can answer.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 10,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 5,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 2,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "container-item": "holster",
+            "charges": 17
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "m249_para",
+            "ammo-item": "556",
+            "charges": 200,
+            "contents-item": [
+              "holo_sight",
+              "shoulder_strap"
+            ]
+          },
+          {
+            "item": "belt223",
+            "ammo-item": "556",
+            "charges": 200,
+            "count": 2
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_targeting",
+      "bio_recoil",
+      "bio_jointservo",
+      "bio_weight",
+      "bio_armor_arms",
+      "bio_metabolics",
+      "bio_power_storage_mkII"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "ranger_weapons_gunner_bionic",
+    "name": {
+      "male": "75th Ranger - Bionic Weapons Squad Gunner",
+      "female": "75th Ranger - Bionic Weapons Squad Gunner"
+    },
+    "description": "You are an augmented weapons squad gunner in the 75th Ranger Regiment, rebuilt as a heavier firing platform for the regiment's crew-served violence.  Recoil compensation, targeting support, skeletal bracing, muscle augmentation, torso armor, and protective lenses let you handle the M240 and the blast-fragment world around it.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 10,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 5,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 2,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "container-item": "holster",
+            "charges": 17
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "m240_shorty",
+            "ammo-item": "762_51",
+            "charges": 100,
+            "contents-item": [
+              "holo_sight",
+              "shoulder_strap"
+            ]
+          },
+          {
+            "item": "belt308",
+            "ammo-item": "762_51",
+            "charges": 100,
+            "count": 2
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_targeting",
+      "bio_recoil",
+      "bio_weight",
+      "bio_str_enhancer",
+      "bio_armor_torso",
+      "bio_armor_eyes",
+      "bio_power_storage_mkII"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "ranger_medic_bionic",
+    "name": { "male": "75th Ranger - Bionic Medic", "female": "75th Ranger - Bionic Medic" },
+    "description": "You are an augmented combat medic in the 75th Ranger Regiment, carrying trauma gear and enough built-in resilience to keep working while the room is still loud.  Your Mk18 keeps you with the assault, but your real job is making sure the wounded get another chance.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 10,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar" ],
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 4, "name": "rifle" },
+      { "level": 3, "name": "pistol" },
+      { "level": 2, "name": "melee" },
+      { "level": 6, "name": "firstaid" },
+      { "level": 2, "name": "survival" }
+    ],
+    "items": { "both": { "entries": [
+      { "item": "combat_shirt" }, { "item": "jacket_army_modern" }, { "item": "tank_top" }, { "item": "pants_army" }, { "item": "gloves_tactical" }, { "item": "socks" }, { "item": "boots_combat" }, { "item": "tac_helmet" }, { "item": "balaclava" }, { "item": "advanced_gpnvg" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+      { "item": "ballistic_vest_esapi" }, { "group": "charged_two_way_radio" }, { "group": "battle_belt_assaulter" }, { "item": "water_clean", "container-item": "canteen" }, { "item": "knife_rm42", "container-item": "sheath" },
+      { "item": "glock_17", "ammo-item": "9mm", "container-item": "holster", "charges": 17 }, { "item": "glock17_22", "ammo-item": "9mm", "charges": 22, "count": 2 },
+      { "item": "bandages", "count": 20 }, { "item": "disinfectant", "count": 2 },
+      { "group": "m4_cqbr", "ammo-item": "556", "charges": 30 }, { "item": "stanag30", "ammo-item": "556", "charges": 30, "count": 3 }
+    ] }, "male": { "entries": [ { "item": "boxer_shorts" } ] }, "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] } },
+    "flags": [ "SCEN_ONLY" ],
+    "CBMs": [ "bio_purifier", "bio_metabolics", "bio_armor_torso", "bio_armor_eyes", "bio_power_storage_mkII" ]
+  },
+  {
+    "type": "profession",
+    "id": "ranger_fire_support_bionic",
+    "name": { "male": "75th Ranger - Bionic Fire Support", "female": "75th Ranger - Bionic Fire Support" },
+    "description": "You are an augmented Ranger fire support specialist, built to carry and aim the Carl Gustaf while keeping up with the assault.  Targeting assistance, recoil control, and reinforced joints make the heavy answer feel just light enough.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 10,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_pistols_familiar" ],
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 5, "name": "launcher" },
+      { "level": 3, "name": "smg" },
+      { "level": 3, "name": "pistol" },
+      { "level": 2, "name": "melee" },
+      { "level": 2, "name": "firstaid" },
+      { "level": 2, "name": "throw" }
+    ],
+    "items": { "both": { "entries": [
+      { "item": "combat_shirt" }, { "item": "jacket_army_modern" }, { "item": "tank_top" }, { "item": "pants_army" }, { "item": "gloves_tactical" }, { "item": "socks" }, { "item": "boots_combat" }, { "item": "tac_helmet" }, { "item": "balaclava" }, { "item": "advanced_gpnvg" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+      { "item": "ballistic_vest_esapi" }, { "group": "charged_two_way_radio" }, { "group": "battle_belt_assaulter" }, { "item": "water_clean", "container-item": "canteen" }, { "item": "knife_rm42", "container-item": "sheath" },
+      { "item": "glock_17", "ammo-item": "9mm", "container-item": "holster", "charges": 17 }, { "item": "glock17_22", "ammo-item": "9mm", "charges": 22, "count": 2 },
+      { "item": "m3_carlgustav", "ammo-item": "84x246mm_he", "charges": 1 }, { "item": "84x246mm_he", "count": 2 },
+      { "item": "sof_mp7", "ammo-item": "46x30_fmj_sof", "charges": 40, "contents-item": [ "holo_sight", "shoulder_strap" ] }, { "item": "sof_mp7_mag_40", "ammo-item": "46x30_fmj_sof", "charges": 40, "count": 3 }
+    ] }, "male": { "entries": [ { "item": "boxer_shorts" } ] }, "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] } },
+    "flags": [ "SCEN_ONLY" ],
+    "CBMs": [ "bio_targeting", "bio_recoil", "bio_jointservo", "bio_weight", "bio_armor_arms", "bio_metabolics", "bio_power_storage_mkII" ]
+  },
+  {
+    "type": "profession",
+    "id": "ranger_jtac_bionic",
+    "name": { "male": "75th Ranger - Bionic JTAC", "female": "75th Ranger - Bionic JTAC" },
+    "description": "You are an augmented JTAC with a Ranger element, wired for radios, overlays, optics, and the discipline to turn chaos into marks and movement.  The aircraft are gone, but your habits of observation and signaling still keep the team alive.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 10,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar", "prof_spotting" ],
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 4, "name": "rifle" },
+      { "level": 3, "name": "pistol" },
+      { "level": 3, "name": "survival" },
+      { "level": 3, "name": "throw" },
+      { "level": 2, "name": "computer" },
+      { "level": 2, "name": "electronics" },
+      { "level": 2, "name": "firstaid" }
+    ],
+    "items": { "both": { "entries": [
+      { "item": "combat_shirt" }, { "item": "jacket_army_modern" }, { "item": "tank_top" }, { "item": "pants_army" }, { "item": "gloves_tactical" }, { "item": "socks" }, { "item": "boots_combat" }, { "item": "tac_helmet" }, { "item": "balaclava" }, { "item": "advanced_gpnvg" }, { "item": "binoculars" }, { "item": "roadmap" }, { "item": "eink_tablet_pc" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+      { "item": "ballistic_vest_esapi" }, { "group": "charged_two_way_radio" }, { "group": "battle_belt_assaulter" }, { "item": "water_clean", "container-item": "canteen" }, { "item": "knife_rm42", "container-item": "sheath" },
+      { "item": "glock_17", "ammo-item": "9mm", "container-item": "holster", "charges": 17 }, { "item": "glock17_22", "ammo-item": "9mm", "charges": 22, "count": 2 },
+      { "item": "smokebomb", "count": 4 }, { "item": "flaregun", "ammo-item": "signal_flare", "charges": 1 }, { "item": "signal_flare", "count": 3 }, { "item": "m320_standalone_sof", "ammo-item": "40x46mm_smoke_sof", "charges": 1 }, { "item": "40x46mm_smoke_sof", "charges": 4 },
+      { "item": "mrgg_a_sof", "ammo-item": "65creedmoor_fmj", "charges": 20 }, { "item": "mrgg_mag", "ammo-item": "65creedmoor_fmj", "charges": 20, "count": 2 }
+    ] }, "male": { "entries": [ { "item": "boxer_shorts" } ] }, "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] } },
+    "flags": [ "SCEN_ONLY" ],
+    "CBMs": [ "bio_radio", "bio_ar", "bio_targeting", "bio_eye_enhancer", "bio_eye_optic", "bio_alarm", "bio_power_storage_mkII" ]
+  }
+]

@@ -125,7 +125,7 @@
           "turret_mount",
           {
             "part": "turret_m249",
-            "ammo": 200,
+            "ammo": 100,
             "ammo_types": [
               "556"
             ],
@@ -412,7 +412,7 @@
           "turret_mount",
           {
             "part": "turret_m249",
-            "ammo": 200,
+            "ammo": 100,
             "ammo_types": [
               "556"
             ],
@@ -699,7 +699,7 @@
           "turret_mount",
           {
             "part": "turret_m249",
-            "ammo": 200,
+            "ammo": 100,
             "ammo_types": [
               "556"
             ],

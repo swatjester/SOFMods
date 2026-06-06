@@ -3,7 +3,7 @@
     "type": "scenario",
     "id": "scen_recon_patrol",
     "name": "Eyes Forward",
-    "points": 4,
+    "points": 3,
     "description": "You were deep on a reconnaissance patrol with a Multifunctional Reconnaissance Company element when the mission stopped mattering.  The net went to static, then to screaming, and your team scattered in the confusion of a world coming apart.  You are alone now, far from any friendly line that still exists, carrying the skills and the kit to survive where louder soldiers would not.  Stay low, stay quiet, and keep your eyes forward.",
     "start_name": "Forward of the Line",
     "allowed_locs": [
@@ -14,10 +14,19 @@
     ],
     "professions": [
       "recon_scout",
+      "recon_scout_bionic",
       "recon_sniper",
+      "recon_sniper_bionic",
       "recon_machinegunner",
+      "recon_machinegunner_bionic",
       "recon_grenadier",
-      "recon_drone_op"
+      "recon_grenadier_bionic",
+      "recon_drone_op",
+      "recon_drone_op_bionic",
+      "recon_medic",
+      "recon_medic_bionic",
+      "recon_jtac",
+      "recon_jtac_bionic"
     ],
     "flags": [ "LONE_START" ]
   }

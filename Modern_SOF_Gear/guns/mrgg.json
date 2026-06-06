@@ -5,6 +5,7 @@
       "GUN"
     ],
     "id": "mrgg_a",
+    "looks_like": "modular_m4_carbine",
     "name": {
       "str": "MRGG-A"
     },
@@ -13,10 +14,10 @@
     "weight": "3600 g",
     "volume": "3700 ml",
     "longest_side": "905 mm",
-    "price": 250000,
-    "price_postapoc": 8000,
+    "price": "2500 USD",
+    "price_postapoc": "80 USD",
     "to_hit": -1,
-    "bashing": 12,
+    "melee_damage": { "bash": 12 },
     "material": [
       "steel",
       "plastic"
@@ -111,9 +112,7 @@
         ]
       }
     ],
-    "flags": [
-      "RELOAD_EJECT"
-    ]
+    "flags": []
   },
   {
     "type": "ITEM",
@@ -121,6 +120,7 @@
       "GUN"
     ],
     "id": "mrgg_s",
+    "looks_like": "modular_m4_carbine",
     "name": {
       "str": "MRGG-S"
     },
@@ -129,10 +129,10 @@
     "weight": "4200 g",
     "volume": "4100 ml",
     "longest_side": "1055 mm",
-    "price": 320000,
-    "price_postapoc": 10000,
+    "price": "3200 USD",
+    "price_postapoc": "100 USD",
     "to_hit": -1,
-    "bashing": 12,
+    "melee_damage": { "bash": 12 },
     "material": [
       "steel",
       "plastic"
@@ -222,8 +222,6 @@
         ]
       }
     ],
-    "flags": [
-      "RELOAD_EJECT"
-    ]
+    "flags": []
   }
 ]
