@@ -31,7 +31,7 @@
           { "item": "balaclava" },
           { "item": "advanced_gpnvg" },
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
-          { "item": "ballistic_vest_esapi" },
+          { "group": "military_ballistic_vest_light_pristine" },
           { "group": "charged_two_way_radio" },
           { "group": "battle_belt_assaulter" },
           { "item": "water_clean", "container-item": "canteen" },
@@ -41,7 +41,7 @@
           { "item": "grenade", "count": 2 },
           { "item": "flashbang", "count": 2 },
           { "item": "smokebomb", "count": 1 },
-          { "item": "mrgg_a_sof", "ammo-item": "65creedmoor_fmj", "charges": 20 },
+          { "item": "mrgg_a_sof", "ammo-item": "65creedmoor_fmj", "charges": 20, "contents-item": [ "shoulder_strap" ] },
           { "item": "mrgg_mag", "ammo-item": "65creedmoor_fmj", "charges": 20, "count": 3 }
         ]
       },
