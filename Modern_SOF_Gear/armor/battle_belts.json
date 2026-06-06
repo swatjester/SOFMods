@@ -38,7 +38,7 @@
     "subtype": "collection",
     "entries": [
       { "item": "tactical_holster" },
-      { "item": "ifak_pouch" },
+      { "item": "ifak_pouch", "contents-group": "sof_ifak_contents" },
       { "item": "dump_pouch" },
       { "item": "pistol_mag_pouch_double" },
       { "item": "rifle_mag_pouch_single", "count": 2 },
@@ -72,7 +72,7 @@
       { "item": "tactical_shotshell_pouch" },
       { "item": "shotgun_retention_magnets" },
       { "item": "breaching_tool_hooks" },
-      { "item": "ifak_pouch" },
+      { "item": "ifak_pouch", "contents-group": "sof_ifak_contents" },
       { "item": "dump_pouch" },
       { "item": "tactical_grenade_pouch" },
       { "item": "sheath" }
@@ -103,7 +103,7 @@
       { "item": "rifle_mag_pouch_single" },
       { "item": "grenade_40mm_pouch" },
       { "item": "gl_retention_magnets" },
-      { "item": "ifak_pouch" },
+      { "item": "ifak_pouch", "contents-group": "sof_ifak_contents" },
       { "item": "dump_pouch" },
       { "item": "tactical_grenade_pouch" },
       { "item": "sheath" }
@@ -130,12 +130,22 @@
     "subtype": "collection",
     "entries": [
       { "item": "tactical_holster" },
-      { "item": "ifak_pouch" },
+      { "item": "ifak_pouch", "contents-group": "sof_ifak_contents" },
       { "item": "dump_pouch" },
       { "item": "pistol_mag_pouch_single" },
       { "item": "rifle_mag_pouch_single" },
       { "item": "drone_bag" },
       { "item": "sheath" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "sof_ifak_contents",
+    "subtype": "collection",
+    "entries": [
+      { "item": "tourniquet_upper" },
+      { "item": "bandages", "count": 4 },
+      { "item": "bfipowder" }
     ]
   }
 ]
