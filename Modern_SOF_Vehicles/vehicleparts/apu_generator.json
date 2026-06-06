@@ -17,15 +17,11 @@
     ],
     "damage_modifier": 80,
     "durability": 450,
-    "description": "A militarized JP8/diesel auxiliary power unit (APU).  Switch it on and it burns fuel from the vehicle's tanks to trickle-charge the battery bank - the practical way to keep a power-hungry directed-energy weapon fed in the field.  The solar panels and the engine's alternator also feed the batteries on their own; the APU is the heavy lifter when the sun won't cut it.",
-    "//": "BIZARRE FIELD NAMES (lifted from TLG's working portable generator, ap_portable_generator): 'epower' = how fast fuel is converted to grid power; 'power' = fuel efficiency (ratio of fuel mL to battery charges output). fuel_type 'diesel' burns the GMV's jp8 (diesel-family parts accept jp8, same as its engine).",
-    "power": "10 W",
-    "epower": "6000 W",
-    "m2c": 5,
-    "fuel_type": "diesel",
-    "item": "portable_generator",
-    "flags": [ "ENGINE", "E_DIESEL_FUEL", "REACTOR", "FLUIDTANK" ],
-    "breaks_into": [ { "item": "portable_generator", "damage": 4 } ],
+    "description": "A ruggedized auxiliary electrical bay built around the vehicle's generator hardware and power conditioning equipment.  The GMV's solar panels, engine alternator, and storage batteries provide its usable electrical supply.",
+    "//": "Do not add REACTOR here. TLG initializes every spawned vehicle reactor with plut_cell regardless of fuel_type, which makes non-plutonium generator items such as portable_generator/military_generator throw item::ammo_set debug errors when the GMV is spawned.",
+    "item": "military_generator",
+    "flags": [ "OBSTACLE", "COVERED" ],
+    "breaks_into": [ { "item": "military_generator", "damage": 4 } ],
     "damage_reduction": { "all": 60 }
   }
 ]
