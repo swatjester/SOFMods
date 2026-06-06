@@ -24,20 +24,13 @@
         "x": 2,
         "y": 1,
         "parts": [
-          "frame#horizontal_front"
-        ]
-      },
-      {
-        "x": 2,
-        "y": 2,
-        "parts": [
           "frame#horizontal_front",
           "headlight"
         ]
       },
       {
         "x": 2,
-        "y": 3,
+        "y": 2,
         "parts": [
           "frame#ne"
         ]
@@ -69,14 +62,6 @@
         "y": 1,
         "parts": [
           "frame#cross",
-          "dashboard"
-        ]
-      },
-      {
-        "x": 1,
-        "y": 2,
-        "parts": [
-          "frame#cross",
           "seat",
           "seatbelt",
           "turret_mount",
@@ -95,7 +80,7 @@
       },
       {
         "x": 1,
-        "y": 3,
+        "y": 2,
         "parts": [
           "frame#vertical_right",
           "wheel_mount_medium_steerable",
@@ -123,7 +108,8 @@
         "y": 1,
         "parts": [
           "frame#cross",
-          "aisle#horizontal",
+          "seat",
+          "seatbelt",
           "turret_mount",
           {
             "part": "turret_atgm_launcher",
@@ -142,15 +128,6 @@
         "x": 0,
         "y": 2,
         "parts": [
-          "frame#cross",
-          "seat",
-          "seatbelt"
-        ]
-      },
-      {
-        "x": 0,
-        "y": 3,
-        "parts": [
           "frame#vertical_right"
         ]
       },
@@ -168,6 +145,9 @@
         "y": 0,
         "parts": [
           "frame#cross",
+          "diesel_engine_inline4",
+          "alternator_truck",
+          "battery_car",
           {
             "part": "tank",
             "fuel": "diesel"
@@ -178,16 +158,6 @@
         "x": -1,
         "y": 1,
         "parts": [
-          "frame#cover",
-          "diesel_engine_inline4",
-          "alternator_truck",
-          "battery_car"
-        ]
-      },
-      {
-        "x": -1,
-        "y": 2,
-        "parts": [
           "frame#cross",
           {
             "part": "tank",
@@ -197,7 +167,7 @@
       },
       {
         "x": -1,
-        "y": 3,
+        "y": 2,
         "parts": [
           "frame#vertical_right",
           "wheel_mount_medium",
@@ -223,20 +193,13 @@
         "x": -2,
         "y": 1,
         "parts": [
-          "frame#horizontal"
-        ]
-      },
-      {
-        "x": -2,
-        "y": 2,
-        "parts": [
           "frame#horizontal",
           "cargo_space"
         ]
       },
       {
         "x": -2,
-        "y": 3,
+        "y": 2,
         "parts": [
           "frame#se"
         ]
