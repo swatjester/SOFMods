@@ -22,7 +22,15 @@
     "id": "battle_belt_assaulter",
     "subtype": "collection",
     "//": "Assaulter battle belt preset: pistol holster, IFAK, dump pouch, double pistol mag pouch, two single rifle mag pouches, grenade pouch, knife sheath.",
-    "entries": [ { "item": "battle_belt", "contents-group": "battle_belt_assaulter_contents" } ]
+    "entries": [ { "item": "battle_belt_assaulter_item", "contents-group": "battle_belt_assaulter_contents" } ]
+  },
+  {
+    "id": "battle_belt_assaulter_item",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "copy-from": "battle_belt",
+    "name": { "str": "assaulter battle belt" },
+    "description": "A tactical battle belt preconfigured for an assaulter: holster, medical pouch, dump pouch, magazine pouches, grenade pouch, and sheath."
   },
   {
     "type": "item_group",
@@ -43,7 +51,15 @@
     "id": "battle_belt_breacher",
     "subtype": "collection",
     "//": "Breacher battle belt preset: large holster, single pistol mag pouch, single rifle mag pouch, shotgun shell bag, breaching shotgun magnets, breaching tool hooks (Halligan/sledge), IFAK, dump pouch, grenade pouch, knife sheath.",
-    "entries": [ { "item": "battle_belt", "contents-group": "battle_belt_breacher_contents" } ]
+    "entries": [ { "item": "battle_belt_breacher_item", "contents-group": "battle_belt_breacher_contents" } ]
+  },
+  {
+    "id": "battle_belt_breacher_item",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "copy-from": "battle_belt",
+    "name": { "str": "breacher battle belt" },
+    "description": "A tactical battle belt preconfigured for a breacher: large holster, magazine pouches, shotshell pouch, retention hardware, medical pouch, dump pouch, grenade pouch, and sheath."
   },
   {
     "type": "item_group",
@@ -67,7 +83,15 @@
     "id": "battle_belt_grenadier",
     "subtype": "collection",
     "//": "Grenadier battle belt preset: like the breacher but trades the shell bag for a 40mm grenade pouch and the shotgun magnets for grenade launcher magnets.",
-    "entries": [ { "item": "battle_belt", "contents-group": "battle_belt_grenadier_contents" } ]
+    "entries": [ { "item": "battle_belt_grenadier_item", "contents-group": "battle_belt_grenadier_contents" } ]
+  },
+  {
+    "id": "battle_belt_grenadier_item",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "copy-from": "battle_belt",
+    "name": { "str": "grenadier battle belt" },
+    "description": "A tactical battle belt preconfigured for a grenadier: large holster, magazine pouches, 40mm grenade pouch, launcher retention hardware, medical pouch, dump pouch, grenade pouch, and sheath."
   },
   {
     "type": "item_group",
@@ -90,7 +114,15 @@
     "id": "battle_belt_drone",
     "subtype": "collection",
     "//": "Drone operator battle belt preset: pistol holster, IFAK, dump pouch, single pistol mag pouch, single rifle mag pouch, drone carry bag, knife sheath.",
-    "entries": [ { "item": "battle_belt", "contents-group": "battle_belt_drone_contents" } ]
+    "entries": [ { "item": "battle_belt_drone_item", "contents-group": "battle_belt_drone_contents" } ]
+  },
+  {
+    "id": "battle_belt_drone_item",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "copy-from": "battle_belt",
+    "name": { "str": "drone operator battle belt" },
+    "description": "A tactical battle belt preconfigured for a drone operator: holster, medical pouch, dump pouch, magazine pouches, drone carry bag, and sheath."
   },
   {
     "type": "item_group",

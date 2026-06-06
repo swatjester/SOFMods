@@ -1,0 +1,13 @@
+[
+  {
+    "id": "40x46mm_smoke_sof",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
+    "copy-from": "40x46mm_m651",
+    "name": { "str": "40x46mm smoke grenade", "str_pl": "40x46mm smoke grenades" },
+    "description": "A low-velocity 40x46mm smoke grenade for marking, screening, and signaling.  It is intended for coordination rather than lethal effect.",
+    "price": "55 USD",
+    "price_postapoc": "8 USD",
+    "ammo_type": "40x46mm"
+  }
+]

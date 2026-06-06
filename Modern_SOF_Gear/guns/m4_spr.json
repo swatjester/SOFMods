@@ -1,0 +1,14 @@
+[
+  {
+    "id": "m4_spr",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "Mk12-style Special Purpose Rifle built from the modular M4 lower and our 18-inch SPR upper.",
+    "entries": [
+      {
+        "item": "modular_m4_carbine",
+        "contents-item": [ "pistol_grip", "retool_ar15_223_spr", "holo_sight", "holo_magnifier", "shoulder_strap" ]
+      }
+    ]
+  }
+]

@@ -3,7 +3,7 @@
     "type": "scenario",
     "id": "scen_ranger_raid",
     "name": "Rangers Lead the Way",
-    "points": 4,
+    "points": 5,
     "description": "Your element from the 75th Ranger Regiment was running a direct-action raid when the radios filled with screaming and then went dead.  By the time the dust settled you had lost contact with the rest of the team and the objective had become a graveyard that would not stay still.  You are still kitted for the fight you trained for - the question now is whether anyone else made it out.  Rangers lead the way; you suppose that still means something.",
     "start_name": "On the Objective",
     "allowed_locs": [
@@ -26,7 +26,13 @@
       "ranger_machinegunner",
       "ranger_machinegunner_bionic",
       "ranger_weapons_gunner",
-      "ranger_weapons_gunner_bionic"
+      "ranger_weapons_gunner_bionic",
+      "ranger_medic",
+      "ranger_medic_bionic",
+      "ranger_fire_support",
+      "ranger_fire_support_bionic",
+      "ranger_jtac",
+      "ranger_jtac_bionic"
     ],
     "flags": [ "LONE_START", "CITY_START" ]
   }

@@ -24,7 +24,7 @@
       },
       {
         "level": 5,
-        "name": "rifle"
+        "name": "smg"
       },
       {
         "level": 3,
@@ -91,7 +91,7 @@
             ]
           },
           {
-            "group": "military_ballistic_vest_pristine"
+            "item": "ballistic_vest_esapi"
           },
           {
             "group": "charged_two_way_radio"
@@ -104,19 +104,19 @@
             "container-item": "canteen"
           },
           {
-            "item": "knife_combat_marine",
+            "item": "knife_rm42",
             "container-item": "sheath"
           },
           {
-            "item": "m18",
+            "item": "glock_17",
             "ammo-item": "9mm",
             "container-item": "holster",
             "charges": 17
           },
           {
-            "item": "p320mag_17rd_9x19mm",
+            "item": "glock17_22",
             "ammo-item": "9mm",
-            "charges": 17,
+            "charges": 22,
             "count": 2
           },
           {
@@ -245,7 +245,7 @@
             "item": "boots_combat"
           },
           {
-            "item": "tac_helmet"
+            "item": "hat_boonie"
           },
           {
             "item": "balaclava"
@@ -266,7 +266,7 @@
             ]
           },
           {
-            "group": "military_ballistic_vest_pristine"
+            "item": "ballistic_vest_esapi"
           },
           {
             "group": "charged_two_way_radio"
@@ -279,19 +279,19 @@
             "container-item": "canteen"
           },
           {
-            "item": "knife_combat_marine",
+            "item": "knife_rm42",
             "container-item": "sheath"
           },
           {
-            "item": "m18",
+            "item": "glock_17",
             "ammo-item": "9mm",
             "container-item": "holster",
             "charges": 17
           },
           {
-            "item": "p320mag_17rd_9x19mm",
+            "item": "glock17_22",
             "ammo-item": "9mm",
-            "charges": 17,
+            "charges": 22,
             "count": 2
           },
           {
@@ -432,7 +432,7 @@
             ]
           },
           {
-            "group": "military_ballistic_vest_pristine"
+            "item": "ballistic_vest_esapi"
           },
           {
             "group": "charged_two_way_radio"
@@ -445,19 +445,19 @@
             "container-item": "canteen"
           },
           {
-            "item": "knife_combat_marine",
+            "item": "knife_rm42",
             "container-item": "sheath"
           },
           {
-            "item": "m18",
+            "item": "glock_17",
             "ammo-item": "9mm",
             "container-item": "holster",
             "charges": 17
           },
           {
-            "item": "p320mag_17rd_9x19mm",
+            "item": "glock17_22",
             "ammo-item": "9mm",
-            "charges": 17,
+            "charges": 22,
             "count": 2
           },
           {
@@ -481,10 +481,10 @@
           },
           {
             "item": "shot_00",
-            "count": 15
+            "charges": 20
           },
           {
-            "group": "m4_glssc",
+            "group": "m4_cqbr",
             "ammo-item": "556",
             "charges": 30
           }
@@ -610,7 +610,7 @@
             ]
           },
           {
-            "group": "military_ballistic_vest_pristine"
+            "item": "ballistic_vest_esapi"
           },
           {
             "group": "charged_two_way_radio"
@@ -623,32 +623,32 @@
             "container-item": "canteen"
           },
           {
-            "item": "knife_combat_marine",
+            "item": "knife_rm42",
             "container-item": "sheath"
           },
           {
-            "item": "m18",
+            "item": "glock_17",
             "ammo-item": "9mm",
             "container-item": "holster",
             "charges": 17
           },
           {
-            "item": "p320mag_17rd_9x19mm",
+            "item": "glock17_22",
             "ammo-item": "9mm",
-            "charges": 17,
+            "charges": 22,
             "count": 2
           },
           {
             "item": "40x46mm_m433",
-            "count": 8
+            "charges": 12
           },
           {
             "item": "40x46mm_m576",
-            "count": 2
+            "charges": 6
           },
           {
             "item": "40x46mm_m651",
-            "count": 2
+            "charges": 6
           },
           {
             "item": "grenade",
@@ -658,6 +658,12 @@
             "group": "m4_glssc",
             "ammo-item": "556",
             "charges": 30
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
           }
         ]
       },
@@ -778,7 +784,7 @@
             ]
           },
           {
-            "group": "military_ballistic_vest_pristine"
+            "item": "ballistic_vest_esapi"
           },
           {
             "group": "charged_two_way_radio"
@@ -798,19 +804,19 @@
             "container-item": "canteen"
           },
           {
-            "item": "knife_combat_marine",
+            "item": "knife_rm42",
             "container-item": "sheath"
           },
           {
-            "item": "m18",
+            "item": "glock_17",
             "ammo-item": "9mm",
             "container-item": "holster",
             "charges": 17
           },
           {
-            "item": "p320mag_17rd_9x19mm",
+            "item": "glock17_22",
             "ammo-item": "9mm",
-            "charges": 17,
+            "charges": 22,
             "count": 2
           },
           {
@@ -822,18 +828,18 @@
             "count": 1
           },
           {
-            "item": "mrgg_a",
-            "ammo-item": "65creedmoor_fmj",
-            "charges": 20,
+            "item": "sof_mp7",
+            "ammo-item": "46x30_fmj_sof",
+            "charges": 40,
             "contents-item": [
               "holo_sight",
               "shoulder_strap"
             ]
           },
           {
-            "item": "mrgg_mag",
-            "ammo-item": "65creedmoor_fmj",
-            "charges": 20,
+            "item": "sof_mp7_mag_40",
+            "ammo-item": "46x30_fmj_sof",
+            "charges": 40,
             "count": 3
           }
         ]
@@ -952,7 +958,7 @@
             ]
           },
           {
-            "group": "military_ballistic_vest_pristine"
+            "item": "ballistic_vest_esapi"
           },
           {
             "group": "charged_two_way_radio"
@@ -965,19 +971,19 @@
             "container-item": "canteen"
           },
           {
-            "item": "knife_combat_marine",
+            "item": "knife_rm42",
             "container-item": "sheath"
           },
           {
-            "item": "m18",
+            "item": "glock_17",
             "ammo-item": "9mm",
             "container-item": "holster",
             "charges": 17
           },
           {
-            "item": "p320mag_17rd_9x19mm",
+            "item": "glock17_22",
             "ammo-item": "9mm",
-            "charges": 17,
+            "charges": 22,
             "count": 2
           },
           {
@@ -1108,7 +1114,7 @@
             ]
           },
           {
-            "group": "military_ballistic_vest_pristine"
+            "item": "ballistic_vest_esapi"
           },
           {
             "group": "charged_two_way_radio"
@@ -1121,19 +1127,19 @@
             "container-item": "canteen"
           },
           {
-            "item": "knife_combat_marine",
+            "item": "knife_rm42",
             "container-item": "sheath"
           },
           {
-            "item": "m18",
+            "item": "glock_17",
             "ammo-item": "9mm",
             "container-item": "holster",
             "charges": 17
           },
           {
-            "item": "p320mag_17rd_9x19mm",
+            "item": "glock17_22",
             "ammo-item": "9mm",
-            "charges": 17,
+            "charges": 22,
             "count": 2
           },
           {
@@ -1183,5 +1189,86 @@
       "bio_armor_eyes",
       "bio_power_storage_mkII"
     ]
+  },
+  {
+    "type": "profession",
+    "id": "ranger_medic_bionic",
+    "name": { "male": "75th Ranger - Bionic Medic", "female": "75th Ranger - Bionic Medic" },
+    "description": "You are an augmented combat medic in the 75th Ranger Regiment, carrying trauma gear and enough built-in resilience to keep working while the room is still loud.  Your Mk18 keeps you with the assault, but your real job is making sure the wounded get another chance.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 10,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar" ],
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 4, "name": "rifle" },
+      { "level": 3, "name": "pistol" },
+      { "level": 2, "name": "melee" },
+      { "level": 6, "name": "firstaid" },
+      { "level": 2, "name": "survival" }
+    ],
+    "items": { "both": { "entries": [
+      { "item": "combat_shirt" }, { "item": "jacket_army_modern" }, { "item": "tank_top" }, { "item": "pants_army" }, { "item": "gloves_tactical" }, { "item": "socks" }, { "item": "boots_combat" }, { "item": "tac_helmet" }, { "item": "balaclava" }, { "item": "advanced_gpnvg" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+      { "item": "ballistic_vest_esapi" }, { "group": "charged_two_way_radio" }, { "group": "battle_belt_assaulter" }, { "item": "water_clean", "container-item": "canteen" }, { "item": "knife_rm42", "container-item": "sheath" },
+      { "item": "glock_17", "ammo-item": "9mm", "container-item": "holster", "charges": 17 }, { "item": "glock17_22", "ammo-item": "9mm", "charges": 22, "count": 2 },
+      { "item": "bandages", "count": 20 }, { "item": "disinfectant", "count": 2 },
+      { "group": "m4_cqbr", "ammo-item": "556", "charges": 30 }, { "item": "stanag30", "ammo-item": "556", "charges": 30, "count": 3 }
+    ] }, "male": { "entries": [ { "item": "boxer_shorts" } ] }, "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] } },
+    "flags": [ "SCEN_ONLY" ],
+    "CBMs": [ "bio_purifier", "bio_metabolics", "bio_armor_torso", "bio_armor_eyes", "bio_power_storage_mkII" ]
+  },
+  {
+    "type": "profession",
+    "id": "ranger_fire_support_bionic",
+    "name": { "male": "75th Ranger - Bionic Fire Support", "female": "75th Ranger - Bionic Fire Support" },
+    "description": "You are an augmented Ranger fire support specialist, built to carry and aim the Carl Gustaf while keeping up with the assault.  Targeting assistance, recoil control, and reinforced joints make the heavy answer feel just light enough.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 10,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_pistols_familiar" ],
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 5, "name": "launcher" },
+      { "level": 3, "name": "smg" },
+      { "level": 3, "name": "pistol" },
+      { "level": 2, "name": "melee" },
+      { "level": 2, "name": "firstaid" },
+      { "level": 2, "name": "throw" }
+    ],
+    "items": { "both": { "entries": [
+      { "item": "combat_shirt" }, { "item": "jacket_army_modern" }, { "item": "tank_top" }, { "item": "pants_army" }, { "item": "gloves_tactical" }, { "item": "socks" }, { "item": "boots_combat" }, { "item": "tac_helmet" }, { "item": "balaclava" }, { "item": "advanced_gpnvg" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+      { "item": "ballistic_vest_esapi" }, { "group": "charged_two_way_radio" }, { "group": "battle_belt_assaulter" }, { "item": "water_clean", "container-item": "canteen" }, { "item": "knife_rm42", "container-item": "sheath" },
+      { "item": "glock_17", "ammo-item": "9mm", "container-item": "holster", "charges": 17 }, { "item": "glock17_22", "ammo-item": "9mm", "charges": 22, "count": 2 },
+      { "item": "m3_carlgustav", "ammo-item": "84x246mm_he", "charges": 1 }, { "item": "84x246mm_he", "count": 2 },
+      { "item": "sof_mp7", "ammo-item": "46x30_fmj_sof", "charges": 40, "contents-item": [ "holo_sight", "shoulder_strap" ] }, { "item": "sof_mp7_mag_40", "ammo-item": "46x30_fmj_sof", "charges": 40, "count": 3 }
+    ] }, "male": { "entries": [ { "item": "boxer_shorts" } ] }, "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] } },
+    "flags": [ "SCEN_ONLY" ],
+    "CBMs": [ "bio_targeting", "bio_recoil", "bio_jointservo", "bio_weight", "bio_armor_arms", "bio_metabolics", "bio_power_storage_mkII" ]
+  },
+  {
+    "type": "profession",
+    "id": "ranger_jtac_bionic",
+    "name": { "male": "75th Ranger - Bionic JTAC", "female": "75th Ranger - Bionic JTAC" },
+    "description": "You are an augmented JTAC with a Ranger element, wired for radios, overlays, optics, and the discipline to turn chaos into marks and movement.  The aircraft are gone, but your habits of observation and signaling still keep the team alive.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 10,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar", "prof_spotting" ],
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 4, "name": "rifle" },
+      { "level": 3, "name": "pistol" },
+      { "level": 3, "name": "survival" },
+      { "level": 3, "name": "throw" },
+      { "level": 2, "name": "computer" },
+      { "level": 2, "name": "electronics" },
+      { "level": 2, "name": "firstaid" }
+    ],
+    "items": { "both": { "entries": [
+      { "item": "combat_shirt" }, { "item": "jacket_army_modern" }, { "item": "tank_top" }, { "item": "pants_army" }, { "item": "gloves_tactical" }, { "item": "socks" }, { "item": "boots_combat" }, { "item": "tac_helmet" }, { "item": "balaclava" }, { "item": "advanced_gpnvg" }, { "item": "binoculars" }, { "item": "roadmap" }, { "item": "eink_tablet_pc" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+      { "item": "ballistic_vest_esapi" }, { "group": "charged_two_way_radio" }, { "group": "battle_belt_assaulter" }, { "item": "water_clean", "container-item": "canteen" }, { "item": "knife_rm42", "container-item": "sheath" },
+      { "item": "glock_17", "ammo-item": "9mm", "container-item": "holster", "charges": 17 }, { "item": "glock17_22", "ammo-item": "9mm", "charges": 22, "count": 2 },
+      { "item": "smokebomb", "count": 4 }, { "item": "flaregun", "ammo-item": "signal_flare", "charges": 1 }, { "item": "signal_flare", "count": 3 }, { "item": "m320_standalone_sof", "ammo-item": "40x46mm_smoke_sof", "charges": 1 }, { "item": "40x46mm_smoke_sof", "charges": 4 },
+      { "item": "mrgg_a_sof", "ammo-item": "65creedmoor_fmj", "charges": 20 }, { "item": "mrgg_mag", "ammo-item": "65creedmoor_fmj", "charges": 20, "count": 2 }
+    ] }, "male": { "entries": [ { "item": "boxer_shorts" } ] }, "female": { "entries": [ { "item": "sports_bra" }, { "item": "boxer_shorts" } ] } },
+    "flags": [ "SCEN_ONLY" ],
+    "CBMs": [ "bio_radio", "bio_ar", "bio_targeting", "bio_eye_enhancer", "bio_eye_optic", "bio_alarm", "bio_power_storage_mkII" ]
   }
 ]

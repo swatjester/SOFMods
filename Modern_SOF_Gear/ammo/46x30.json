@@ -1,0 +1,57 @@
+[
+  {
+    "type": "ammunition_type",
+    "id": "46x30_sof",
+    "name": "4.6x30mm",
+    "default": "46x30_fmj_sof"
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
+    "id": "46x30_fmj_sof",
+    "category": "ammo",
+    "name": { "str": "4.6x30mm FMJ", "str_pl": "4.6x30mm FMJ" },
+    "description": "A compact 4.6x30mm full metal jacket cartridge for personal-defense weapons. Its light, fast projectile gives good armor penetration for the size, but limited raw stopping power.",
+    "weight": "5 g",
+    "volume": "1 ml",
+    "price": "65 cent",
+    "price_postapoc": "1 USD 50 cent",
+    "material": [ "steel", "powder" ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 40,
+    "stack_size": 40,
+    "ammo_type": "46x30_sof",
+    "casing": "223_casing",
+    "range": 14,
+    "dispersion": 40,
+    "recoil": 90,
+    "damage": { "damage_type": "bullet", "amount": 18, "armor_penetration": 20 },
+    "effects": [ "COOKOFF" ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "MAGAZINE" ],
+    "id": "sof_mp7_mag_40",
+    "name": { "str": "MP7 40-round magazine", "str_pl": "MP7 40-round magazines" },
+    "description": "A 40-round polymer magazine for the H&K MP7, chambered in 4.6x30mm.",
+    "weight": "160 g",
+    "volume": "250 ml",
+    "price": "45 USD",
+    "price_postapoc": "12 USD",
+    "material": [ "plastic", "steel" ],
+    "symbol": "#",
+    "color": "dark_gray",
+    "ammo_type": [ "46x30_sof" ],
+    "default_ammo": "46x30_fmj_sof",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": { "46x30_sof": 40 }
+      }
+    ],
+    "reload_time": 100,
+    "flags": [ "MAG_COMPACT", "MAG_EJECT" ]
+  }
+]

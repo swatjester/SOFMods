@@ -5,6 +5,7 @@
       "GUN"
     ],
     "id": "mrgg_a",
+    "looks_like": "modular_m4_carbine",
     "name": {
       "str": "MRGG-A"
     },
@@ -111,9 +112,7 @@
         ]
       }
     ],
-    "flags": [
-      "RELOAD_EJECT"
-    ]
+    "flags": []
   },
   {
     "type": "ITEM",
@@ -121,6 +120,7 @@
       "GUN"
     ],
     "id": "mrgg_s",
+    "looks_like": "modular_m4_carbine",
     "name": {
       "str": "MRGG-S"
     },
@@ -222,8 +222,6 @@
         ]
       }
     ],
-    "flags": [
-      "RELOAD_EJECT"
-    ]
+    "flags": []
   }
 ]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "m320_standalone_sof",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
+    "copy-from": "m79",
+    "name": { "str": "M320 grenade launcher", "str_pl": "M320 grenade launchers" },
+    "description": "A standalone M320 40mm grenade launcher configured for signaling and smoke.  Compact enough for a JTAC to carry alongside a rifle, it gives quick access to marking smoke without tying up the primary weapon.",
+    "weight": "1500 g",
+    "volume": "1800 ml",
+    "longest_side": "350 mm",
+    "price": "3500 USD",
+    "price_postapoc": "35 USD",
+    "ammo": [ "40x46mm" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": { "40x46mm": 1 }
+      }
+    ]
+  }
+]

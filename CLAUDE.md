@@ -39,7 +39,14 @@ Overarching goal: a comprehensive set of mods simulating modern-day U.S. militar
 ## Remaining backlog (not yet built)
 
 - **NPC companions + the solo→duo→fireteam→section→squad progression** wired onto the existing solo scenarios.
+- **Additional SOF professions**:
+  - Medic for Rangers and MFRC Recon, normal + bionic. Ranger medic gets a Mk18/CQBR; Recon medic gets an M4A1. Both should be combat-capable, but their distinctiveness comes from medical skills and expanded trauma/field-care gear.
+  - Ranger Fire Support for Rangers only, normal + bionic. Primary specialty weapon is the Carl Gustaf; start with a small load, roughly 2 HEAT/HEDP and 1 smoke/illum if supported. Personal weapon should be an MP7.
+  - JTAC for Rangers and MFRC Recon, normal + bionic. Intent is a lighter assaulter/scout with excellent optics and situational-awareness tools for laser designation, not a drone operator and not a sniper competitor. Ranger JTAC gets an MRGG-A; Recon JTAC gets an SPR. Rifle/marksmanship skills should be one step below the relevant assaulter baseline. Give an e-reader rather than a laptop, no robOS, a military map, extra smoke grenades, a flare gun with a small number of flares, and a standalone M320 with smoke rounds. Bionic package should emphasize radio/comms, targeting, enhanced vision/optics, and light survivability.
 - **Starting vehicles for SOF scenarios** after profession testing: decide which starts should receive ISV/RSOV/MRZR/Flyer support and wire them into scenarios only after the non-vehicle starts are verified.
+- **Additional map features**: FOB, COP, Patrol Base, Black Site, Urban Black Site, National Guard Armory, and Recruiter's Office.
+- **Additional units and scenario families**: RRC, Special Activities Center, SEALs, DEVGRU, CAG, Infantry, Marines, Force Recon, MARSOC, AFSOC, TFO, Special Forces, and a PMC faction (Greywater or Double Canopy). Group the JSOC units together and label their scenarios by color, e.g. Task Force Red, Task Force Blue, etc.
+- **SP10-M rifle**: add the Seekins SP10-M as a new rifle similar to the MRGG-S, but longer/heavier with slightly better range and slightly worse recoil. When a CAG sniper profession is added, make the SP10-M their default rifle.
 - **Zombified preset versions** of the SOF forces (enemy spawns reusing the role loadouts).
 - **Low-visibility / undercover operator scenario** — the LVAW (.300 BLK) is reserved for this; keep it out of the standard Ranger/MFRC kits.
 

@@ -127,6 +127,7 @@
       "MAGAZINE"
     ],
     "id": "mrgg_mag",
+    "looks_like": "stanag30",
     "name": {
       "str": "MRGG 6.5mm Creedmoor magazine",
       "str_pl": "MRGG 6.5mm Creedmoor magazines"
@@ -165,6 +166,7 @@
       "MAGAZINE"
     ],
     "id": "mrgg_mag_308",
+    "looks_like": "stanag30",
     "name": {
       "str": "MRGG .308 magazine",
       "str_pl": "MRGG .308 magazines"
