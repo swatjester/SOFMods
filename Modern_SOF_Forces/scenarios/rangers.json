@@ -7,7 +7,6 @@
     "description": "Your element from the 75th Ranger Regiment was running a direct-action raid when the radios filled with screaming and then went dead.  By the time the dust settled you had lost contact with the rest of the team and the objective had become a graveyard that would not stay still.  You are still kitted for the fight you trained for - the question now is whether anyone else made it out.  Rangers lead the way; you suppose that still means something.",
     "start_name": "On the Objective",
     "allowed_locs": [
-      "sloc_military_base_warehouse",
       "sloc_field",
       "sloc_forest",
       "sloc_road"
