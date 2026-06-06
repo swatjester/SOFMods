@@ -13,7 +13,7 @@ Load in dependency order:
    Playable professions and solo-start scenarios for the 75th Ranger Regiment (assaulter, sniper, breacher, grenadier, drone operator, machine gunner, weapons-squad gunner) and the Multifunctional Reconnaissance Company (scout, sniper, machine gunner, grenadier, drone operator).
 
 3. **Modern_SOF_Vehicles** (`modern_sof_vehicles`) — depends on `tlg`
-   Modern tactical ground mobility: the M1301 ISV, the RSOV (M240/M2/Mk 19 turret variants), the Polaris MRZR-2/-4, the Flyer light strike vehicle, and the endgame M1288 GMV with an Mk 19 turret plus a battery/solar/APU-fed HEL-AD laser.
+   Modern tactical ground mobility: the M1301 ISV, the RSOV (M240/M2/Mk 19 turret variants), the Polaris MRZR-2/-4, the Flyer light strike vehicle, and the endgame M1288 GMV with an Mk 19 turret plus a battery/solar-fed HEL-AD laser.
 
 ## Notes
 

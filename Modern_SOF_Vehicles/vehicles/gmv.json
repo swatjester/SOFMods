@@ -3,7 +3,7 @@
     "id": "gmv",
     "type": "vehicle",
     "name": "Ground Mobility Vehicle",
-    "//": "M1288 GMV (Ground Mobility Vehicle): SOF gun truck on a Humvee-class chassis (chassis copied from the humvee). Endgame power-level build: Mk 19 40mm AGL in the center ring turret PLUS a chassis-mounted RMES laser turret firing off the vehicle's electrical grid, operable from the driver or passenger seat via turret controls. Carries an oversized bank of very-large storage batteries and six advanced reinforced solar panels to feed the laser; TLG has no plutonium/reactor vehicle part, so battery + solar is the base solution, plus a mounted JP8/diesel auxiliary power unit (hel_apu, REACTOR mechanic) that burns the vehicle's fuel to recharge the bank. NOT in any vehicle_group - spawn it in directly (debug 'spawn vehicle' -> gmv).",
+    "//": "M1288 GMV (Ground Mobility Vehicle): SOF gun truck on a Humvee-class chassis (chassis copied from the humvee). Endgame power-level build: Mk 19 40mm AGL in the center ring turret PLUS a chassis-mounted RMES laser turret firing off the vehicle's electrical grid, operable from the driver or passenger seat via turret controls. Carries an oversized bank of very-large storage batteries and six advanced reinforced solar panels to feed the laser; TLG currently initializes spawned vehicle REACTOR parts with plut_cell, so the GMV uses battery + solar + engine alternator power and keeps hel_apu as non-reactor generator hardware. NOT in any vehicle_group - spawn it in directly (debug 'spawn vehicle' -> gmv).",
     "parts": [
       {
         "x": 0,
