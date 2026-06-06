@@ -40,7 +40,7 @@
           { "item": "grenade", "count": 2 },
           { "item": "flashbang", "count": 2 },
           { "item": "smokebomb", "count": 1 },
-          { "item": "mrgg_a_sof", "ammo-item": "65creedmoor_fmj", "charges": 20, "contents-item": [ "shoulder_strap" ] },
+          { "item": "mrgg_a_sof", "ammo-item": "65creedmoor_fmj", "charges": 20, "contents-item": [ "shoulder_strap" ], "custom-flags": [ "auto_wield" ] },
           { "item": "mrgg_mag", "ammo-item": "65creedmoor_fmj", "charges": 20, "count": 3 }
         ]
       },
