@@ -48,6 +48,32 @@
   },
   {
     "type": "item_group",
+    "id": "battle_belt_assaulter_loaded_glock17",
+    "subtype": "collection",
+    "entries": [ { "item": "battle_belt_assaulter_item", "contents-group": "battle_belt_assaulter_loaded_glock17_contents" } ]
+  },
+  {
+    "type": "item_group",
+    "id": "battle_belt_assaulter_loaded_glock17_contents",
+    "subtype": "collection",
+    "entries": [
+      { "item": "tactical_holster", "contents-group": "loaded_glock17_9mm" },
+      { "item": "ifak_pouch", "contents-group": "sof_ifak_contents" },
+      { "item": "dump_pouch" },
+      { "item": "pistol_mag_pouch_double" },
+      { "item": "rifle_mag_pouch_single", "count": 2 },
+      { "item": "tactical_grenade_pouch" },
+      { "item": "sheath" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "loaded_glock17_9mm",
+    "subtype": "collection",
+    "entries": [ { "item": "glock_17", "ammo-item": "9mm", "charges": 17 } ]
+  },
+  {
+    "type": "item_group",
     "id": "battle_belt_breacher",
     "subtype": "collection",
     "//": "Breacher battle belt preset: large holster, single pistol mag pouch, single rifle mag pouch, shotgun shell bag, breaching shotgun magnets, breaching tool hooks (Halligan/sledge), IFAK, dump pouch, grenade pouch, knife sheath.",
