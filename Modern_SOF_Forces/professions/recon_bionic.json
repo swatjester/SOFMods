@@ -81,7 +81,9 @@
             "item": "military_nvg"
           },
           {
-            "item": "light_battery_cell"
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
           },
           {
             "item": "binoculars"
@@ -247,7 +249,9 @@
             "item": "military_nvg"
           },
           {
-            "item": "light_battery_cell"
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
           },
           {
             "item": "binoculars"
@@ -407,7 +411,9 @@
             "item": "military_nvg"
           },
           {
-            "item": "light_battery_cell"
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
           },
           {
             "item": "ear_plugs",
@@ -566,7 +572,9 @@
             "item": "military_nvg"
           },
           {
-            "item": "light_battery_cell"
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
           },
           {
             "item": "ear_plugs",
@@ -736,7 +744,9 @@
             "item": "military_nvg"
           },
           {
-            "item": "light_battery_cell"
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
           },
           {
             "item": "ear_plugs",
@@ -848,8 +858,8 @@
     "items": {
       "both": {
         "entries": [
-          { "item": "combat_shirt" }, { "item": "jacket_army_modern" }, { "item": "tank_top" }, { "item": "pants_army" }, { "item": "gloves_tactical" }, { "item": "socks" }, { "item": "boots_combat" }, { "item": "helmet_army" }, { "item": "balaclava" }, { "item": "military_nvg" }, { "item": "light_battery_cell" }, { "item": "binoculars" }, { "item": "roadmap" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] }, { "item": "ballistic_vest_esapi" }, { "group": "charged_two_way_radio" }, { "group": "battle_belt_assaulter" }, { "item": "water_clean", "container-item": "canteen" }, { "item": "knife_hunting", "container-item": "sheath" }, { "item": "m18", "ammo-item": "9mm", "container-item": "holster", "charges": 17 }, { "item": "p320mag_17rd_9x19mm", "ammo-item": "9mm", "charges": 17, "count": 2 },
-          { "item": "bandages", "count": 20 }, { "item": "disinfectant", "count": 2 },
+          { "item": "combat_shirt" }, { "item": "jacket_army_modern" }, { "item": "tank_top" }, { "item": "pants_army" }, { "item": "gloves_tactical" }, { "item": "socks" }, { "item": "boots_combat" }, { "item": "helmet_army" }, { "item": "balaclava" }, { "item": "military_nvg" }, { "item": "light_battery_cell", "charges": 16, "count": 2 }, { "item": "binoculars" }, { "item": "roadmap" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] }, { "item": "ballistic_vest_esapi" }, { "group": "charged_two_way_radio" }, { "group": "battle_belt_assaulter" }, { "item": "water_clean", "container-item": "canteen" }, { "item": "knife_hunting", "container-item": "sheath" }, { "item": "m18", "ammo-item": "9mm", "container-item": "holster", "charges": 17 }, { "item": "p320mag_17rd_9x19mm", "ammo-item": "9mm", "charges": 17, "count": 2 },
+          { "group": "delta_bag_filled" },
           { "group": "modular_m4a1", "ammo-item": "556", "charges": 30, "contents-item": [ "pistol_grip", "adjustable_stock", "holo_sight", "shoulder_strap" ] }, { "item": "stanag30", "ammo-item": "556", "charges": 30, "count": 3 }
         ]
       },
@@ -871,7 +881,7 @@
     "items": {
       "both": {
         "entries": [
-          { "item": "combat_shirt" }, { "item": "jacket_army_modern" }, { "item": "tank_top" }, { "item": "pants_army" }, { "item": "gloves_tactical" }, { "item": "socks" }, { "item": "boots_combat" }, { "item": "helmet_army" }, { "item": "balaclava" }, { "item": "military_nvg" }, { "item": "light_battery_cell" }, { "item": "binoculars" }, { "item": "roadmap" }, { "item": "militarymap" }, { "item": "eink_tablet_pc" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] }, { "item": "ballistic_vest_esapi" }, { "group": "charged_two_way_radio" }, { "group": "battle_belt_assaulter" }, { "item": "water_clean", "container-item": "canteen" }, { "item": "knife_hunting", "container-item": "sheath" }, { "item": "m18", "ammo-item": "9mm", "container-item": "holster", "charges": 17 }, { "item": "p320mag_17rd_9x19mm", "ammo-item": "9mm", "charges": 17, "count": 2 },
+          { "item": "combat_shirt" }, { "item": "jacket_army_modern" }, { "item": "tank_top" }, { "item": "pants_army" }, { "item": "gloves_tactical" }, { "item": "socks" }, { "item": "boots_combat" }, { "item": "helmet_army" }, { "item": "balaclava" }, { "item": "military_nvg" }, { "item": "light_battery_cell", "charges": 16, "count": 2 }, { "item": "binoculars" }, { "item": "roadmap" }, { "item": "militarymap" }, { "item": "eink_tablet_pc" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] }, { "item": "ballistic_vest_esapi" }, { "group": "charged_two_way_radio" }, { "group": "battle_belt_assaulter" }, { "item": "water_clean", "container-item": "canteen" }, { "item": "knife_hunting", "container-item": "sheath" }, { "item": "m18", "ammo-item": "9mm", "container-item": "holster", "charges": 17 }, { "item": "p320mag_17rd_9x19mm", "ammo-item": "9mm", "charges": 17, "count": 2 },
           { "item": "smokebomb", "count": 4 }, { "item": "flaregun", "ammo-item": "signal_flare", "charges": 1 }, { "item": "signal_flare", "count": 3 }, { "item": "m320_standalone_sof", "ammo-item": "40x46mm_smoke_sof", "charges": 1 }, { "item": "40x46mm_smoke_sof", "charges": 4 },
           { "group": "m4_spr", "ammo-item": "556", "charges": 30 }, { "item": "stanag30", "ammo-item": "556", "charges": 30, "count": 2 }
         ]
