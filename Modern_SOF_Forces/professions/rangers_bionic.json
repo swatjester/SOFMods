@@ -93,6 +93,7 @@
               "no_auto_equip"
             ]
           },
+          { "item": "ranger_handbook" },
           {
             "item": "ballistic_vest_esapi"
           },
@@ -274,6 +275,7 @@
               "no_auto_equip"
             ]
           },
+          { "item": "ranger_handbook" },
           {
             "item": "heavy_load_bearing_vest"
           },
@@ -443,6 +445,7 @@
               "no_auto_equip"
             ]
           },
+          { "item": "ranger_handbook" },
           {
             "item": "ballistic_vest_esapi"
           },
@@ -624,6 +627,7 @@
               "no_auto_equip"
             ]
           },
+          { "item": "ranger_handbook" },
           {
             "item": "ballistic_vest_esapi"
           },
@@ -801,6 +805,7 @@
               "no_auto_equip"
             ]
           },
+          { "item": "ranger_handbook" },
           {
             "item": "ballistic_vest_esapi"
           },
@@ -978,6 +983,7 @@
               "no_auto_equip"
             ]
           },
+          { "item": "ranger_handbook" },
           {
             "item": "ballistic_vest_esapi"
           },
@@ -1137,6 +1143,7 @@
               "no_auto_equip"
             ]
           },
+          { "item": "ranger_handbook" },
           {
             "item": "ballistic_vest_esapi"
           },
@@ -1232,6 +1239,7 @@
     ],
     "items": { "both": { "entries": [
       { "item": "combat_shirt" }, { "item": "jacket_army_modern" }, { "item": "tank_top" }, { "item": "pants_army" }, { "item": "gloves_tactical" }, { "item": "socks" }, { "item": "boots_combat" }, { "item": "tac_helmet" }, { "item": "balaclava" }, { "item": "advanced_gpnvg" }, { "item": "light_battery_cell" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "ranger_handbook" },
       { "item": "ballistic_vest_esapi" }, { "group": "charged_two_way_radio" }, { "group": "battle_belt_assaulter" }, { "item": "water_clean", "container-item": "canteen" }, { "item": "knife_rm42", "container-item": "sheath" },
       { "item": "glock_17", "ammo-item": "9mm", "container-item": "holster", "charges": 17 }, { "item": "glock17_22", "ammo-item": "9mm", "charges": 22, "count": 2 },
       { "item": "bandages", "count": 20 }, { "item": "disinfectant", "count": 2 },
@@ -1259,6 +1267,7 @@
     ],
     "items": { "both": { "entries": [
       { "item": "combat_shirt" }, { "item": "jacket_army_modern" }, { "item": "tank_top" }, { "item": "pants_army" }, { "item": "gloves_tactical" }, { "item": "socks" }, { "item": "boots_combat" }, { "item": "tac_helmet" }, { "item": "balaclava" }, { "item": "advanced_gpnvg" }, { "item": "light_battery_cell" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "ranger_handbook" },
       { "item": "ballistic_vest_esapi" }, { "group": "charged_two_way_radio" }, { "group": "battle_belt_assaulter" }, { "item": "water_clean", "container-item": "canteen" }, { "item": "knife_rm42", "container-item": "sheath" },
       { "item": "glock_17", "ammo-item": "9mm", "container-item": "holster", "charges": 17 }, { "item": "glock17_22", "ammo-item": "9mm", "charges": 22, "count": 2 },
       { "item": "m3_carlgustav", "ammo-item": "84x246mm_he", "charges": 1 }, { "item": "84x246mm_he", "count": 2 },
@@ -1287,6 +1296,7 @@
     ],
     "items": { "both": { "entries": [
       { "item": "combat_shirt" }, { "item": "jacket_army_modern" }, { "item": "tank_top" }, { "item": "pants_army" }, { "item": "gloves_tactical" }, { "item": "socks" }, { "item": "boots_combat" }, { "item": "tac_helmet" }, { "item": "balaclava" }, { "item": "advanced_gpnvg" }, { "item": "light_battery_cell" }, { "item": "binoculars" }, { "item": "roadmap" }, { "item": "eink_tablet_pc" }, { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "ranger_handbook" },
       { "item": "ballistic_vest_esapi" }, { "group": "charged_two_way_radio" }, { "item": "light_battery_cell" }, { "group": "battle_belt_assaulter" }, { "item": "water_clean", "container-item": "canteen" }, { "item": "knife_rm42", "container-item": "sheath" },
       { "item": "glock_17", "ammo-item": "9mm", "container-item": "holster", "charges": 17 }, { "item": "glock17_22", "ammo-item": "9mm", "charges": 22, "count": 2 },
       { "item": "smokebomb", "count": 4 }, { "item": "flaregun", "ammo-item": "signal_flare", "charges": 1 }, { "item": "signal_flare", "count": 3 }, { "item": "m320_standalone_sof", "ammo-item": "40x46mm_smoke_sof", "charges": 1 }, { "item": "40x46mm_smoke_sof", "charges": 4 },
