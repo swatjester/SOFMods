@@ -1,0 +1,339 @@
+[
+  {
+    "id": "delta_bag",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "name": { "str": "delta bag", "str_pl": "delta bags" },
+    "//": "Tactical 18D/medic aid backpack inspired by M9-style assault medical bags: external rapid-access supplies plus tearaway MARCH/ABC internal modules.",
+    "description": "A rugged three-day tactical medical backpack built for a Special Forces medic's load.  It opens flat to expose tearaway organizers for bleeding, airway and breathing, IV/circulation, shock management, and basic first aid, while exterior sleeves keep tourniquets, bandages, and IV supplies reachable under stress.  A hydration bladder pocket and reinforced IV hanger sleeve let it carry drinking water and up to 5 liters of filled IV or blood bags.",
+    "weight": "2900 g",
+    "volume": "12 L",
+    "price": "650 USD",
+    "price_postapoc": "35 USD",
+    "material": [ { "type": "nylon", "portion": 5 }, { "type": "plastic", "portion": 1 }, { "type": "steel", "portion": 1 } ],
+    "symbol": "[",
+    "looks_like": "backpack_tactical_large",
+    "color": "dark_gray",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1200 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "35 cm",
+        "moves": 20,
+        "item_restriction": [ "tourniquet_upper" ],
+        "volume_encumber_modifier": 0.15
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "4 L",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "35 cm",
+        "moves": 35,
+        "volume_encumber_modifier": 0.25
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "5 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "45 cm",
+        "moves": 40,
+        "volume_encumber_modifier": 0.2
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "3 L",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "42 cm",
+        "moves": 60,
+        "volume_encumber_modifier": 0.2
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "45 L",
+        "max_contains_weight": "38 kg",
+        "max_item_length": "70 cm",
+        "moves": 120,
+        "volume_encumber_modifier": 0.55
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "3 L",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "35 cm",
+        "moves": 80,
+        "volume_encumber_modifier": 0.35
+      }
+    ],
+    "material_thickness": 1,
+    "flags": [ "WATER_FRIENDLY", "OVERSIZE", "PALS_LARGE" ],
+    "armor": [ { "encumbrance": 12, "coverage": 70, "covers": [ "torso" ], "specifically_covers": [ "torso_hanging_back" ] } ]
+  },
+  {
+    "id": "sof_pressure_dressing",
+    "type": "ITEM",
+    "name": { "str": "pressure dressing", "str_pl": "pressure dressings" },
+    "description": "A vacuum-packed emergency trauma dressing with an elastic wrap and pressure bar, meant to control heavy bleeding when a simple bandage is not enough.",
+    "weight": "100 g",
+    "volume": "250 ml",
+    "price": "9 USD",
+    "price_postapoc": "1 USD",
+    "material": [ { "type": "cotton", "portion": 3 }, { "type": "plastic", "portion": 1 } ],
+    "symbol": "!",
+    "looks_like": "bandages",
+    "color": "white"
+  },
+  {
+    "id": "sof_chest_seal_pair",
+    "type": "ITEM",
+    "name": { "str": "vented chest seal pair", "str_pl": "vented chest seal pairs" },
+    "description": "A sterile pair of adhesive vented chest seals for penetrating chest trauma, sealed in flat waterproof packaging.",
+    "weight": "80 g",
+    "volume": "200 ml",
+    "price": "18 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "plastic" ],
+    "symbol": "!",
+    "looks_like": "bandages",
+    "color": "light_blue"
+  },
+  {
+    "id": "sof_npa_kit",
+    "type": "ITEM",
+    "name": { "str": "NPA kit", "str_pl": "NPA kits" },
+    "description": "A small airway kit with nasopharyngeal airways and lubricant, bundled for quick access from an aid bag.",
+    "weight": "120 g",
+    "volume": "400 ml",
+    "price": "20 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "plastic" ],
+    "symbol": "!",
+    "color": "blue"
+  },
+  {
+    "id": "sof_cric_kit",
+    "type": "ITEM",
+    "name": { "str": "cric kit", "str_pl": "cric kits" },
+    "description": "A compact emergency cricothyrotomy kit kept sealed for advanced airway work by a trained medic.",
+    "weight": "220 g",
+    "volume": "500 ml",
+    "price": "80 USD",
+    "price_postapoc": "5 USD",
+    "material": [ { "type": "plastic", "portion": 2 }, { "type": "steel", "portion": 1 } ],
+    "symbol": "!",
+    "color": "blue"
+  },
+  {
+    "id": "sof_iv_start_kit",
+    "type": "ITEM",
+    "name": { "str": "IV start kit", "str_pl": "IV start kits" },
+    "description": "A sealed IV access kit with catheter, venous tourniquet, lock, prep pad, dressing, and tape.",
+    "weight": "140 g",
+    "volume": "350 ml",
+    "price": "16 USD",
+    "price_postapoc": "2 USD",
+    "material": [ { "type": "plastic", "portion": 3 }, { "type": "steel", "portion": 1 } ],
+    "symbol": "!",
+    "color": "yellow"
+  },
+  {
+    "id": "sof_iv_fluid_bag",
+    "type": "ITEM",
+    "name": { "str": "IV fluid bag", "str_pl": "IV fluid bags" },
+    "description": "A sealed one-liter IV fluid bag, meant for volume replacement and flushes.  It fits the delta bag's reinforced IV hanger sleeve.",
+    "weight": "1050 g",
+    "volume": "1 L",
+    "price": "14 USD",
+    "price_postapoc": "3 USD",
+    "material": [ "plastic" ],
+    "symbol": "~",
+    "color": "light_cyan"
+  },
+  {
+    "id": "sof_blood_bag",
+    "type": "ITEM",
+    "name": { "str": "field blood bag", "str_pl": "field blood bags" },
+    "description": "A sealed one-liter field blood bag packed in a protective sleeve.  It is sized for the delta bag's IV hanger sleeve, though using it safely is another matter entirely.",
+    "weight": "1080 g",
+    "volume": "1 L",
+    "price": "60 USD",
+    "price_postapoc": "8 USD",
+    "material": [ "plastic" ],
+    "symbol": "~",
+    "color": "red"
+  },
+  {
+    "id": "sof_hypothermia_kit",
+    "type": "ITEM",
+    "name": { "str": "hypothermia kit", "str_pl": "hypothermia kits" },
+    "description": "A compact shock-management bundle with a reflective blanket, casualty wrap, and heat packs.",
+    "weight": "450 g",
+    "volume": "1200 ml",
+    "price": "35 USD",
+    "price_postapoc": "3 USD",
+    "material": [ { "type": "plastic", "portion": 2 }, { "type": "cotton", "portion": 1 } ],
+    "symbol": "[",
+    "color": "light_gray"
+  },
+  {
+    "id": "delta_bag_tearaway_bleeding",
+    "type": "ITEM",
+    "name": { "str": "bleeding tearaway pouch", "str_pl": "bleeding tearaway pouches" },
+    "description": "A red-tabbed hook-and-loop organizer from a delta bag, packed for massive hemorrhage control with tourniquets, pressure dressings, and hemostatic supplies.",
+    "weight": "180 g",
+    "volume": "600 ml",
+    "price": "28 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "nylon" ],
+    "symbol": "[",
+    "looks_like": "ifak_pouch",
+    "color": "red",
+    "pocket_data": [ { "pocket_type": "CONTAINER", "max_contains_volume": "6 L", "max_contains_weight": "6 kg", "max_item_length": "40 cm", "moves": 45 } ],
+    "flags": [ "WATER_FRIENDLY" ]
+  },
+  {
+    "id": "delta_bag_tearaway_airway",
+    "type": "ITEM",
+    "name": { "str": "airway tearaway pouch", "str_pl": "airway tearaway pouches" },
+    "description": "A blue-tabbed hook-and-loop organizer from a delta bag, set aside for airway and breathing tools so they do not vanish into the larger aid load.",
+    "weight": "180 g",
+    "volume": "600 ml",
+    "price": "28 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "nylon" ],
+    "symbol": "[",
+    "looks_like": "ifak_pouch",
+    "color": "blue",
+    "pocket_data": [ { "pocket_type": "CONTAINER", "max_contains_volume": "6 L", "max_contains_weight": "6 kg", "max_item_length": "45 cm", "moves": 45 } ],
+    "flags": [ "WATER_FRIENDLY" ]
+  },
+  {
+    "id": "delta_bag_tearaway_circulation",
+    "type": "ITEM",
+    "name": { "str": "IV tearaway pouch", "str_pl": "IV tearaway pouches" },
+    "description": "A yellow-tabbed hook-and-loop organizer from a delta bag, sized for IV starts, saline locks, tubing, syringes, and other circulation supplies.",
+    "weight": "200 g",
+    "volume": "700 ml",
+    "price": "32 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "nylon" ],
+    "symbol": "[",
+    "looks_like": "ifak_pouch",
+    "color": "yellow",
+    "pocket_data": [ { "pocket_type": "CONTAINER", "max_contains_volume": "7 L", "max_contains_weight": "7 kg", "max_item_length": "45 cm", "moves": 50 } ],
+    "flags": [ "WATER_FRIENDLY" ]
+  },
+  {
+    "id": "delta_bag_tearaway_shock",
+    "type": "ITEM",
+    "name": { "str": "shock tearaway pouch", "str_pl": "shock tearaway pouches" },
+    "description": "A silver-tabbed hook-and-loop organizer from a delta bag, dedicated to hypothermia and shock management supplies.",
+    "weight": "170 g",
+    "volume": "600 ml",
+    "price": "24 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "nylon" ],
+    "symbol": "[",
+    "looks_like": "ifak_pouch",
+    "color": "light_gray",
+    "pocket_data": [ { "pocket_type": "CONTAINER", "max_contains_volume": "6 L", "max_contains_weight": "5 kg", "max_item_length": "45 cm", "moves": 45 } ],
+    "flags": [ "WATER_FRIENDLY" ]
+  },
+  {
+    "id": "delta_bag_tearaway_firstaid",
+    "type": "ITEM",
+    "name": { "str": "first-aid tearaway pouch", "str_pl": "first-aid tearaway pouches" },
+    "description": "A green-tabbed hook-and-loop organizer from a delta bag, holding basic first-aid supplies for minor wounds, cleaning, and comfort care.",
+    "weight": "150 g",
+    "volume": "500 ml",
+    "price": "20 USD",
+    "price_postapoc": "2 USD",
+    "material": [ "nylon" ],
+    "symbol": "[",
+    "looks_like": "ifak_pouch",
+    "color": "green",
+    "pocket_data": [ { "pocket_type": "CONTAINER", "max_contains_volume": "5 L", "max_contains_weight": "5 kg", "max_item_length": "35 cm", "moves": 40 } ],
+    "flags": [ "WATER_FRIENDLY" ]
+  },
+  {
+    "type": "item_group",
+    "id": "delta_bag_filled",
+    "subtype": "collection",
+    "entries": [ { "item": "delta_bag", "contents-group": "delta_bag_contents" } ]
+  },
+  {
+    "type": "item_group",
+    "id": "delta_bag_contents",
+    "subtype": "collection",
+    "entries": [
+      { "item": "tourniquet_upper", "count": 4 },
+      { "item": "bandages", "count": 12 },
+      { "item": "sof_iv_fluid_bag", "count": 3 },
+      { "item": "sof_blood_bag", "count": 2 },
+      { "item": "water_clean", "container-item": "hydration_pack", "charges": 3000 },
+      { "item": "delta_bag_tearaway_bleeding", "contents-group": "delta_bag_bleeding_contents" },
+      { "item": "delta_bag_tearaway_airway", "contents-group": "delta_bag_airway_contents" },
+      { "item": "delta_bag_tearaway_circulation", "contents-group": "delta_bag_circulation_contents" },
+      { "item": "delta_bag_tearaway_shock", "contents-group": "delta_bag_shock_contents" },
+      { "item": "delta_bag_tearaway_firstaid", "contents-group": "delta_bag_firstaid_contents" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "delta_bag_bleeding_contents",
+    "subtype": "collection",
+    "entries": [
+      { "item": "tourniquet_upper", "count": 8 },
+      { "item": "bandages", "count": 24 },
+      { "item": "sof_pressure_dressing", "count": 6 },
+      { "item": "bfipowder", "count": 6 },
+      { "item": "sof_chest_seal_pair", "count": 4 },
+      { "item": "1st_aid", "count": 2 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "delta_bag_airway_contents",
+    "subtype": "collection",
+    "entries": [
+      { "item": "sof_npa_kit", "count": 4 },
+      { "item": "sof_cric_kit" },
+      { "item": "sof_chest_seal_pair", "count": 2 },
+      { "item": "1st_aid" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "delta_bag_circulation_contents",
+    "subtype": "collection",
+    "entries": [
+      { "item": "sof_iv_start_kit", "count": 6 },
+      { "item": "syringe", "count": 6 },
+      { "item": "alcohol_wipe", "count": 12 },
+      { "item": "sof_iv_fluid_bag", "count": 2 },
+      { "item": "disinfectant", "count": 2 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "delta_bag_shock_contents",
+    "subtype": "collection",
+    "entries": [
+      { "item": "sof_hypothermia_kit", "count": 2 },
+      { "item": "heatpack", "count": 4 },
+      { "item": "arm_splint" },
+      { "item": "leg_splint" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "delta_bag_firstaid_contents",
+    "subtype": "collection",
+    "entries": [
+      { "item": "adhesive_bandage", "count": 20 },
+      { "item": "disinfectant", "count": 2 },
+      { "item": "aspirin", "count": 20 },
+      { "item": "cotton_ball", "count": 20 }
+    ]
+  }
+]
