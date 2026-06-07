@@ -211,6 +211,7 @@
     "time": "3 m",
     "reversible": false,
     "autolearn": [ [ "fabrication", 5 ] ],
+    "book_learn": [ [ "ranger_handbook", 2 ] ],
     "charges": 10,
     "batch_time_factors": [ 75, 5 ],
     "tools": [ [ [ "press", -1 ] ] ],

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ranger_handbook",
+    "type": "ITEM",
+    "subtypes": [ "BOOK" ],
+    "category": "manuals",
+    "name": { "str": "Ranger Handbook", "str_pl": "copies of the Ranger Handbook" },
+    "description": "A compact U.S. Army Ranger field handbook, all tabbed pages, waterproof cover, and blunt reminders that \"Rangers lead the way.\"  It covers patrol bases, movement, survival, first aid, demolitions, communications, and the sort of small-unit fieldcraft that keeps a team alive when the plan gets thin.  A handwritten note inside reads, \"Never shall I fail my comrades.\"",
+    "//": "Inspired by the real TC 3-21.76 Ranger Handbook.",
+    "weight": "454 g",
+    "volume": "500 ml",
+    "price": "20 USD",
+    "price_postapoc": "12 USD 50 cent",
+    "material": [ "paper", "plastic" ],
+    "symbol": "?",
+    "looks_like": "manual_gun",
+    "color": "green",
+    "max_level": 2,
+    "intelligence": 4,
+    "time": "18 m",
+    "read_skill": "survival"
+  }
+]

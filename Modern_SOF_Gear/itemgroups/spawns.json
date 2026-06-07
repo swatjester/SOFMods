@@ -1,6 +1,14 @@
 [
   {
     "type": "item_group",
+    "id": "book_military",
+    "copy-from": "book_military",
+    "subtype": "distribution",
+    "//": "Add the Ranger Handbook alongside other military manuals like the bayonet manual.",
+    "extend": { "entries": [ { "item": "ranger_handbook", "prob": 40 } ] }
+  },
+  {
+    "type": "item_group",
     "id": "military_standard_assault_rifles",
     "copy-from": "military_standard_assault_rifles",
     "subtype": "distribution",
