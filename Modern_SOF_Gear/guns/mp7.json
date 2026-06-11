@@ -1,6 +1,7 @@
 [
   {
     "id": "sof_mp7",
+    "looks_like": "hk_mp5",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "copy-from": "hk_mp5",

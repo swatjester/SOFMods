@@ -5,6 +5,7 @@
       "GUNMOD"
     ],
     "id": "mrgg_barrel_308",
+    "looks_like": "retool_ar15_300blk",
     "name": {
       "str": "MRGG .308 conversion barrel",
       "str_pl": "MRGG .308 conversion barrels"

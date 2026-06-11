@@ -1,6 +1,7 @@
 [
   {
     "id": "m7_spear",
+    "looks_like": "m110a1",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "copy-from": "scar_h",
@@ -19,6 +20,7 @@
   },
   {
     "id": "m8_carbine",
+    "looks_like": "modular_m4_carbine",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "copy-from": "m7_spear",
@@ -31,6 +33,7 @@
   },
   {
     "id": "m250",
+    "looks_like": "m249",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "copy-from": "m249",

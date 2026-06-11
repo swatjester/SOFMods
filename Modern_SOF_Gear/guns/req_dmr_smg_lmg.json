@@ -1,6 +1,7 @@
 [
   {
     "id": "m110_sass",
+    "looks_like": "m110a1",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "copy-from": "m110a1",
@@ -18,6 +19,7 @@
   },
   {
     "id": "sr25",
+    "looks_like": "m110a1",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "copy-from": "m110a1",
@@ -40,6 +42,7 @@
   },
   {
     "id": "kac_lamg",
+    "looks_like": "m249",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "copy-from": "m249",
@@ -52,6 +55,7 @@
   },
   {
     "id": "colt_9mm_smg",
+    "looks_like": "modular_m4_carbine",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "copy-from": "smg_9mm",

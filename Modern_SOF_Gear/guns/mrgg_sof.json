@@ -1,6 +1,7 @@
 [
   {
     "id": "mrgg_a_sof",
+    "looks_like": "m110a1",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "copy-from": "mrgg_a",
@@ -27,6 +28,7 @@
   },
   {
     "id": "mrgg_s_sof",
+    "looks_like": "m110a1",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "copy-from": "mrgg_s",

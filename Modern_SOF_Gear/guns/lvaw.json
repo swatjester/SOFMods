@@ -4,7 +4,7 @@
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "copy-from": "sig_mcx_rattler_sbr",
-    "looks_like": "sig_mcx_rattler_sbr",
+    "looks_like": "modular_m4_carbine",
     "name": { "str": "LVAW carbine", "str_pl": "LVAW carbines" },
     "//": "Low Visibility Assault Weapon: SOCOM's suppressed SIG MCX in .300 BLK. Longer barrel than the Rattler SBR, optimized to run quiet with subsonic loads.",
     "description": "The Low Visibility Assault Weapon, a special operations carbine built on the SIG MCX and chambered in .300 AAC Blackout.  Its short, gas-piston action was designed from the ground up to run a suppressor with subsonic ammunition, letting an operator put accurate, quiet fire on a target at close range.  A side-folding stock and full-length top rail round out the package.  Feeds from standard STANAG magazines.",
@@ -39,6 +39,7 @@
   },
   {
     "id": "lvaw_300blk_sof",
+    "looks_like": "modular_m4_carbine",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "copy-from": "lvaw_300blk",

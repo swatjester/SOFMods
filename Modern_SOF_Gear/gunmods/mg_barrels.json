@@ -1,6 +1,7 @@
 [
   {
     "id": "m249_para_barrel",
+    "looks_like": "barrel_small",
     "type": "ITEM",
     "subtypes": [ "GUNMOD" ],
     "name": { "str": "M249 Para short barrel", "str_pl": "M249 Para short barrels" },
@@ -25,6 +26,7 @@
   },
   {
     "id": "m240_short_barrel",
+    "looks_like": "barrel_small",
     "type": "ITEM",
     "subtypes": [ "GUNMOD" ],
     "name": { "str": "M240 short barrel", "str_pl": "M240 short barrels" },
