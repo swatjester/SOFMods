@@ -1,0 +1,24 @@
+[
+  {
+    "type": "scenario",
+    "id": "scen_gray_man",
+    "name": "Gray Man",
+    "points": 1,
+    "description": "You were deep in a low-visibility placement when the world you were infiltrating stopped existing.  Your cover survived the end of the world better than your chain of command did: the neighbors never knew you, and now they never will.  The quiet war you packed for is over.  The loud one starts in the stairwell.",
+    "start_name": "Cover Blown",
+    "allowed_locs": [
+      "sloc_house",
+      "sloc_bar",
+      "sloc_restaurant",
+      "sloc_garage"
+    ],
+    "professions": [
+      "lowvis_operator",
+      "lowvis_operator_bionic"
+    ],
+    "flags": [
+      "LONE_START",
+      "CITY_START"
+    ]
+  }
+]

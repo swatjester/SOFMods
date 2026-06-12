@@ -8,7 +8,7 @@
     },
     "description": "You are an augmented scout in a Multifunctional Reconnaissance Company, rebuilt to notice danger before it notices you.  Implanted night vision, enhanced hearing, a silent alarm, scent masking, and metabolic power help you move ahead of the patrol and come back with the picture.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 8,
+    "points": 7,
     "proficiencies": [
       "prof_gunsmithing_basic",
       "prof_gun_cleaning",
@@ -182,7 +182,7 @@
     },
     "description": "You are an augmented sniper in a Multifunctional Reconnaissance Company, a field observer and precision shooter with just enough bionics to sharpen the work.  Enhanced perception, targeting assistance, night vision, scent masking, and metabolic power help you stay hidden and make the one shot that matters.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 9,
+    "points": 8,
     "proficiencies": [
       "prof_gunsmithing_basic",
       "prof_gun_cleaning",
@@ -346,7 +346,7 @@
     },
     "description": "You are an augmented machine gunner for a Multifunctional Reconnaissance Company element, carrying the patrol's break-contact gun without falling behind it.  Recoil compensation, joint servos, metabolic power, and compact storage let you keep the SAW moving when the team needs to disappear.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 9,
+    "points": 6,
     "proficiencies": [
       "prof_gunsmithing_basic",
       "prof_gun_cleaning",
@@ -504,7 +504,7 @@
     },
     "description": "You are an augmented grenadier in a Multifunctional Reconnaissance Company element, carrying the patrol's quickest answer to a compromised route.  Throwing assistance, recoil compensation, night vision, and metabolic power help you put 40mm and hand-thrown explosives where they buy the team seconds to vanish.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 8,
+    "points": 6,
     "proficiencies": [
       "prof_gunsmithing_basic",
       "prof_gun_cleaning",
@@ -674,7 +674,7 @@
     },
     "description": "You are an augmented UAS operator for a Multifunctional Reconnaissance Company element, lightly wired for drone control, overlays, comms, and field charging.  Your bionics are not as lavish as a direct-action network specialist's, but they keep your small drones in the air and your team informed.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 9,
+    "points": 6,
     "proficiencies": [
       "prof_gunsmithing_basic",
       "prof_gun_cleaning",
@@ -852,7 +852,7 @@
     "name": { "male": "Recon Company - Bionic Medic", "female": "Recon Company - Bionic Medic" },
     "description": "You are an augmented medic in a Multifunctional Reconnaissance Company, built to keep a small patrol alive when evacuation is a rumor.  You carry an M4A1, field trauma gear, and enough bionic support to stay useful while the rest of the team is bleeding, moving, or both.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 8,
+    "points": 6,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar", "prof_spotting" ],
     "skills": [ { "level": 4, "name": "gun" }, { "level": 4, "name": "rifle" }, { "level": 3, "name": "pistol" }, { "level": 3, "name": "dodge" }, { "level": 4, "name": "survival" }, { "level": 6, "name": "firstaid" }, { "level": 2, "name": "traps" } ],
     "items": {
@@ -875,7 +875,7 @@
     "name": { "male": "Recon Company - Bionic JTAC", "female": "Recon Company - Bionic JTAC" },
     "description": "You are an augmented JTAC for a Multifunctional Reconnaissance Company element, carrying enough optics, maps, smoke, and comms to keep the patrol oriented when the wider fight has gone silent.  You are the person who sees the fight clearly and marks what matters.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 8,
+    "points": 7,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar", "prof_spotting" ],
     "skills": [ { "level": 3, "name": "gun" }, { "level": 3, "name": "rifle" }, { "level": 3, "name": "pistol" }, { "level": 2, "name": "launcher" }, { "level": 3, "name": "dodge" }, { "level": 4, "name": "survival" }, { "level": 2, "name": "firstaid" }, { "level": 2, "name": "traps" } ],
     "items": {

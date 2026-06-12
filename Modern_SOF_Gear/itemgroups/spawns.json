@@ -5,7 +5,14 @@
     "copy-from": "book_military",
     "subtype": "distribution",
     "//": "Add the Ranger Handbook alongside other military manuals like the bayonet manual.",
-    "extend": { "entries": [ { "item": "ranger_handbook", "prob": 40 } ] }
+    "extend": {
+      "entries": [
+        {
+          "item": "ranger_handbook",
+          "prob": 40
+        }
+      ]
+    }
   },
   {
     "type": "item_group",
@@ -15,14 +22,66 @@
     "//": "Add the MRGG-A (and its SOF build), the LVAW, the DD GL/SSC M4, the NGSW M7/M8, and the Colt 9mm SMG to standard military carbine spawns, alongside the M4A1/M27.",
     "extend": {
       "entries": [
-        { "item": "mrgg_a", "prob": 4, "charges": [ 0, 20 ] },
-        { "item": "mrgg_a_sof", "prob": 3, "charges": [ 0, 20 ] },
-        { "group": "m4_glssc", "prob": 3 },
-        { "item": "lvaw_300blk", "prob": 2, "charges": [ 0, 30 ] },
-        { "item": "lvaw_300blk_sof", "prob": 2, "charges": [ 0, 30 ] },
-        { "item": "m7_spear", "prob": 6, "charges": [ 0, 20 ] },
-        { "item": "m8_carbine", "prob": 4, "charges": [ 0, 20 ] },
-        { "item": "colt_9mm_smg", "prob": 4, "charges": [ 0, 33 ] }
+        {
+          "item": "mrgg_a",
+          "prob": 4,
+          "charges": [
+            0,
+            20
+          ]
+        },
+        {
+          "item": "mrgg_a_sof",
+          "prob": 3,
+          "charges": [
+            0,
+            20
+          ]
+        },
+        {
+          "group": "m4_glssc",
+          "prob": 3
+        },
+        {
+          "item": "lvaw_300blk",
+          "prob": 2,
+          "charges": [
+            0,
+            30
+          ]
+        },
+        {
+          "item": "lvaw_300blk_sof",
+          "prob": 2,
+          "charges": [
+            0,
+            30
+          ]
+        },
+        {
+          "item": "m7_spear",
+          "prob": 6,
+          "charges": [
+            0,
+            20
+          ]
+        },
+        {
+          "item": "m8_carbine",
+          "prob": 4,
+          "charges": [
+            0,
+            20
+          ]
+        },
+        {
+          "item": "colt_9mm_smg",
+          "prob": 4,
+          "charges": [
+            0,
+            33
+          ]
+        }
       ]
     }
   },
@@ -32,20 +91,63 @@
     "copy-from": "military_grenadier_assault_rifles",
     "subtype": "distribution",
     "//": "The DD GL/SSC kit is a natural grenadier carbine: it ships with an M203 already attached.",
-    "extend": { "entries": [ { "group": "m4_glssc", "prob": 25 } ] }
+    "extend": {
+      "entries": [
+        {
+          "group": "m4_glssc",
+          "prob": 25
+        }
+      ]
+    }
   },
   {
     "type": "item_group",
     "id": "military_standard_sniper_rifles",
     "copy-from": "military_standard_sniper_rifles",
     "subtype": "distribution",
-    "//": "Add the MRGG-S precision battle rifle (and its SOF build), plus the M110 SASS and KAC SR-25/Mk11, to military DMR/sniper spawns.",
+    "//": "Add the MRGG-S precision battle rifle (and its SOF build), plus the M110 SASS and KAC SR-25/Mk11, to military DMR/sniper spawns, and the Seekins SP10-M.",
     "extend": {
       "entries": [
-        { "item": "mrgg_s", "prob": 15, "charges": [ 0, 20 ] },
-        { "item": "mrgg_s_sof", "prob": 10, "charges": [ 0, 20 ] },
-        { "item": "m110_sass", "prob": 14, "charges": [ 0, 20 ] },
-        { "item": "sr25", "prob": 12, "charges": [ 0, 20 ] }
+        {
+          "item": "mrgg_s",
+          "prob": 15,
+          "charges": [
+            0,
+            20
+          ]
+        },
+        {
+          "item": "mrgg_s_sof",
+          "prob": 10,
+          "charges": [
+            0,
+            20
+          ]
+        },
+        {
+          "item": "m110_sass",
+          "prob": 14,
+          "charges": [
+            0,
+            20
+          ]
+        },
+        {
+          "item": "sr25",
+          "prob": 12,
+          "charges": [
+            0,
+            20
+          ]
+        },
+        {
+          "item": "sp10m",
+          "prob": 6,
+          "charges": [
+            0,
+            20
+          ]
+        }
       ]
     }
   },
@@ -57,12 +159,54 @@
     "//": "Add the M249 Para, the M240 family, and the NGSW M250 / KAC LAMG to military LMG spawns.",
     "extend": {
       "entries": [
-        { "item": "m249_para", "prob": 40, "charges": [ 0, 200 ] },
-        { "item": "m240", "prob": 40, "charges": [ 0, 100 ] },
-        { "item": "m240_shorty", "prob": 15, "charges": [ 0, 100 ] },
-        { "item": "m240_shorty_assault", "prob": 8, "charges": [ 0, 100 ] },
-        { "item": "m250", "prob": 25, "charges": [ 0, 100 ] },
-        { "item": "kac_lamg", "prob": 18, "charges": [ 0, 200 ] }
+        {
+          "item": "m249_para",
+          "prob": 40,
+          "charges": [
+            0,
+            200
+          ]
+        },
+        {
+          "item": "m240",
+          "prob": 40,
+          "charges": [
+            0,
+            100
+          ]
+        },
+        {
+          "item": "m240_shorty",
+          "prob": 15,
+          "charges": [
+            0,
+            100
+          ]
+        },
+        {
+          "item": "m240_shorty_assault",
+          "prob": 8,
+          "charges": [
+            0,
+            100
+          ]
+        },
+        {
+          "item": "m250",
+          "prob": 25,
+          "charges": [
+            0,
+            100
+          ]
+        },
+        {
+          "item": "kac_lamg",
+          "prob": 18,
+          "charges": [
+            0,
+            200
+          ]
+        }
       ]
     }
   },
@@ -74,8 +218,14 @@
     "//": "Add the reloadable Mk 153 SMAW and the FGM-148 Javelin to rocket/missile launcher spawns (rare).",
     "extend": {
       "entries": [
-        { "item": "smaw", "prob": 8 },
-        { "item": "javelin_clu", "prob": 3 }
+        {
+          "item": "smaw",
+          "prob": 8
+        },
+        {
+          "item": "javelin_clu",
+          "prob": 3
+        }
       ]
     }
   },
@@ -87,7 +237,10 @@
     "//": "Add the M252 81mm mortar (deployable) to crew-served launcher spawns (rare).",
     "extend": {
       "entries": [
-        { "item": "mortar_m252", "prob": 5 }
+        {
+          "item": "mortar_m252",
+          "prob": 5
+        }
       ]
     }
   },
@@ -98,15 +251,42 @@
     "//": "Add the mod's new military gunmods: short suppressor, grippod, modular AR uppers, and MG collapsible stocks.",
     "extend": {
       "items": [
-        [ "suppressor_short", 60 ],
-        [ "grippod", 40 ],
-        [ "retool_ar15_223_glssc", 20 ],
-        [ "retool_ar15_223_recce", 20 ],
-        [ "retool_ar15_223_spr", 15 ],
-        [ "m249_para_stock", 15 ],
-        [ "m240_collapsible_stock", 15 ],
-        [ "m249_para_barrel", 12 ],
-        [ "m240_short_barrel", 12 ]
+        [
+          "suppressor_short",
+          60
+        ],
+        [
+          "grippod",
+          40
+        ],
+        [
+          "retool_ar15_223_glssc",
+          20
+        ],
+        [
+          "retool_ar15_223_recce",
+          20
+        ],
+        [
+          "retool_ar15_223_spr",
+          15
+        ],
+        [
+          "m249_para_stock",
+          15
+        ],
+        [
+          "m240_collapsible_stock",
+          15
+        ],
+        [
+          "m249_para_barrel",
+          12
+        ],
+        [
+          "m240_short_barrel",
+          12
+        ]
       ]
     }
   },
@@ -115,7 +295,18 @@
     "id": "gunmod_rare",
     "copy-from": "gunmod_rare",
     "//": "The short suppressor turns up occasionally in civilian/paramilitary gunmod loot too.",
-    "extend": { "items": [ [ "suppressor_short", 30 ], [ "grippod", 20 ] ] }
+    "extend": {
+      "items": [
+        [
+          "suppressor_short",
+          30
+        ],
+        [
+          "grippod",
+          20
+        ]
+      ]
+    }
   },
   {
     "type": "item_group",
@@ -125,13 +316,40 @@
     "//": "Military weapon caches - MRGG rifles, conversion barrel, magazines, and 6.5 Creedmoor ammo.",
     "extend": {
       "entries": [
-        { "item": "mrgg_a", "prob": 25, "contents-item": [ "mrgg_mag" ] },
-        { "item": "mrgg_s", "prob": 12, "contents-item": [ "mrgg_mag" ] },
-        { "item": "mrgg_barrel_308", "prob": 10 },
-        { "item": "mrgg_mag", "prob": 30 },
-        { "item": "mrgg_mag_308", "prob": 12 },
-        { "item": "65creedmoor_fmj", "prob": 40 },
-        { "item": "65creedmoor_match", "prob": 12 }
+        {
+          "item": "mrgg_a",
+          "prob": 25,
+          "contents-item": [
+            "mrgg_mag"
+          ]
+        },
+        {
+          "item": "mrgg_s",
+          "prob": 12,
+          "contents-item": [
+            "mrgg_mag"
+          ]
+        },
+        {
+          "item": "mrgg_barrel_308",
+          "prob": 10
+        },
+        {
+          "item": "mrgg_mag",
+          "prob": 30
+        },
+        {
+          "item": "mrgg_mag_308",
+          "prob": 12
+        },
+        {
+          "item": "65creedmoor_fmj",
+          "prob": 40
+        },
+        {
+          "item": "65creedmoor_match",
+          "prob": 12
+        }
       ]
     }
   },
@@ -143,13 +361,40 @@
     "//": "Gun store rifle racks - MRGG rifles are a rare find here.",
     "extend": {
       "entries": [
-        { "item": "mrgg_a", "prob": 5, "contents-item": [ "mrgg_mag" ] },
-        { "item": "mrgg_s", "prob": 4, "contents-item": [ "mrgg_mag" ] },
-        { "item": "mrgg_barrel_308", "prob": 4 },
-        { "item": "mrgg_mag", "prob": 10 },
-        { "item": "mrgg_mag_308", "prob": 6 },
-        { "item": "65creedmoor_fmj", "prob": 15 },
-        { "item": "65creedmoor_match", "prob": 8 }
+        {
+          "item": "mrgg_a",
+          "prob": 5,
+          "contents-item": [
+            "mrgg_mag"
+          ]
+        },
+        {
+          "item": "mrgg_s",
+          "prob": 4,
+          "contents-item": [
+            "mrgg_mag"
+          ]
+        },
+        {
+          "item": "mrgg_barrel_308",
+          "prob": 4
+        },
+        {
+          "item": "mrgg_mag",
+          "prob": 10
+        },
+        {
+          "item": "mrgg_mag_308",
+          "prob": 6
+        },
+        {
+          "item": "65creedmoor_fmj",
+          "prob": 15
+        },
+        {
+          "item": "65creedmoor_match",
+          "prob": 8
+        }
       ]
     }
   },
@@ -163,20 +408,42 @@
       "entries": [
         {
           "distribution": [
-            { "group": "battle_belt_assaulter" },
-            { "group": "battle_belt_breacher" },
-            { "group": "battle_belt_grenadier" },
-            { "group": "battle_belt_drone" }
+            {
+              "group": "battle_belt_assaulter"
+            },
+            {
+              "group": "battle_belt_breacher"
+            },
+            {
+              "group": "battle_belt_grenadier"
+            },
+            {
+              "group": "battle_belt_drone"
+            }
           ],
           "prob": 8
         },
         {
           "distribution": [
-            { "item": "rifle_mag_pouch_single", "count": [ 1, 2 ] },
-            { "item": "pistol_mag_pouch_single" },
-            { "item": "pistol_mag_pouch_double" },
-            { "item": "grenade_40mm_pouch" },
-            { "item": "drone_bag" }
+            {
+              "item": "rifle_mag_pouch_single",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "item": "pistol_mag_pouch_single"
+            },
+            {
+              "item": "pistol_mag_pouch_double"
+            },
+            {
+              "item": "grenade_40mm_pouch"
+            },
+            {
+              "item": "drone_bag"
+            }
           ],
           "prob": 10
         }

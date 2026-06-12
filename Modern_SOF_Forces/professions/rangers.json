@@ -5,7 +5,7 @@
     "name": { "male": "75th Ranger - Assaulter", "female": "75th Ranger - Assaulter" },
     "description": "You are a rifleman/assaulter in the 75th Ranger Regiment, the tip of the spear in any direct-action raid.  When the breachers open the door, you are the one flowing through it.  You run a suppressed MRGG-A set up exactly the way you like it, and you have put more rounds downrange in training than most people will see in a lifetime.  Rangers lead the way.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 7,
+    "points": 5,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_rifles_pro", "prof_auto_pistols_familiar" ],
     "skills": [
       { "level": 5, "name": "gun" },
@@ -55,7 +55,7 @@
     "name": { "male": "75th Ranger - Sniper", "female": "75th Ranger - Sniper" },
     "description": "You are a sniper attached to a 75th Ranger Regiment element, the quiet professional who shapes the fight before it starts.  Your suppressed MRGG-S in 6.5 Creedmoor reaches well past anything the assaulters carry, and you have the patience and the eye to use it.  One shot is usually all you need.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 7,
+    "points": 5,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_rifles_pro", "prof_spotting", "prof_handloading", "prof_auto_pistols_familiar" ],
     "skills": [
       { "level": 4, "name": "gun" },
@@ -105,7 +105,7 @@
     "name": { "male": "75th Ranger - Breacher", "female": "75th Ranger - Breacher" },
     "description": "You are a breacher in the 75th Ranger Regiment, the one who makes a hole wherever one needs to be made.  Halligan, sledge, breaching shotgun, torch, picks, or a charge of C-4 - whatever the barrier demands, you bring it.  Once the opening is there, you are just as capable of clearing the structure through the hole you made.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 7,
+    "points": 5,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar", "prof_trapsetting", "prof_traps" ],
     "skills": [
       { "level": 4, "name": "gun" },
@@ -162,7 +162,7 @@
     "name": { "male": "75th Ranger - Grenadier", "female": "75th Ranger - Grenadier" },
     "description": "You are a grenadier in the 75th Ranger Regiment, the squad's pocket artillery.  The M203 slung under your GL/SSC carbine lets you reach over cover and put high-explosive exactly where the squad leader points.  You carry the weight of a basic load of 40mm so nobody has to ask twice.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 7,
+    "points": 4,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_rifles_pro", "prof_auto_pistols_familiar" ],
     "skills": [
       { "level": 4, "name": "gun" },
@@ -215,7 +215,7 @@
     "name": { "male": "75th Ranger - Drone Operator", "female": "75th Ranger - Drone Operator" },
     "description": "You are the small-UAS operator for a 75th Ranger Regiment element, the squad's eyes in the sky and, when needed, its sharpest fist.  Your kit runs to first-person-view strike drones - palm-sized rotorcraft carrying a grenade or a slug of C-4 that you fly straight down a target's throat.  You carry an MP7 for close work, but your real weapons buzz.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 7,
+    "points": 4,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar", "prof_elec_circuits", "prof_elec_soldering" ],
     "skills": [
       { "level": 4, "name": "gun" },
@@ -267,7 +267,7 @@
     "name": { "male": "75th Ranger - Machine Gunner", "female": "75th Ranger - Machine Gunner" },
     "description": "You are a machine gunner in the 75th Ranger Regiment, the one who keeps the squad's automatic fire moving with the fight.  Your para-length M249 lays down the wall of lead that lets everyone else maneuver, and you are just as ready to shift with them.  You carry more belted ammunition than seems reasonable, because there is no such thing as too much when it counts.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 7,
+    "points": 4,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_rifles_pro", "prof_auto_pistols_familiar" ],
     "skills": [
       { "level": 5, "name": "gun" },
@@ -314,7 +314,7 @@
     "name": { "male": "75th Ranger - Weapons Squad Gunner", "female": "75th Ranger - Weapons Squad Gunner" },
     "description": "You are a gunner in a 75th Ranger Regiment weapons squad, the heavier half of the regiment's firepower.  Where the line squad's SAW gunner suppresses, you reach out and hammer with a collapsed-stock M240 in 7.62 - more weight, more range, more authority.  When the weapons squad sets up its guns, the fight is already decided.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 7,
+    "points": 4,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_rifles_pro", "prof_auto_pistols_familiar" ],
     "skills": [
       { "level": 5, "name": "gun" },
@@ -361,7 +361,7 @@
     "name": { "male": "75th Ranger - Medic", "female": "75th Ranger - Medic" },
     "description": "You are a combat medic in the 75th Ranger Regiment, trained to keep Rangers alive while the fight is still happening around you.  Your Mk18 is there for the same rooms and streets as the rest of the element, but your real burden is the extra trauma gear and the skill to use it under fire.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 7,
+    "points": 4,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar" ],
     "skills": [
       { "level": 4, "name": "gun" },
@@ -410,7 +410,7 @@
     "name": { "male": "75th Ranger - Fire Support", "female": "75th Ranger - Fire Support" },
     "description": "You are a Ranger fire support specialist carrying the answer to problems too hard for rifle fire and too close for distant artillery.  The Carl Gustaf gives your element a way to crack armor, bunkers, and hard cover, while your MP7 keeps you light enough to move with the assault.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 7,
+    "points": 5,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_pistols_familiar" ],
     "skills": [
       { "level": 4, "name": "gun" },
@@ -461,7 +461,7 @@
     "name": { "male": "75th Ranger - JTAC", "female": "75th Ranger - JTAC" },
     "description": "You are a joint terminal attack controller attached to a Ranger element, trained to see the fight as a map of routes, marks, threats, and timing.  There is no aircraft left to talk onto target, but the habits remain: observe, mark, smoke, signal, and keep the assault oriented.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 7,
+    "points": 5,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar", "prof_spotting" ],
     "skills": [
       { "level": 4, "name": "gun" },

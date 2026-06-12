@@ -5,7 +5,7 @@
     "name": { "male": "Recon Company - Scout", "female": "Recon Company - Scout" },
     "description": "You are a scout in a Multifunctional Reconnaissance Company, the soldier who goes forward to find the enemy so the rest of the force does not have to stumble into them.  You travel light, move quiet, and see more than you are seen.  Your MRGG-A is there for when looking turns into shooting, but your job is to come back with the picture.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 6,
+    "points": 4,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar", "prof_spotting" ],
     "skills": [
       { "level": 4, "name": "gun" },
@@ -55,7 +55,7 @@
     "name": { "male": "Recon Company - Sniper", "female": "Recon Company - Sniper" },
     "description": "You are a sniper in a Multifunctional Reconnaissance Company, half observer and half executioner.  You can lie in a hide for a day reporting what you see, then end a high-value target with a single round from your suppressed MRGG-S and melt back into the treeline.  Patience is a weapon, and you are very patient.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 7,
+    "points": 5,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_rifles_pro", "prof_spotting", "prof_handloading", "prof_auto_pistols_familiar" ],
     "skills": [
       { "level": 4, "name": "gun" },
@@ -103,7 +103,7 @@
     "name": { "male": "Recon Company - Machine Gunner", "female": "Recon Company - Machine Gunner" },
     "description": "You are the machine gunner for a Multifunctional Reconnaissance Company element, the reason a small recon team can punch far above its weight if it gets caught.  Your para-length M249 is light enough to carry far and fast yet turns a chance contact into a one-sided affair long enough for the team to break clean.  You carry the gun, and the gun carries the team.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 7,
+    "points": 4,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_rifles_pro", "prof_auto_pistols_familiar" ],
     "skills": [
       { "level": 5, "name": "gun" },
@@ -149,7 +149,7 @@
     "name": { "male": "Recon Company - Grenadier", "female": "Recon Company - Grenadier" },
     "description": "You are the grenadier in a Multifunctional Reconnaissance Company element, the team's break-contact button.  When a recon patrol is compromised, the 40mm under your GL/SSC carbine buys the seconds the team needs to disappear.  You favor a light load and a fast exit over a stand-up fight.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 6,
+    "points": 4,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar" ],
     "skills": [
       { "level": 4, "name": "gun" },
@@ -199,7 +199,7 @@
     "name": { "male": "Recon Company - Drone Operator", "female": "Recon Company - Drone Operator" },
     "description": "You are the UAS operator for a Multifunctional Reconnaissance Company element, and in a recon unit that makes you the main effort.  Your first-person-view strike drones - small rotorcraft carrying a grenade or a charge of C-4 - do the reaching out so the team never has to expose itself, and your M4A1 handles anything that closes the distance.  You are the unit's eyes and, when it comes to it, its reach.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 7,
+    "points": 4,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar", "prof_elec_circuits", "prof_elec_soldering" ],
     "skills": [
       { "level": 4, "name": "gun" },
@@ -250,7 +250,7 @@
     "name": { "male": "Recon Company - Medic", "female": "Recon Company - Medic" },
     "description": "You are a medic in a Multifunctional Reconnaissance Company element, the person everyone trusts when quiet movement turns into bleeding.  Your M4A1 keeps you light enough for the patrol, while your aid gear gives the team a better chance to break contact alive.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 6,
+    "points": 4,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar", "prof_spotting" ],
     "skills": [
       { "level": 4, "name": "gun" },
@@ -300,7 +300,7 @@
     "name": { "male": "Recon Company - JTAC", "female": "Recon Company - JTAC" },
     "description": "You are a JTAC in a Multifunctional Reconnaissance Company element, trained to turn observation into marks, signals, and clean movement.  The airspace is dead now, but your habits remain useful: watch farther, communicate better, and give the patrol smoke and direction when it needs to vanish.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 6,
+    "points": 4,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar", "prof_spotting" ],
     "skills": [
       { "level": 3, "name": "gun" },

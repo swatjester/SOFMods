@@ -1,0 +1,300 @@
+[
+  {
+    "type": "profession",
+    "id": "lowvis_operator",
+    "name": {
+      "male": "Low-Visibility Operator",
+      "female": "Low-Visibility Operator"
+    },
+    "description": "For the last eight months you have been a freight broker with a gym habit, a storage unit, and an LVAW-sized hole in your gym bag.  The task force that planted you here stopped answering the phone the same week the city stopped burying its dead.  No extract, no handler, no cover worth keeping.  Truth conquers all chains - and you are about to find out how much truth is left.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 5,
+    "proficiencies": [
+      "prof_gun_cleaning",
+      "prof_gunsmithing_basic",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 4,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "speech"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      },
+      {
+        "level": 3,
+        "name": "computer"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "driving"
+      },
+      {
+        "level": 1,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "hoodie"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "sneakers"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "lvaw_300blk_sof",
+            "ammo-item": "300blk_ss",
+            "charges": 30,
+            "container-item": "duffelbag"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "300blk_ss",
+            "charges": 30,
+            "count": 3
+          },
+          {
+            "group": "full_ifak"
+          },
+          {
+            "item": "cell_phone"
+          },
+          {
+            "item": "wallet_leather"
+          },
+          {
+            "item": "knife_folding"
+          },
+          {
+            "item": "lighter"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "bottle_plastic",
+            "charges": 2
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "lowvis_operator_bionic",
+    "name": {
+      "male": "Bionic Low-Visibility Operator",
+      "female": "Bionic Low-Visibility Operator"
+    },
+    "description": "For the last eight months you have been a freight broker with a gym habit, a storage unit, and an LVAW-sized hole in your gym bag.  The hardware under your skin - a reconfigurable face, remodeled ears, masked scent - was the unit's idea; deniability runs deeper than a wallet.  The task force that planted you here is gone.  Truth conquers all chains - and you are about to find out how much truth is left.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 8,
+    "proficiencies": [
+      "prof_gun_cleaning",
+      "prof_gunsmithing_basic",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 4,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "speech"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      },
+      {
+        "level": 3,
+        "name": "computer"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "driving"
+      },
+      {
+        "level": 1,
+        "name": "survival"
+      }
+    ],
+    "CBMs": [
+      "bio_face_mask",
+      "bio_ears",
+      "bio_night_vision",
+      "bio_scent_mask",
+      "bio_metabolics",
+      "bio_power_storage"
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "hoodie"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "sneakers"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "lvaw_300blk_sof",
+            "ammo-item": "300blk_ss",
+            "charges": 30,
+            "container-item": "duffelbag"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "300blk_ss",
+            "charges": 30,
+            "count": 3
+          },
+          {
+            "group": "full_ifak"
+          },
+          {
+            "item": "cell_phone"
+          },
+          {
+            "item": "wallet_leather"
+          },
+          {
+            "item": "knife_folding"
+          },
+          {
+            "item": "lighter"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "bottle_plastic",
+            "charges": 2
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  }
+]
