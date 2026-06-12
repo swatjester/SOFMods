@@ -15,7 +15,8 @@ Overarching goal: a comprehensive set of mods simulating modern-day U.S. militar
 - **Base content mod id is `tlg`, NOT `dda`.** There is no `dda` mod in TLG. All `dependencies` must use `tlg`. (Early files wrongly used `dda`; all fixed.)
 - **All item objects must use `"type": "ITEM"` + `"subtypes": [...]`.** TLG folded every standalone item type into ITEM. Legacy `"type": "AMMO"` / `"GUN"` / `"MAGAZINE"` / `"GUNMOD"` / `"ARMOR"` / `"TOOL"` etc. throw **"unrecognized JSON object"** at the `type` line and bounce the player to the main menu during new-character creation (worldgen may still appear to work). Conversions: `"type":"AMMO"` → `"type":"ITEM","subtypes":["AMMO"]`, etc.
   - NOT items (leave as-is): `ammunition_type`, `ammo_effect`, `effect_type`, `item_group`, `profession`, `scenario`, `vehicle`, `vehicle_part`, `furniture`, `effect_on_condition`, `recipe`, `MOD_INFO`, `migration`.
-- After ANY change, validate JSON parse + cross-references before considering it done. A standard validation script lives in the chat history; it builds an id universe from `data/json` + all mods and checks copy-from / ammo / magazine `item_restriction` / `ammo_restriction` / ammo_effects / deploy-furniture / spawn-group refs.
+- After ANY change, run `python3 tools/validate.py --tlg <TLG checkout>/data/json` before considering it done. It builds an id universe from TLG `data/json` + all mods and checks JSON parse, legacy types, copy-from / ammo / magazine / item & ammo restrictions / ammo_effects / deploy-furniture / item-group / profession / scenario / vehicle / spawn-group refs, and `looks_like` sprite chains.
+- **Every item needs a sprite chain.** `copy-from` implies `looks_like` only when the target is already loaded at parse time, and chains that dead-end on mod-defined items render as ASCII. Give every new item an explicit `looks_like` pointing at a vanilla item with tileset art (guns: typically `modular_m4_carbine`, `m110a1`, `m249`, `m240`). The validator enforces this.
 
 ## Key implementation patterns
 
@@ -38,14 +39,22 @@ Overarching goal: a comprehensive set of mods simulating modern-day U.S. militar
 
 ## Remaining backlog (not yet built)
 
-- **NPC companions + the solo→duo→fireteam→section→squad progression** wired onto the existing solo scenarios.
-- **Profession/scenario balance pass**: tune point costs for the Ranger/MFRC scenarios and all SOF professions, especially the newer medic, fire support, and JTAC starts. Current costs are not yet balanced against each other or against vanilla.
-- **Starting vehicles for SOF scenarios** after profession testing: decide which starts should receive ISV/RSOV/MRZR/Flyer support and wire them into scenarios only after the non-vehicle starts are verified.
-- **Additional map features**: FOB, COP, Patrol Base, Black Site, Urban Black Site, National Guard Armory, and Recruiter's Office.
-- **Additional units and scenario families**: RRC, Special Activities Center, SEALs, DEVGRU, CAG, Infantry, Marines, Force Recon, MARSOC, AFSOC, TFO, Special Forces, and a PMC faction (Greywater or Double Canopy). Group the JSOC units together and label their scenarios by color, e.g. Task Force Red, Task Force Blue, etc.
-- **SP10-M rifle**: add the Seekins SP10-M as a new rifle similar to the MRGG-S, but longer/heavier with slightly better range and slightly worse recoil. When a CAG sniper profession is added, make the SP10-M their default rifle.
-- **Zombified preset versions** of the SOF forces (enemy spawns reusing the role loadouts).
-- **Low-visibility / undercover operator scenario** — the LVAW (.300 BLK) is reserved for this; keep it out of the standard Ranger/MFRC kits.
+Implementation is phased, one PR per phase (plan agreed June 2026).
+
+- **Phase 1 — offline-validatable content**: SP10-M rifle (Seekins; like MRGG-S but longer/heavier, slightly better range, slightly worse recoil; becomes the CAG sniper's default when that profession lands); zombified preset versions of the SOF forces (enemy spawns reusing role loadouts); low-visibility / undercover operator scenario (the LVAW .300 BLK is reserved for this — keep it out of standard Ranger/MFRC kits); profession/scenario balance pass (point costs tuned against each other and vanilla, rubric documented in `//` comments).
+- **Phase 2 — units & scenario families.** Group JSOC units, label scenarios by color:
+  - **Task Force Red** = 75th Rangers (exists) **+ RRC combined** — not exclusively recon roles.
+  - **Task Force Blue** = DEVGRU. **Task Force Green** = CAG. **Task Force Orange** = TFO/ISA.
+  - **SEALs** (non-JSOC NSW), **Special Forces** (ODA), and **SAC** (CIA Special Activities Center) are their own non-JSOC SOF families.
+  - **Marines — ONE scenario family for ALL Marines**: conventional Marine infantry + Force Recon + MARSOC. Note: Force Recon is NOT technically SOF — conventional but special-operations-capable.
+  - **Conventional**: Army Infantry; the existing MFRC "Eyes Forward" recon scenario is classed Conventional.
+  - **AFSOC** roles: PJ (medic), Special Reconnaissance (recon-like), CCT (comms/tech/drones), TACP (comms/tech/drones, a tier below CCT in tech/quality).
+  - **PMC — both factions**: Greywater (basic gear — M4s, AKs, nothing fancy, no bionics) and Double Canopy (elite — tricked-out guns, more gear, one or two bionics each).
+  - **Tone**: the Ranger profession stories' register — "Rangers lead the way. You suppose that still means something." — must be preserved for Ranger professions and is the bar for new units' stories.
+- **Phase 3 — NPC companions**: duo/fireteam/section/squad starts as **separate scenarios from the solo starts** (solo stays solo), doctrinal team sizes, via scenario `eocs` + `u_spawn_npc` with role npc_classes.
+- **Phase 4 — map features** in a **new fourth mod `Modern_SOF_Locations`** (deps `tlg`, `modern_sof_gear`): FOB, COP, Patrol Base, Black Site, Urban Black Site, National Guard Armory, Recruiter's Office; these also become start_locations for the scenario families.
+- **Phase 5 — starting vehicles**: UNBLOCKED (vehicles verified in testing). Add `vehicle` to selected professions/scenarios (e.g. Ranger weapons squad → RSOV, MFRC scout → MRZR-2).
+- **Phase 6 — "find your lost teammates" quests** for the solo starts: recruitable NPCs of the same unit type placed in the world, with ORIGIN_GAME_START mission chains to locate and recruit them.
 
 ## Style / policy
 

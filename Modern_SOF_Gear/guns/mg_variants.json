@@ -1,6 +1,7 @@
 [
   {
     "id": "m249_para",
+    "looks_like": "m249",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "copy-from": "m249",
@@ -9,6 +10,7 @@
   },
   {
     "id": "m240_shorty",
+    "looks_like": "m240",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "copy-from": "m240",
@@ -17,6 +19,7 @@
   },
   {
     "id": "m240_shorty_assault",
+    "looks_like": "m240",
     "type": "ITEM",
     "subtypes": [ "GUN" ],
     "copy-from": "m240",

@@ -5,7 +5,7 @@
       "GUN"
     ],
     "id": "mrgg_a",
-    "looks_like": "modular_m4_carbine",
+    "looks_like": "m110a1",
     "name": {
       "str": "MRGG-A"
     },
@@ -120,7 +120,7 @@
       "GUN"
     ],
     "id": "mrgg_s",
-    "looks_like": "modular_m4_carbine",
+    "looks_like": "m110a1",
     "name": {
       "str": "MRGG-S"
     },

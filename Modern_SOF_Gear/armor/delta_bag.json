@@ -99,6 +99,7 @@
   },
   {
     "id": "sof_npa_kit",
+    "looks_like": "ifak_pouch",
     "type": "ITEM",
     "name": { "str": "NPA kit", "str_pl": "NPA kits" },
     "description": "A small airway kit with nasopharyngeal airways and lubricant, bundled for quick access from an aid bag.",
@@ -112,6 +113,7 @@
   },
   {
     "id": "sof_cric_kit",
+    "looks_like": "ifak_pouch",
     "type": "ITEM",
     "name": { "str": "cric kit", "str_pl": "cric kits" },
     "description": "A compact emergency cricothyrotomy kit kept sealed for advanced airway work by a trained medic.",
@@ -125,6 +127,7 @@
   },
   {
     "id": "sof_iv_start_kit",
+    "looks_like": "ifak_pouch",
     "type": "ITEM",
     "name": { "str": "IV start kit", "str_pl": "IV start kits" },
     "description": "A sealed IV access kit with catheter, venous tourniquet, lock, prep pad, dressing, and tape.",
@@ -138,6 +141,7 @@
   },
   {
     "id": "sof_iv_fluid_bag",
+    "looks_like": "saline",
     "type": "ITEM",
     "name": { "str": "IV fluid bag", "str_pl": "IV fluid bags" },
     "description": "A sealed one-liter IV fluid bag, meant for volume replacement and flushes.  It fits the delta bag's reinforced IV hanger sleeve.",
@@ -151,6 +155,7 @@
   },
   {
     "id": "sof_blood_bag",
+    "looks_like": "blood",
     "type": "ITEM",
     "name": { "str": "field blood bag", "str_pl": "field blood bags" },
     "description": "A sealed one-liter field blood bag packed in a protective sleeve.  It is sized for the delta bag's IV hanger sleeve, though using it safely is another matter entirely.",
@@ -164,6 +169,7 @@
   },
   {
     "id": "sof_hypothermia_kit",
+    "looks_like": "emer_blanket",
     "type": "ITEM",
     "name": { "str": "hypothermia kit", "str_pl": "hypothermia kits" },
     "description": "A compact shock-management bundle with a reflective blanket, casualty wrap, and heat packs.",
@@ -270,7 +276,7 @@
       { "item": "bandages", "count": 12 },
       { "item": "sof_iv_fluid_bag", "count": 3 },
       { "item": "sof_blood_bag", "count": 2 },
-      { "item": "water_clean", "container-item": "hydration_pack", "charges": 3000 },
+      { "item": "water_clean", "container-item": "camelbak", "charges": 3000 },
       { "item": "delta_bag_tearaway_bleeding", "contents-group": "delta_bag_bleeding_contents" },
       { "item": "delta_bag_tearaway_airway", "contents-group": "delta_bag_airway_contents" },
       { "item": "delta_bag_tearaway_circulation", "contents-group": "delta_bag_circulation_contents" },
@@ -288,7 +294,7 @@
       { "item": "sof_pressure_dressing", "count": 6 },
       { "item": "bfipowder", "count": 6 },
       { "item": "sof_chest_seal_pair", "count": 4 },
-      { "item": "1st_aid", "count": 2 }
+      { "group": "full_ifak", "count": 2 }
     ]
   },
   {
@@ -299,7 +305,7 @@
       { "item": "sof_npa_kit", "count": 4 },
       { "item": "sof_cric_kit" },
       { "item": "sof_chest_seal_pair", "count": 2 },
-      { "item": "1st_aid" }
+      { "group": "full_ifak" }
     ]
   },
   {
@@ -309,7 +315,7 @@
     "entries": [
       { "item": "sof_iv_start_kit", "count": 6 },
       { "item": "syringe", "count": 6 },
-      { "item": "alcohol_wipe", "count": 12 },
+      { "item": "alcohol_wipes", "count": 12 },
       { "item": "sof_iv_fluid_bag", "count": 2 },
       { "item": "disinfectant", "count": 2 }
     ]
@@ -330,7 +336,7 @@
     "id": "delta_bag_firstaid_contents",
     "subtype": "collection",
     "entries": [
-      { "item": "adhesive_bandage", "count": 20 },
+      { "item": "adhesive_bandages", "count": 20 },
       { "item": "disinfectant", "count": 2 },
       { "item": "aspirin", "count": 20 },
       { "item": "cotton_ball", "count": 20 }

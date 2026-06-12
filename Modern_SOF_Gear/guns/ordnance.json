@@ -1,6 +1,7 @@
 [
   {
     "id": "mortar_m252",
+    "looks_like": "mortar_m224",
     "type": "ITEM",
     "copy-from": "mortar_m224",
     "name": {
@@ -19,6 +20,7 @@
   },
   {
     "id": "smaw",
+    "looks_like": "m3_carlgustav",
     "type": "ITEM",
     "subtypes": [
       "GUN"
@@ -47,6 +49,7 @@
   },
   {
     "id": "javelin_clu",
+    "looks_like": "m3_carlgustav",
     "type": "ITEM",
     "subtypes": [
       "GUN"

@@ -1,6 +1,7 @@
 [
   {
     "id": "m249_para_stock",
+    "looks_like": "folding_stock",
     "type": "ITEM",
     "subtypes": [ "GUNMOD" ],
     "name": { "str": "M249 para stock" },
@@ -21,6 +22,7 @@
   },
   {
     "id": "m240_collapsible_stock",
+    "looks_like": "folding_stock",
     "type": "ITEM",
     "subtypes": [ "GUNMOD" ],
     "name": { "str": "machine gun collapsible stock" },

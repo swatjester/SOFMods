@@ -1,6 +1,7 @@
 [
   {
     "id": "grippod",
+    "looks_like": "bipod",
     "type": "ITEM",
     "subtypes": [ "GUNMOD" ],
     "name": { "str": "grippod" },

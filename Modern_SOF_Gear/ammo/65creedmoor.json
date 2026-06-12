@@ -11,6 +11,7 @@
       "AMMO"
     ],
     "id": "65creedmoor_fmj",
+    "looks_like": "762_51",
     "category": "ammo",
     "name": {
       "str": "6.5mm Creedmoor FMJ",
@@ -49,6 +50,7 @@
       "AMMO"
     ],
     "id": "65creedmoor_match",
+    "looks_like": "762_51",
     "category": "ammo",
     "name": {
       "str": "6.5mm Creedmoor match",
@@ -88,6 +90,7 @@
       "AMMO"
     ],
     "id": "reloaded_65creedmoor",
+    "looks_like": "reloaded_762_51",
     "category": "ammo",
     "name": {
       "str": "6.5mm Creedmoor, reloaded",
