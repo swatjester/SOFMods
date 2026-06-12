@@ -81,6 +81,14 @@
             0,
             33
           ]
+        },
+        {
+          "item": "m27_iar",
+          "prob": 12,
+          "charges": [
+            0,
+            30
+          ]
         }
       ]
     }
@@ -349,6 +357,14 @@
         {
           "item": "65creedmoor_match",
           "prob": 12
+        },
+        {
+          "item": "m27_iar",
+          "prob": 10,
+          "charges": [
+            0,
+            30
+          ]
         }
       ]
     }

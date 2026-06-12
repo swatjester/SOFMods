@@ -1,0 +1,1231 @@
+[
+  {
+    "type": "profession",
+    "id": "gw_contractor",
+    "name": {
+      "male": "Greywater - Contractor",
+      "female": "Greywater - Contractor"
+    },
+    "description": "Static security for Greywater Solutions: twelve-hour shifts, a patched M4, and a contract whose force-majeure clause is currently being stress-tested.  Nobody is processing payroll.  You're still on shift.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar"
+    ],
+    "skills": [
+      {
+        "level": 3,
+        "name": "gun"
+      },
+      {
+        "level": 3,
+        "name": "rifle"
+      },
+      {
+        "level": 2,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "dodge"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "throw"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "hat_ball"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "ballistic_vest_light"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "group": "modular_m4a1",
+            "contents-item": [
+              "pistol_grip",
+              "adjustable_stock",
+              "holo_sight",
+              "shoulder_strap"
+            ],
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "223",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "gw_ak",
+    "name": {
+      "male": "Greywater - Local Hire",
+      "female": "Greywater - Local Hire"
+    },
+    "description": "Greywater hired you off a different army's roster, handed you your own AK back, and called it integration.  The pay was real; everything else, negotiable.  The dead don't negotiate, so that simplifies things.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar"
+    ],
+    "skills": [
+      {
+        "level": 3,
+        "name": "gun"
+      },
+      {
+        "level": 3,
+        "name": "rifle"
+      },
+      {
+        "level": 2,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "dodge"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "throw"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "hat_ball"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "ballistic_vest_light"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "ak47",
+            "ammo-item": "762_m87",
+            "charges": 30,
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "akmag30",
+            "ammo-item": "762_m87",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "gw_marksman",
+    "name": {
+      "male": "Greywater - Marksman",
+      "female": "Greywater - Marksman"
+    },
+    "description": "Designated marksman by virtue of owning the scope: a deer rifle, a steady hand, and a company that billed you out as 'precision overwatch.'  The invoice was aspirational.  The rifle is not.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar"
+    ],
+    "skills": [
+      {
+        "level": 3,
+        "name": "gun"
+      },
+      {
+        "level": 5,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 3,
+        "name": "firstaid"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "hat_ball"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "ballistic_vest_light"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "remington_700",
+            "ammo-item": "308",
+            "charges": 4,
+            "contents-item": [
+              "rifle_scope",
+              "shoulder_strap"
+            ],
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "308",
+            "charges": 40
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "gw_medic",
+    "name": {
+      "male": "Greywater - Medic",
+      "female": "Greywater - Medic"
+    },
+    "description": "Greywater's idea of medical support: one ex-line-medic, one kit, no resupply schedule.  You've kept worse contracts alive with less.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 5,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "hat_ball"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "ballistic_vest_light"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "group": "full_ifak"
+          },
+          {
+            "item": "medical_gauze",
+            "count": 6
+          },
+          {
+            "group": "modular_m4a1",
+            "contents-item": [
+              "pistol_grip",
+              "adjustable_stock",
+              "holo_sight",
+              "shoulder_strap"
+            ]
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "223",
+            "charges": 30,
+            "count": 2
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "dc_operator",
+    "name": {
+      "male": "Double Canopy - Operator",
+      "female": "Double Canopy - Operator"
+    },
+    "description": "Double Canopy doesn't do static security; it does the contracts with the redacted annexes.  The MRGG was part of the signing bonus, and so was the hardware in your arms.  Premium rates, premium problems - this one's pro bono.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 6,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 5,
+        "name": "gun"
+      },
+      {
+        "level": 5,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 3,
+        "name": "throw"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet",
+            "contents-item": [
+              "advanced_gpnvg"
+            ]
+          },
+          {
+            "item": "level_3_vest",
+            "contents-group": "pristine_esapi_front_plates"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "mrgg_a_sof",
+            "ammo-item": "65creedmoor_fmj",
+            "charges": 20,
+            "contents-item": [
+              "shoulder_strap"
+            ],
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "mrgg_mag",
+            "count": 3,
+            "ammo-item": "65creedmoor_fmj",
+            "charges": 20
+          },
+          {
+            "item": "flashbang",
+            "count": 2
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_targeting",
+      "bio_power_storage"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "dc_breacher",
+    "name": {
+      "male": "Double Canopy - Breacher",
+      "female": "Double Canopy - Breacher"
+    },
+    "description": "The company billed your entries at four figures a door, and the clients paid, because the doors stayed opened and the contents stayed alive.  Premium rates, premium problems.  The market crashed; the skill set didn't.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 6,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_trapsetting",
+      "prof_traps"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "shotgun"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "bashing"
+      },
+      {
+        "level": 2,
+        "name": "mechanics"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet",
+            "contents-item": [
+              "advanced_gpnvg"
+            ]
+          },
+          {
+            "item": "level_3_vest",
+            "contents-group": "pristine_esapi_front_plates"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "halligan"
+          },
+          {
+            "item": "hammer_sledge"
+          },
+          {
+            "item": "crude_picklock"
+          },
+          {
+            "item": "oxy_torch"
+          },
+          {
+            "item": "c4"
+          },
+          {
+            "item": "flashbang",
+            "count": 2
+          },
+          {
+            "item": "remington_870_breacher",
+            "ammo-item": "shot_00",
+            "charges": 3
+          },
+          {
+            "item": "shot_00",
+            "charges": 12
+          },
+          {
+            "group": "m4_cqbr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_hydraulics",
+      "bio_power_storage"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "dc_marksman",
+    "name": {
+      "male": "Double Canopy - Marksman",
+      "female": "Double Canopy - Marksman"
+    },
+    "description": "Contract precision work, the kind with non-disclosure agreements stapled to the after-action.  The SR-25 and the optics package in your eye were both itemized.  Premium rates, premium problems.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 5,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_spotting",
+      "prof_handloading",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 6,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 3,
+        "name": "firstaid"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet",
+            "contents-item": [
+              "advanced_gpnvg"
+            ]
+          },
+          {
+            "item": "heavy_load_bearing_vest"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "sr25",
+            "ammo-item": "762_51",
+            "charges": 20,
+            "contents-item": [
+              "suppressor",
+              "shoulder_strap"
+            ],
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "ar10mag_20rd",
+            "count": 3,
+            "ammo-item": "762_51",
+            "charges": 20
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_eye_enhancer",
+      "bio_targeting"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "dc_medic",
+    "name": {
+      "male": "Double Canopy - Medic",
+      "female": "Double Canopy - Medic"
+    },
+    "description": "Double Canopy's retention plan was simple: pay the best trauma medics enough that nobody bled out over money.  Premium rates, premium problems, and a delta bag that has earned its keep.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 5,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 6,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet",
+            "contents-item": [
+              "advanced_gpnvg"
+            ]
+          },
+          {
+            "item": "level_3_vest",
+            "contents-group": "pristine_esapi_front_plates"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "delta_bag_filled"
+          },
+          {
+            "group": "m4_cqbr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_metabolics",
+      "bio_power_storage"
+    ]
+  }
+]

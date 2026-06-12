@@ -1,0 +1,2703 @@
+[
+  {
+    "type": "profession",
+    "id": "sf_18a",
+    "name": {
+      "male": "SF - Detachment Commander (18A)",
+      "female": "SF - Detachment Commander (18A)"
+    },
+    "description": "Captain of a twelve-man ODA: half diplomat, half guerrilla, wholly responsible.  You raised partisan companies from nothing in three countries.  De oppresso liber - there are still oppressed left to free; they just stopped breathing.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "speech"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "m4_glssc"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sf_18a_bionic",
+    "name": {
+      "male": "Bionic SF - Detachment Commander (18A)",
+      "female": "Bionic SF - Detachment Commander (18A)"
+    },
+    "description": "Captain of a twelve-man ODA: half diplomat, half guerrilla, wholly responsible.  You raised partisan companies from nothing in three countries.  De oppresso liber - there are still oppressed left to free; they just stopped breathing.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 7,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "speech"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "m4_glssc"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_adrenaline",
+      "bio_armor_torso",
+      "bio_armor_eyes",
+      "bio_cqb",
+      "bio_metabolics",
+      "bio_power_storage_mkII"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sf_18b_weapons",
+    "name": {
+      "male": "SF - Weapons Sergeant (18B)",
+      "female": "SF - Weapons Sergeant (18B)"
+    },
+    "description": "An 18B can run, fix, and teach every weapon his guerrillas might dig out of a cache, and the team's M249 was your personal favorite student.  De oppresso liber.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 5,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 2,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "m249_para",
+            "ammo-item": "556",
+            "charges": 500,
+            "contents-item": [
+              "holo_sight",
+              "shoulder_strap"
+            ],
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "belt223",
+            "count": 2,
+            "ammo-item": "556",
+            "charges": 500
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sf_18b_weapons_bionic",
+    "name": {
+      "male": "Bionic SF - Weapons Sergeant (18B)",
+      "female": "Bionic SF - Weapons Sergeant (18B)"
+    },
+    "description": "An 18B can run, fix, and teach every weapon his guerrillas might dig out of a cache, and the team's M249 was your personal favorite student.  De oppresso liber.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 7,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 5,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 2,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "m249_para",
+            "ammo-item": "556",
+            "charges": 500,
+            "contents-item": [
+              "holo_sight",
+              "shoulder_strap"
+            ],
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "belt223",
+            "count": 2,
+            "ammo-item": "556",
+            "charges": 500
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_targeting",
+      "bio_recoil",
+      "bio_jointservo",
+      "bio_weight",
+      "bio_armor_arms",
+      "bio_metabolics",
+      "bio_power_storage_mkII"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sf_18b_sniper",
+    "name": {
+      "male": "SF - Weapons Sergeant (18B Sniper)",
+      "female": "SF - Weapons Sergeant (18B Sniper)"
+    },
+    "description": "The detachment's other 18B carried the long gun: SOTIC-trained, patient, and quietly competitive about it.  The M110 was zeroed for a war that no longer needs spotting rounds.  De oppresso liber.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 5,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_spotting",
+      "prof_handloading",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 6,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 3,
+        "name": "firstaid"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "heavy_load_bearing_vest"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "m110_sass",
+            "ammo-item": "762_51",
+            "charges": 20,
+            "contents-item": [
+              "suppressor",
+              "shoulder_strap"
+            ],
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "ar10mag_20rd",
+            "count": 3,
+            "ammo-item": "762_51",
+            "charges": 20
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sf_18b_sniper_bionic",
+    "name": {
+      "male": "Bionic SF - Weapons Sergeant (18B Sniper)",
+      "female": "Bionic SF - Weapons Sergeant (18B Sniper)"
+    },
+    "description": "The detachment's other 18B carried the long gun: SOTIC-trained, patient, and quietly competitive about it.  The M110 was zeroed for a war that no longer needs spotting rounds.  De oppresso liber.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 9,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_spotting",
+      "prof_handloading",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 6,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 3,
+        "name": "firstaid"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "heavy_load_bearing_vest"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "m110_sass",
+            "ammo-item": "762_51",
+            "charges": 20,
+            "contents-item": [
+              "suppressor",
+              "shoulder_strap"
+            ],
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "ar10mag_20rd",
+            "count": 3,
+            "ammo-item": "762_51",
+            "charges": 20
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_eye_enhancer",
+      "bio_eye_optic",
+      "bio_targeting",
+      "bio_infrared",
+      "bio_power_storage_mkII",
+      "bio_metabolics",
+      "bio_scent_mask",
+      "bio_climate"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sf_18b_gustav",
+    "name": {
+      "male": "SF - Weapons Sergeant (18B Gustav)",
+      "female": "SF - Weapons Sergeant (18B Gustav)"
+    },
+    "description": "Same job, heavier answer: when the detachment needed a bunker opened or a vehicle stopped, your Carl Gustav provided the punctuation.  De oppresso liber, in 84 millimeters.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 5,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 5,
+        "name": "launcher"
+      },
+      {
+        "level": 3,
+        "name": "smg"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "throw"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "m3_carlgustav",
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "84x246mm_he",
+            "count": 2
+          },
+          {
+            "group": "m4_cqbr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sf_18b_gustav_bionic",
+    "name": {
+      "male": "Bionic SF - Weapons Sergeant (18B Gustav)",
+      "female": "Bionic SF - Weapons Sergeant (18B Gustav)"
+    },
+    "description": "Same job, heavier answer: when the detachment needed a bunker opened or a vehicle stopped, your Carl Gustav provided the punctuation.  De oppresso liber, in 84 millimeters.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 8,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 5,
+        "name": "launcher"
+      },
+      {
+        "level": 3,
+        "name": "smg"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "throw"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "m3_carlgustav",
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "84x246mm_he",
+            "count": 2
+          },
+          {
+            "group": "m4_cqbr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_targeting",
+      "bio_recoil",
+      "bio_jointservo",
+      "bio_weight",
+      "bio_armor_arms",
+      "bio_metabolics",
+      "bio_power_storage_mkII"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sf_18c",
+    "name": {
+      "male": "SF - Engineer Sergeant (18C)",
+      "female": "SF - Engineer Sergeant (18C)"
+    },
+    "description": "Build a schoolhouse Monday, drop a bridge Friday - an 18C does both with the same calm.  Your demolition kit survived the end of the world better than the schoolhouse did.  De oppresso liber.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 5,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_trapsetting",
+      "prof_traps"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "shotgun"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "bashing"
+      },
+      {
+        "level": 2,
+        "name": "mechanics"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "halligan"
+          },
+          {
+            "item": "hammer_sledge"
+          },
+          {
+            "item": "crude_picklock"
+          },
+          {
+            "item": "oxy_torch"
+          },
+          {
+            "item": "c4"
+          },
+          {
+            "item": "flashbang",
+            "count": 2
+          },
+          {
+            "item": "remington_870_breacher",
+            "ammo-item": "shot_00",
+            "charges": 3
+          },
+          {
+            "item": "shot_00",
+            "charges": 12
+          },
+          {
+            "group": "m4_cqbr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sf_18c_bionic",
+    "name": {
+      "male": "Bionic SF - Engineer Sergeant (18C)",
+      "female": "Bionic SF - Engineer Sergeant (18C)"
+    },
+    "description": "Build a schoolhouse Monday, drop a bridge Friday - an 18C does both with the same calm.  Your demolition kit survived the end of the world better than the schoolhouse did.  De oppresso liber.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 9,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_trapsetting",
+      "prof_traps"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "shotgun"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "bashing"
+      },
+      {
+        "level": 2,
+        "name": "mechanics"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "halligan"
+          },
+          {
+            "item": "hammer_sledge"
+          },
+          {
+            "item": "crude_picklock"
+          },
+          {
+            "item": "oxy_torch"
+          },
+          {
+            "item": "c4"
+          },
+          {
+            "item": "flashbang",
+            "count": 2
+          },
+          {
+            "item": "remington_870_breacher",
+            "ammo-item": "shot_00",
+            "charges": 3
+          },
+          {
+            "item": "shot_00",
+            "charges": 12
+          },
+          {
+            "group": "m4_cqbr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_torsionratchet",
+      "bio_power_storage_mkII",
+      "bio_hydraulics",
+      "bio_armor_arms",
+      "bio_armor_eyes",
+      "bio_resonator",
+      "bio_purifier",
+      "bio_flashbang"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sf_18d",
+    "name": {
+      "male": "SF - Medical Sergeant (18D)",
+      "female": "SF - Medical Sergeant (18D)"
+    },
+    "description": "The most medically trained soldier in the conventional world's inventory: surgery by lamplight, vet work at dawn, dentistry under fire.  De oppresso liber.  The clinic is open.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 6,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "delta_bag_filled"
+          },
+          {
+            "group": "m4_cqbr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sf_18d_bionic",
+    "name": {
+      "male": "Bionic SF - Medical Sergeant (18D)",
+      "female": "Bionic SF - Medical Sergeant (18D)"
+    },
+    "description": "The most medically trained soldier in the conventional world's inventory: surgery by lamplight, vet work at dawn, dentistry under fire.  De oppresso liber.  The clinic is open.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 6,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 6,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "delta_bag_filled"
+          },
+          {
+            "group": "m4_cqbr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_purifier",
+      "bio_metabolics",
+      "bio_armor_torso",
+      "bio_armor_eyes",
+      "bio_power_storage_mkII"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sf_18e",
+    "name": {
+      "male": "SF - Communications Sergeant (18E)",
+      "female": "SF - Communications Sergeant (18E)"
+    },
+    "description": "You could raise the other side of the planet with a wire dipole and a car battery.  Now the planet mostly answers in moans, but you keep transmitting.  De oppresso liber.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 3,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "computer"
+      },
+      {
+        "level": 4,
+        "name": "electronics"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "charged_smart_phone"
+          },
+          {
+            "group": "charged_laptop",
+            "contents-item": [
+              "software_robotics"
+            ]
+          },
+          {
+            "item": "bot_grenade_hack",
+            "count": 2
+          },
+          {
+            "item": "bot_c4_hack"
+          },
+          {
+            "group": "m4_cqbr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sf_18e_bionic",
+    "name": {
+      "male": "Bionic SF - Communications Sergeant (18E)",
+      "female": "Bionic SF - Communications Sergeant (18E)"
+    },
+    "description": "You could raise the other side of the planet with a wire dipole and a car battery.  Now the planet mostly answers in moans, but you keep transmitting.  De oppresso liber.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 8,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 3,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "computer"
+      },
+      {
+        "level": 4,
+        "name": "electronics"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "charged_smart_phone"
+          },
+          {
+            "group": "charged_laptop",
+            "contents-item": [
+              "software_robotics"
+            ]
+          },
+          {
+            "item": "bot_grenade_hack",
+            "count": 2
+          },
+          {
+            "item": "bot_c4_hack"
+          },
+          {
+            "group": "m4_cqbr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_remote",
+      "bio_fingerhack",
+      "bio_ar",
+      "bio_int_enhancer",
+      "bio_electrokit",
+      "bio_cable",
+      "bio_targeting",
+      "bio_power_storage_mkII",
+      "bio_alarm",
+      "bio_radio"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sf_18f",
+    "name": {
+      "male": "SF - Intelligence Sergeant (18F)",
+      "female": "SF - Intelligence Sergeant (18F)"
+    },
+    "description": "Source networks, target packets, pattern-of-life - the 18F sees the battlefield before the team steps onto it.  Your sources stopped reporting all at once, which is itself a report.  De oppresso liber.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 5,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 3,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "computer"
+      },
+      {
+        "level": 4,
+        "name": "electronics"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 4,
+        "name": "speech"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "charged_laptop"
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          },
+          {
+            "group": "m4_cqbr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sf_18f_bionic",
+    "name": {
+      "male": "Bionic SF - Intelligence Sergeant (18F)",
+      "female": "Bionic SF - Intelligence Sergeant (18F)"
+    },
+    "description": "Source networks, target packets, pattern-of-life - the 18F sees the battlefield before the team steps onto it.  Your sources stopped reporting all at once, which is itself a report.  De oppresso liber.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 9,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 3,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "computer"
+      },
+      {
+        "level": 4,
+        "name": "electronics"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 4,
+        "name": "speech"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "charged_laptop"
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          },
+          {
+            "group": "m4_cqbr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_remote",
+      "bio_fingerhack",
+      "bio_ar",
+      "bio_int_enhancer",
+      "bio_electrokit",
+      "bio_cable",
+      "bio_targeting",
+      "bio_power_storage_mkII",
+      "bio_alarm",
+      "bio_radio"
+    ]
+  }
+]

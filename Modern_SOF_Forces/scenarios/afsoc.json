@@ -1,0 +1,28 @@
+[
+  {
+    "type": "scenario",
+    "id": "scen_afsoc",
+    "name": "Any Time, Any Place",
+    "points": 1,
+    "description": "The strip you were surveying was supposed to receive a C-146 at dawn.  Dawn came; the aircraft didn't; the tower at home station transmits only carrier wave.  Any time, any place, the command always promised.  It is some time, and you are somewhere.  Work the problem.",
+    "start_name": "Strip Alert",
+    "allowed_locs": [
+      "sloc_field",
+      "sloc_forest",
+      "sloc_road"
+    ],
+    "professions": [
+      "afsoc_pj",
+      "afsoc_pj_bionic",
+      "afsoc_sr",
+      "afsoc_sr_bionic",
+      "afsoc_cct",
+      "afsoc_cct_bionic",
+      "afsoc_tacp",
+      "afsoc_tacp_bionic"
+    ],
+    "flags": [
+      "LONE_START"
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "type": "scenario",
+    "id": "scen_sac",
+    "name": "Tertia Optio",
+    "points": 1,
+    "description": "The United States maintains no official presence in the area where you are standing, which is convenient, because the United States is no longer maintaining much of anything.  The agency went quiet mid-cable.  Tertia optio: when the first two options die, the third one keeps working.",
+    "start_name": "No Official Presence",
+    "allowed_locs": [
+      "sloc_house",
+      "sloc_garage",
+      "sloc_bar"
+    ],
+    "professions": [
+      "sac_pmoo",
+      "sac_pmoo_bionic",
+      "sac_targeting",
+      "sac_targeting_bionic",
+      "sac_comms",
+      "sac_comms_bionic",
+      "sac_medic",
+      "sac_medic_bionic"
+    ],
+    "flags": [
+      "LONE_START",
+      "CITY_START"
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "type": "scenario",
+    "id": "scen_pmc",
+    "name": "Force Majeure",
+    "points": 1,
+    "description": "The contract said evacuation support, the client stopped answering, and the company's emergency line now plays a hold tone to an empty office.  Whether you were Greywater's cheapest local hire or Double Canopy's most expensive asset, the situation has equalized compensation.  Force majeure: nobody is paying, and the work continues.",
+    "start_name": "Contract Terminated",
+    "allowed_locs": [
+      "sloc_house",
+      "sloc_garage",
+      "sloc_road"
+    ],
+    "professions": [
+      "gw_contractor",
+      "gw_ak",
+      "gw_marksman",
+      "gw_medic",
+      "dc_operator",
+      "dc_breacher",
+      "dc_marksman",
+      "dc_medic"
+    ],
+    "flags": [
+      "LONE_START",
+      "CITY_START"
+    ]
+  }
+]

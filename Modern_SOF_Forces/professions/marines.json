@@ -1,0 +1,3636 @@
+[
+  {
+    "type": "profession",
+    "id": "marine_rifleman",
+    "name": {
+      "male": "Marine - Rifleman",
+      "female": "Marine - Rifleman"
+    },
+    "description": "Every Marine a rifleman, and you were the genuine article: an 0311 with an M27 and an opinion about everyone else's trigger discipline.  Semper fi.  The Corps would want the line held.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 2,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "dodge"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "throw"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "helmet_army"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "item": "m18",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "p320mag_17rd_9x19mm",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "m27_iar",
+            "ammo-item": "556",
+            "charges": 30,
+            "contents-item": [
+              "acog_scope",
+              "shoulder_strap"
+            ],
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "stanag30",
+            "count": 3,
+            "ammo-item": "556",
+            "charges": 30
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "marine_autorifleman",
+    "name": {
+      "male": "Marine - Automatic Rifleman",
+      "female": "Marine - Automatic Rifleman"
+    },
+    "description": "The squad's automatic rifleman: same M27, more magazines, a bipod, and the standing order to make the enemy's heads stay down.  Semper fi.  Volume is a kind of fidelity.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 5,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 2,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "helmet_army"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "item": "m18",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "p320mag_17rd_9x19mm",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "m27_iar",
+            "ammo-item": "556",
+            "charges": 60,
+            "contents-item": [
+              "acog_scope",
+              "bipod",
+              "shoulder_strap"
+            ],
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "stanag60drum",
+            "count": 2,
+            "ammo-item": "556",
+            "charges": 60
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "223",
+            "charges": 30,
+            "count": 2
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "marine_machinegunner",
+    "name": {
+      "male": "Marine - Machine Gunner",
+      "female": "Marine - Machine Gunner"
+    },
+    "description": "An 0331 with a full-size M240 and the upper-body strength to prove it.  The gun goes where the squad leader points and the problem stops being a problem.  Semper fi.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 5,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 2,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "helmet_army"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "item": "m18",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "p320mag_17rd_9x19mm",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "m240",
+            "ammo-item": "762_51",
+            "charges": 500,
+            "contents-item": [
+              "shoulder_strap"
+            ],
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "belt308",
+            "count": 2,
+            "ammo-item": "762_51",
+            "charges": 500
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "marine_mortarman",
+    "name": {
+      "male": "Marine - Mortarman",
+      "female": "Marine - Mortarman"
+    },
+    "description": "An 0341 off the 81s: hang the round, cut the charge, and put steel on a grid square you'll never see.  The tube breaks down to man-portable, which is currently very relevant.  Semper fi.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 5,
+        "name": "launcher"
+      },
+      {
+        "level": 3,
+        "name": "smg"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "throw"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "helmet_army"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "item": "m18",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "p320mag_17rd_9x19mm",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "mortar_m252"
+          },
+          {
+            "item": "81mm_shell_m821",
+            "count": 4
+          },
+          {
+            "item": "m27_iar",
+            "ammo-item": "556",
+            "charges": 30,
+            "contents-item": [
+              "shoulder_strap"
+            ],
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "stanag30",
+            "count": 2,
+            "ammo-item": "556",
+            "charges": 30
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "marine_assaultman",
+    "name": {
+      "male": "Marine - Assaultman",
+      "female": "Marine - Assaultman"
+    },
+    "description": "An 0351 with a SMAW: bunkers, armor, and load-bearing walls all answer to the same backblast.  Semper fi.  Mind the area behind you.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 5,
+        "name": "launcher"
+      },
+      {
+        "level": 3,
+        "name": "smg"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "throw"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "helmet_army"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "item": "m18",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "p320mag_17rd_9x19mm",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "smaw"
+          },
+          {
+            "item": "smaw_83mm_hedp",
+            "count": 2
+          },
+          {
+            "item": "m27_iar",
+            "ammo-item": "556",
+            "charges": 30,
+            "contents-item": [
+              "shoulder_strap"
+            ],
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "stanag30",
+            "count": 2,
+            "ammo-item": "556",
+            "charges": 30
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "marine_corpsman",
+    "name": {
+      "male": "Marine - Corpsman",
+      "female": "Marine - Corpsman"
+    },
+    "description": "Doc.  Navy by paycheck, Marine by adoption, and the first name screamed in every bad moment of the deployment.  Semper fi - they'd say it about you, which is the higher compliment.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 6,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "helmet_army"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "item": "m18",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "p320mag_17rd_9x19mm",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "full_ifak"
+          },
+          {
+            "group": "full_ifak"
+          },
+          {
+            "item": "medical_gauze",
+            "count": 6
+          },
+          {
+            "item": "m27_iar",
+            "ammo-item": "556",
+            "charges": 30,
+            "contents-item": [
+              "shoulder_strap"
+            ],
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "stanag30",
+            "count": 2,
+            "ammo-item": "556",
+            "charges": 30
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "fr_team_leader",
+    "name": {
+      "male": "Force Recon - Team Leader",
+      "female": "Force Recon - Team Leader"
+    },
+    "description": "You led a Force Reconnaissance team: the Corps' own deep eyes, conventional on paper and anything but in practice.  Celer, silens, mortalis - swift, silent, deadly.  Two out of three is now the whole world's job description; you still hold all three.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "speech"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "helmet_army"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "item": "m18",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "p320mag_17rd_9x19mm",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "m4_glssc"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "fr_team_leader_bionic",
+    "name": {
+      "male": "Bionic Force Recon - Team Leader",
+      "female": "Bionic Force Recon - Team Leader"
+    },
+    "description": "You led a Force Reconnaissance team: the Corps' own deep eyes, conventional on paper and anything but in practice.  Celer, silens, mortalis - swift, silent, deadly.  Two out of three is now the whole world's job description; you still hold all three.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 7,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "speech"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "helmet_army"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "item": "m18",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "p320mag_17rd_9x19mm",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "m4_glssc"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_adrenaline",
+      "bio_armor_torso",
+      "bio_armor_eyes",
+      "bio_cqb",
+      "bio_metabolics",
+      "bio_power_storage_mkII"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "fr_recon_marine",
+    "name": {
+      "male": "Force Recon - Recon Marine",
+      "female": "Force Recon - Recon Marine"
+    },
+    "description": "Green-side reconnaissance: insert quiet, watch long, report short, leave nothing.  Celer, silens, mortalis.  The dead broke the second rule first.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_spotting"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      },
+      {
+        "level": 4,
+        "name": "survival"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "traps"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "helmet_army"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "item": "m18",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "p320mag_17rd_9x19mm",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "m4_spr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "fr_recon_marine_bionic",
+    "name": {
+      "male": "Bionic Force Recon - Recon Marine",
+      "female": "Bionic Force Recon - Recon Marine"
+    },
+    "description": "Green-side reconnaissance: insert quiet, watch long, report short, leave nothing.  Celer, silens, mortalis.  The dead broke the second rule first.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 7,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_spotting"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      },
+      {
+        "level": 4,
+        "name": "survival"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "traps"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "helmet_army"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "item": "m18",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "p320mag_17rd_9x19mm",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "m4_spr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_night_vision",
+      "bio_ears",
+      "bio_alarm",
+      "bio_scent_mask",
+      "bio_metabolics",
+      "bio_power_storage"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "fr_sniper",
+    "name": {
+      "male": "Force Recon - Sniper",
+      "female": "Force Recon - Sniper"
+    },
+    "description": "Force Recon sniper with the anti-materiel rifle: when the target is an engine block, a generator, or something the briefers got vague about, the M82 settles it from a kilometer out.  Celer, silens, mortalis - well, two of three; the fifty is not silent.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 5,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_spotting",
+      "prof_handloading",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 6,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 3,
+        "name": "firstaid"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "helmet_army"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "heavy_load_bearing_vest"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "item": "m18",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "p320mag_17rd_9x19mm",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "m107a1",
+            "ammo-item": "50bmg",
+            "charges": 10,
+            "contents-item": [
+              "shoulder_strap"
+            ],
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "m107a1mag",
+            "count": 2,
+            "ammo-item": "50bmg",
+            "charges": 10
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "fr_sniper_bionic",
+    "name": {
+      "male": "Bionic Force Recon - Sniper",
+      "female": "Bionic Force Recon - Sniper"
+    },
+    "description": "Force Recon sniper with the anti-materiel rifle: when the target is an engine block, a generator, or something the briefers got vague about, the M82 settles it from a kilometer out.  Celer, silens, mortalis - well, two of three; the fifty is not silent.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 9,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_spotting",
+      "prof_handloading",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 6,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 3,
+        "name": "firstaid"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "helmet_army"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "heavy_load_bearing_vest"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "item": "m18",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "p320mag_17rd_9x19mm",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "m107a1",
+            "ammo-item": "50bmg",
+            "charges": 10,
+            "contents-item": [
+              "shoulder_strap"
+            ],
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "m107a1mag",
+            "count": 2,
+            "ammo-item": "50bmg",
+            "charges": 10
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_eye_enhancer",
+      "bio_eye_optic",
+      "bio_targeting",
+      "bio_infrared",
+      "bio_power_storage_mkII",
+      "bio_metabolics",
+      "bio_scent_mask",
+      "bio_climate"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "fr_corpsman",
+    "name": {
+      "male": "Force Recon - Corpsman",
+      "female": "Force Recon - Corpsman"
+    },
+    "description": "A recon corpsman swims the same swims and carries the aid bag besides.  The Mk 18 is for when prevention beats treatment.  Celer, silens, mortalis - and afterwards, you.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 6,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "helmet_army"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "item": "m18",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "p320mag_17rd_9x19mm",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "full_ifak"
+          },
+          {
+            "group": "full_ifak"
+          },
+          {
+            "group": "m4_cqbr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "fr_corpsman_bionic",
+    "name": {
+      "male": "Bionic Force Recon - Corpsman",
+      "female": "Bionic Force Recon - Corpsman"
+    },
+    "description": "A recon corpsman swims the same swims and carries the aid bag besides.  The Mk 18 is for when prevention beats treatment.  Celer, silens, mortalis - and afterwards, you.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 6,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 6,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "helmet_army"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_hunting",
+            "container-item": "sheath"
+          },
+          {
+            "item": "m18",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "p320mag_17rd_9x19mm",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "full_ifak"
+          },
+          {
+            "group": "full_ifak"
+          },
+          {
+            "group": "m4_cqbr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_purifier",
+      "bio_metabolics",
+      "bio_armor_torso",
+      "bio_armor_eyes",
+      "bio_power_storage_mkII"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "marsoc_cso",
+    "name": {
+      "male": "MARSOC - Critical Skills Operator",
+      "female": "MARSOC - Critical Skills Operator"
+    },
+    "description": "A Raider CSO: the Corps' contribution to special operations, with the M27 worked over until it shoots like it owes you money.  Spiritus invictus - unconquerable spirit.  It's being tested.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 5,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 5,
+        "name": "gun"
+      },
+      {
+        "level": 5,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 3,
+        "name": "throw"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "m27_iar",
+            "ammo-item": "556",
+            "charges": 30,
+            "contents-item": [
+              "holo_sight",
+              "suppressor",
+              "shoulder_strap"
+            ],
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "stanag30",
+            "count": 3,
+            "ammo-item": "556",
+            "charges": 30
+          },
+          {
+            "item": "flashbang",
+            "count": 2
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "marsoc_cso_bionic",
+    "name": {
+      "male": "Bionic MARSOC - Critical Skills Operator",
+      "female": "Bionic MARSOC - Critical Skills Operator"
+    },
+    "description": "A Raider CSO: the Corps' contribution to special operations, with the M27 worked over until it shoots like it owes you money.  Spiritus invictus - unconquerable spirit.  It's being tested.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 8,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 5,
+        "name": "gun"
+      },
+      {
+        "level": 5,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 3,
+        "name": "throw"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "m27_iar",
+            "ammo-item": "556",
+            "charges": 30,
+            "contents-item": [
+              "holo_sight",
+              "suppressor",
+              "shoulder_strap"
+            ],
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "stanag30",
+            "count": 3,
+            "ammo-item": "556",
+            "charges": 30
+          },
+          {
+            "item": "flashbang",
+            "count": 2
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_adrenaline",
+      "bio_armor_torso",
+      "bio_armor_eyes",
+      "bio_cqb",
+      "bio_metabolics",
+      "bio_power_storage_mkII"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "marsoc_element_leader",
+    "name": {
+      "male": "MARSOC - Element Leader",
+      "female": "MARSOC - Element Leader"
+    },
+    "description": "You ran a Raider element: planning, partner force, and the last word in every stack.  Spiritus invictus.  The element is gone; the spirit is the part they couldn't kill.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "speech"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "m4_glssc"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "marsoc_element_leader_bionic",
+    "name": {
+      "male": "Bionic MARSOC - Element Leader",
+      "female": "Bionic MARSOC - Element Leader"
+    },
+    "description": "You ran a Raider element: planning, partner force, and the last word in every stack.  Spiritus invictus.  The element is gone; the spirit is the part they couldn't kill.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 7,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "speech"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "m4_glssc"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_adrenaline",
+      "bio_armor_torso",
+      "bio_armor_eyes",
+      "bio_cqb",
+      "bio_metabolics",
+      "bio_power_storage_mkII"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "marsoc_sniper",
+    "name": {
+      "male": "MARSOC - Sniper",
+      "female": "MARSOC - Sniper"
+    },
+    "description": "Raider sniper: surgical overwatch for raids the press releases called 'advise and assist.'  The SR-25 has never once advised.  Spiritus invictus.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 5,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_spotting",
+      "prof_handloading",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 6,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 3,
+        "name": "firstaid"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "heavy_load_bearing_vest"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "sr25",
+            "ammo-item": "762_51",
+            "charges": 20,
+            "contents-item": [
+              "suppressor",
+              "shoulder_strap"
+            ],
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "ar10mag_20rd",
+            "count": 3,
+            "ammo-item": "762_51",
+            "charges": 20
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "marsoc_sniper_bionic",
+    "name": {
+      "male": "Bionic MARSOC - Sniper",
+      "female": "Bionic MARSOC - Sniper"
+    },
+    "description": "Raider sniper: surgical overwatch for raids the press releases called 'advise and assist.'  The SR-25 has never once advised.  Spiritus invictus.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 9,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_spotting",
+      "prof_handloading",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 6,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 3,
+        "name": "firstaid"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "heavy_load_bearing_vest"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "sr25",
+            "ammo-item": "762_51",
+            "charges": 20,
+            "contents-item": [
+              "suppressor",
+              "shoulder_strap"
+            ],
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "ar10mag_20rd",
+            "count": 3,
+            "ammo-item": "762_51",
+            "charges": 20
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_eye_enhancer",
+      "bio_eye_optic",
+      "bio_targeting",
+      "bio_infrared",
+      "bio_power_storage_mkII",
+      "bio_metabolics",
+      "bio_scent_mask",
+      "bio_climate"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "marsoc_sarc",
+    "name": {
+      "male": "MARSOC - SARC",
+      "female": "MARSOC - SARC"
+    },
+    "description": "Special Amphibious Reconnaissance Corpsman: the most over-qualified 'doc' in the Department of the Navy, dive-qualified, jump-qualified, and surgical-qualified.  Spiritus invictus.  Keep them that way.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 6,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "delta_bag_filled"
+          },
+          {
+            "group": "m4_cqbr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "marsoc_sarc_bionic",
+    "name": {
+      "male": "Bionic MARSOC - SARC",
+      "female": "Bionic MARSOC - SARC"
+    },
+    "description": "Special Amphibious Reconnaissance Corpsman: the most over-qualified 'doc' in the Department of the Navy, dive-qualified, jump-qualified, and surgical-qualified.  Spiritus invictus.  Keep them that way.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 6,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 6,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "delta_bag_filled"
+          },
+          {
+            "group": "m4_cqbr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_purifier",
+      "bio_metabolics",
+      "bio_armor_torso",
+      "bio_armor_eyes",
+      "bio_power_storage_mkII"
+    ]
+  }
+]

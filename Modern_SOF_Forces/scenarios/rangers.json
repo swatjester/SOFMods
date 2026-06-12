@@ -31,8 +31,20 @@
       "ranger_fire_support",
       "ranger_fire_support_bionic",
       "ranger_jtac",
-      "ranger_jtac_bionic"
+      "ranger_jtac_bionic",
+      "rrc_team_leader",
+      "rrc_team_leader_bionic",
+      "rrc_sniper",
+      "rrc_sniper_bionic",
+      "rrc_comms",
+      "rrc_comms_bionic",
+      "rrc_medic",
+      "rrc_medic_bionic"
     ],
-    "flags": [ "LONE_START", "CITY_START" ]
+    "flags": [
+      "LONE_START",
+      "CITY_START"
+    ],
+    "//": "Task Force Red: 75th Ranger Regiment + Regimental Reconnaissance Company."
   }
 ]

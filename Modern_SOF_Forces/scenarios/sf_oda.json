@@ -1,0 +1,36 @@
+[
+  {
+    "type": "scenario",
+    "id": "scen_sf_oda",
+    "name": "De Oppresso Liber",
+    "points": 1,
+    "description": "Your ODA was living out of a partner-force compound, training a militia for a war everyone could feel coming.  Nobody guessed which war.  The partner force is wandering the wire with its throats open, and the team house is quiet.  De oppresso liber.  The job description survived the chain of command.",
+    "start_name": "The Last Detachment",
+    "allowed_locs": [
+      "sloc_field",
+      "sloc_forest",
+      "sloc_road"
+    ],
+    "professions": [
+      "sf_18a",
+      "sf_18a_bionic",
+      "sf_18b_weapons",
+      "sf_18b_weapons_bionic",
+      "sf_18b_sniper",
+      "sf_18b_sniper_bionic",
+      "sf_18b_gustav",
+      "sf_18b_gustav_bionic",
+      "sf_18c",
+      "sf_18c_bionic",
+      "sf_18d",
+      "sf_18d_bionic",
+      "sf_18e",
+      "sf_18e_bionic",
+      "sf_18f",
+      "sf_18f_bionic"
+    ],
+    "flags": [
+      "LONE_START"
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "type": "scenario",
+    "id": "scen_tf_blue",
+    "name": "Task Force Blue",
+    "points": 1,
+    "description": "Your DEVGRU squadron was staged for a maritime interdiction when every net from the carrier on down dissolved into screaming.  The bird that was supposed to extract you never launched.  You are alone, kitted, and very far off target.  Long live the brotherhood - you intend to find out if any of it is still alive.",
+    "start_name": "Off Target",
+    "allowed_locs": [
+      "sloc_field",
+      "sloc_forest",
+      "sloc_road"
+    ],
+    "professions": [
+      "devgru_assaulter",
+      "devgru_assaulter_bionic",
+      "devgru_breacher",
+      "devgru_breacher_bionic",
+      "devgru_sniper",
+      "devgru_sniper_bionic",
+      "devgru_comms",
+      "devgru_comms_bionic",
+      "devgru_corpsman",
+      "devgru_corpsman_bionic"
+    ],
+    "flags": [
+      "LONE_START"
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "type": "scenario",
+    "id": "scen_infantry",
+    "name": "This We'll Defend",
+    "points": 1,
+    "description": "Your platoon was holding a checkpoint that turned into a casualty collection point that turned into a slaughter.  You walked away from the wire with your weapon and whatever was on your back.  This we'll defend, the drill sergeants said.  Look around.  Defend it.",
+    "start_name": "Broken Arrow",
+    "allowed_locs": [
+      "sloc_field",
+      "sloc_road"
+    ],
+    "professions": [
+      "army_rifleman",
+      "army_gunner",
+      "army_grenadier",
+      "army_at",
+      "army_medic",
+      "army_rto"
+    ],
+    "flags": [
+      "LONE_START"
+    ]
+  }
+]

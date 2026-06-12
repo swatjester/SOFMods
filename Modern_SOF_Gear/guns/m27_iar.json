@@ -1,0 +1,108 @@
+[
+  {
+    "subtypes": [
+      "GUN"
+    ],
+    "material": [
+      "aluminum",
+      "steel",
+      "plastic"
+    ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "dispersion": 144,
+    "min_cycle_recoil": 1350,
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "loading port",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock accessory",
+        1
+      ],
+      [
+        "stock",
+        1
+      ]
+    ],
+    "melee_damage": {
+      "bash": 12
+    },
+    "to_hit": -1,
+    "id": "m27_iar",
+    "type": "ITEM",
+    "looks_like": "modular_m4_carbine",
+    "name": {
+      "str": "M27 IAR"
+    },
+    "//": "HK416-pattern piston gun: the closest in-game stand-in for the HK416 family. Issued as the Marine rifleman's rifle and the CAG assaulter's carbine. Free-floated and over-built: better dispersion and durability than the M4, a little heavier.",
+    "description": "The M27 Infantry Automatic Rifle, a militarized HK416 with a 16.5-inch free-floating heavy barrel and a short-stroke gas piston.  Adopted by the Marine Corps as an automatic rifle and then simply as the rifle, it runs cleaner, hits finer, and weighs more than the M4 it replaced.  Feeds from standard STANAG magazines.",
+    "weight": "3600 g",
+    "volume": "3700 ml",
+    "longest_side": "930 mm",
+    "price": "3000 USD",
+    "price_postapoc": "70 USD",
+    "ammo": [
+      "223"
+    ],
+    "durability": 9,
+    "loudness": 215,
+    "handling": 28,
+    "range": 1,
+    "barrel_volume": "700 ml",
+    "modes": [
+      [
+        "DEFAULT",
+        "semi",
+        1
+      ],
+      [
+        "AUTO",
+        "auto",
+        5
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
+        "item_restriction": [
+          "stanag30",
+          "stanag5",
+          "stanag5ranger",
+          "stanag10",
+          "stanag10ranger",
+          "stanag20",
+          "stanag20ranger",
+          "stanag30ranger",
+          "stanag40",
+          "stanag50",
+          "stanag60",
+          "stanag60drum",
+          "stanag90",
+          "stanag100",
+          "stanag100drum",
+          "stanag150",
+          "survivor223mag"
+        ]
+      }
+    ]
+  }
+]

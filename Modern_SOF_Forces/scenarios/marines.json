@@ -1,0 +1,41 @@
+[
+  {
+    "type": "scenario",
+    "id": "scen_marines",
+    "name": "Semper Fidelis",
+    "points": 1,
+    "description": "The battalion was conducting a non-combatant evacuation when the evacuees started attacking the Marines.  The line held, then the line was gone - command, the battalion, the entire MEU, swallowed in a single night.  Semper fidelis cuts both ways: nobody is left to be faithful to, except the ones you might still find.",
+    "start_name": "Lost Contact",
+    "allowed_locs": [
+      "sloc_field",
+      "sloc_road"
+    ],
+    "professions": [
+      "marine_rifleman",
+      "marine_autorifleman",
+      "marine_machinegunner",
+      "marine_mortarman",
+      "marine_assaultman",
+      "marine_corpsman",
+      "fr_team_leader",
+      "fr_team_leader_bionic",
+      "fr_recon_marine",
+      "fr_recon_marine_bionic",
+      "fr_sniper",
+      "fr_sniper_bionic",
+      "fr_corpsman",
+      "fr_corpsman_bionic",
+      "marsoc_cso",
+      "marsoc_cso_bionic",
+      "marsoc_element_leader",
+      "marsoc_element_leader_bionic",
+      "marsoc_sniper",
+      "marsoc_sniper_bionic",
+      "marsoc_sarc",
+      "marsoc_sarc_bionic"
+    ],
+    "flags": [
+      "LONE_START"
+    ]
+  }
+]

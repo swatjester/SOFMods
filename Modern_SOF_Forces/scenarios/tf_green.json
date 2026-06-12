@@ -1,0 +1,30 @@
+[
+  {
+    "type": "scenario",
+    "id": "scen_tf_green",
+    "name": "Task Force Green",
+    "points": 1,
+    "description": "The Unit doesn't panic, so when the troop sergeant major's voice finally cracked on the assault net, you understood the scale of it.  The objective was a city.  The city is gone.  Speed, surprise, and violence of action still work; there's just nobody left to debrief.",
+    "start_name": "The Long Walk",
+    "allowed_locs": [
+      "sloc_field",
+      "sloc_forest",
+      "sloc_road"
+    ],
+    "professions": [
+      "cag_assaulter",
+      "cag_assaulter_bionic",
+      "cag_breacher",
+      "cag_breacher_bionic",
+      "cag_recce",
+      "cag_recce_bionic",
+      "cag_medic",
+      "cag_medic_bionic",
+      "cag_signals",
+      "cag_signals_bionic"
+    ],
+    "flags": [
+      "LONE_START"
+    ]
+  }
+]
