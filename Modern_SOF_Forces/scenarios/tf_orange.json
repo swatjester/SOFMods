@@ -1,0 +1,29 @@
+[
+  {
+    "type": "scenario",
+    "id": "scen_tf_orange",
+    "name": "Task Force Orange",
+    "points": 1,
+    "description": "You were three weeks into a close-access collection problem when the signal environment went insane and then went quiet.  Your cover apartment still has power, your equipment still works, and absolutely no one is coming to exfil you.  Send me, you used to say.  Consider yourself sent.",
+    "start_name": "Off the Books",
+    "allowed_locs": [
+      "sloc_house",
+      "sloc_garage",
+      "sloc_bar"
+    ],
+    "professions": [
+      "tfo_surveillance",
+      "tfo_surveillance_bionic",
+      "tfo_sigint",
+      "tfo_sigint_bionic",
+      "tfo_shooter",
+      "tfo_shooter_bionic",
+      "tfo_medic",
+      "tfo_medic_bionic"
+    ],
+    "flags": [
+      "LONE_START",
+      "CITY_START"
+    ]
+  }
+]

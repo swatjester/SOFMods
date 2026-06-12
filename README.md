@@ -63,6 +63,10 @@ Adds solo-start scenarios and playable professions for modern SOF characters:
 - **Multifunctional Reconnaissance Company professions:** scout, sniper, machine gunner, grenadier, drone operator, medic, and JTAC.
 - **Bionic variants:** augmented versions of the Ranger and Recon professions with bionic loadouts.
 
+### Modern_SOF_Forces - Phase 2 units
+
+Eleven new scenario families with 116 professions covering the major U.S. SOF, conventional, and contractor units: Task Force Red (75th + RRC), Task Force Blue (DEVGRU), Task Force Green (CAG), Task Force Orange (TFO/ISA), SEALs, Special Forces ODA, SAC, AFSOC, a combined Marines family (infantry, Force Recon, MARSOC), Army Infantry (NGSW-equipped), and PMCs (Greywater and Double Canopy). SOF units include bionic variants. The M27 IAR has been added as the HK416-pattern rifle for Marines and CAG.
+
 ### Modern_SOF_Vehicles
 
 Adds modern tactical vehicles and vehicle parts:

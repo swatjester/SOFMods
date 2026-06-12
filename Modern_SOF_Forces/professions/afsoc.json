@@ -1,0 +1,1445 @@
+[
+  {
+    "type": "profession",
+    "id": "afsoc_pj",
+    "name": {
+      "male": "AFSOC - Pararescueman",
+      "female": "AFSOC - Pararescueman"
+    },
+    "description": "PJ: two years of pipeline to earn the maroon beret, then a career of jumping into the worst hour of strangers' lives.  That others may live.  The motto did not include an expiration date.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 5,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 7,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      },
+      {
+        "level": 3,
+        "name": "swimming"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "delta_bag_filled"
+          },
+          {
+            "group": "full_ifak"
+          },
+          {
+            "group": "m4_glssc"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "afsoc_pj_bionic",
+    "name": {
+      "male": "Bionic AFSOC - Pararescueman",
+      "female": "Bionic AFSOC - Pararescueman"
+    },
+    "description": "PJ: two years of pipeline to earn the maroon beret, then a career of jumping into the worst hour of strangers' lives.  That others may live.  The motto did not include an expiration date.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 7,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 7,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      },
+      {
+        "level": 3,
+        "name": "swimming"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "delta_bag_filled"
+          },
+          {
+            "group": "full_ifak"
+          },
+          {
+            "group": "m4_glssc"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_purifier",
+      "bio_metabolics",
+      "bio_armor_torso",
+      "bio_armor_eyes",
+      "bio_power_storage_mkII"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "afsoc_sr",
+    "name": {
+      "male": "AFSOC - Special Reconnaissance",
+      "female": "AFSOC - Special Reconnaissance"
+    },
+    "description": "Air Force Special Reconnaissance: weather, terrain, and targets, reported from places the Air Force officially never landed.  Any time, any place.  Both are now in dispute.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_spotting"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      },
+      {
+        "level": 4,
+        "name": "survival"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "traps"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "m4_spr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "afsoc_sr_bionic",
+    "name": {
+      "male": "Bionic AFSOC - Special Reconnaissance",
+      "female": "Bionic AFSOC - Special Reconnaissance"
+    },
+    "description": "Air Force Special Reconnaissance: weather, terrain, and targets, reported from places the Air Force officially never landed.  Any time, any place.  Both are now in dispute.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 7,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_spotting"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      },
+      {
+        "level": 4,
+        "name": "survival"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "traps"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet"
+          },
+          {
+            "item": "advanced_gpnvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "group": "m4_spr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_night_vision",
+      "bio_ears",
+      "bio_alarm",
+      "bio_scent_mask",
+      "bio_metabolics",
+      "bio_power_storage"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "afsoc_cct",
+    "name": {
+      "male": "AFSOC - Combat Controller",
+      "female": "AFSOC - Combat Controller"
+    },
+    "description": "First there, last out: CCT runs the airfield, the strikes, and the drones, all at once, from a strip of dirt.  Any time, any place - the scarlet beret means exactly that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 5,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_spotting"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      },
+      {
+        "level": 3,
+        "name": "throw"
+      },
+      {
+        "level": 2,
+        "name": "computer"
+      },
+      {
+        "level": 2,
+        "name": "electronics"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet",
+            "contents-item": [
+              "advanced_gpnvg"
+            ]
+          },
+          {
+            "item": "level_3_vest",
+            "contents-group": "pristine_esapi_front_plates"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          },
+          {
+            "item": "eink_tablet_pc"
+          },
+          {
+            "item": "smokebomb"
+          },
+          {
+            "item": "flaregun"
+          },
+          {
+            "item": "signal_flare"
+          },
+          {
+            "item": "m320_standalone_sof"
+          },
+          {
+            "item": "40x46mm_smoke_sof",
+            "charges": 4
+          },
+          {
+            "group": "charged_smart_phone"
+          },
+          {
+            "group": "charged_laptop",
+            "contents-item": [
+              "software_robotics"
+            ]
+          },
+          {
+            "item": "bot_grenade_hack",
+            "count": 2
+          },
+          {
+            "item": "bot_c4_hack"
+          },
+          {
+            "group": "m4_cqbr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "afsoc_cct_bionic",
+    "name": {
+      "male": "Bionic AFSOC - Combat Controller",
+      "female": "Bionic AFSOC - Combat Controller"
+    },
+    "description": "First there, last out: CCT runs the airfield, the strikes, and the drones, all at once, from a strip of dirt.  Any time, any place - the scarlet beret means exactly that.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 8,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_spotting"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      },
+      {
+        "level": 3,
+        "name": "throw"
+      },
+      {
+        "level": 2,
+        "name": "computer"
+      },
+      {
+        "level": 2,
+        "name": "electronics"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "tac_helmet",
+            "contents-item": [
+              "advanced_gpnvg"
+            ]
+          },
+          {
+            "item": "level_3_vest",
+            "contents-group": "pristine_esapi_front_plates"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          },
+          {
+            "item": "eink_tablet_pc"
+          },
+          {
+            "item": "smokebomb"
+          },
+          {
+            "item": "flaregun"
+          },
+          {
+            "item": "signal_flare"
+          },
+          {
+            "item": "m320_standalone_sof"
+          },
+          {
+            "item": "40x46mm_smoke_sof",
+            "charges": 4
+          },
+          {
+            "group": "charged_smart_phone"
+          },
+          {
+            "group": "charged_laptop",
+            "contents-item": [
+              "software_robotics"
+            ]
+          },
+          {
+            "item": "bot_grenade_hack",
+            "count": 2
+          },
+          {
+            "item": "bot_c4_hack"
+          },
+          {
+            "group": "m4_cqbr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_radio",
+      "bio_ar",
+      "bio_targeting",
+      "bio_eye_enhancer",
+      "bio_eye_optic",
+      "bio_alarm",
+      "bio_power_storage_mkII"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "afsoc_tacp",
+    "name": {
+      "male": "AFSOC - TACP",
+      "female": "AFSOC - TACP"
+    },
+    "description": "Tactical Air Control Party: attached to the Army to keep the air on its side, one ridge behind the CCTs in priority for the shiny equipment and one step ahead of everyone in close-air gospel.  Any time, any place.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 5,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_spotting"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      },
+      {
+        "level": 3,
+        "name": "throw"
+      },
+      {
+        "level": 2,
+        "name": "computer"
+      },
+      {
+        "level": 2,
+        "name": "electronics"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "helmet_army"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          },
+          {
+            "item": "eink_tablet_pc"
+          },
+          {
+            "item": "smokebomb"
+          },
+          {
+            "item": "flaregun"
+          },
+          {
+            "item": "signal_flare"
+          },
+          {
+            "item": "m320_standalone_sof"
+          },
+          {
+            "item": "40x46mm_smoke_sof",
+            "charges": 4
+          },
+          {
+            "item": "bot_grenade_hack"
+          },
+          {
+            "group": "m4_cqbr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "afsoc_tacp_bionic",
+    "name": {
+      "male": "Bionic AFSOC - TACP",
+      "female": "Bionic AFSOC - TACP"
+    },
+    "description": "Tactical Air Control Party: attached to the Army to keep the air on its side, one ridge behind the CCTs in priority for the shiny equipment and one step ahead of everyone in close-air gospel.  Any time, any place.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 8,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_spotting"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "survival"
+      },
+      {
+        "level": 3,
+        "name": "throw"
+      },
+      {
+        "level": 2,
+        "name": "computer"
+      },
+      {
+        "level": 2,
+        "name": "electronics"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "combat_shirt"
+          },
+          {
+            "item": "jacket_army_modern"
+          },
+          {
+            "item": "tank_top"
+          },
+          {
+            "item": "pants_army"
+          },
+          {
+            "item": "gloves_tactical"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "boots_combat"
+          },
+          {
+            "item": "balaclava"
+          },
+          {
+            "item": "light_battery_cell",
+            "charges": 16,
+            "count": 2
+          },
+          {
+            "item": "ear_plugs",
+            "custom-flags": [
+              "no_auto_equip"
+            ]
+          },
+          {
+            "item": "water_clean",
+            "container-item": "canteen"
+          },
+          {
+            "item": "helmet_army"
+          },
+          {
+            "item": "military_nvg"
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          },
+          {
+            "group": "charged_two_way_radio"
+          },
+          {
+            "item": "knife_rm42",
+            "container-item": "sheath"
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "group": "battle_belt_assaulter"
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "roadmap"
+          },
+          {
+            "item": "eink_tablet_pc"
+          },
+          {
+            "item": "smokebomb"
+          },
+          {
+            "item": "flaregun"
+          },
+          {
+            "item": "signal_flare"
+          },
+          {
+            "item": "m320_standalone_sof"
+          },
+          {
+            "item": "40x46mm_smoke_sof",
+            "charges": 4
+          },
+          {
+            "item": "bot_grenade_hack"
+          },
+          {
+            "group": "m4_cqbr"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "556",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_radio",
+      "bio_ar",
+      "bio_targeting",
+      "bio_eye_enhancer",
+      "bio_eye_optic",
+      "bio_alarm",
+      "bio_power_storage_mkII"
+    ]
+  }
+]

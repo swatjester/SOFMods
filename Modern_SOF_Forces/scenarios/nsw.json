@@ -1,0 +1,32 @@
+[
+  {
+    "type": "scenario",
+    "id": "scen_nsw",
+    "name": "The Only Easy Day",
+    "points": 1,
+    "description": "The platoon went feet dry at 0200 for a routine sensitive-site exploitation; by 0300 the site was exploiting the platoon.  You broke contact alone, which is not how the Teams do anything.  The only easy day was yesterday.  It always was.",
+    "start_name": "Feet Dry",
+    "allowed_locs": [
+      "sloc_field",
+      "sloc_forest",
+      "sloc_road"
+    ],
+    "professions": [
+      "seal_operator",
+      "seal_operator_bionic",
+      "seal_breacher",
+      "seal_breacher_bionic",
+      "seal_heavy_gunner",
+      "seal_heavy_gunner_bionic",
+      "seal_sniper",
+      "seal_sniper_bionic",
+      "seal_corpsman",
+      "seal_corpsman_bionic",
+      "seal_jtac",
+      "seal_jtac_bionic"
+    ],
+    "flags": [
+      "LONE_START"
+    ]
+  }
+]

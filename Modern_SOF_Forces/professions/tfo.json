@@ -1,0 +1,1159 @@
+[
+  {
+    "type": "profession",
+    "id": "tfo_surveillance",
+    "name": {
+      "male": "TFO - Surveillance Operative",
+      "female": "TFO - Surveillance Operative"
+    },
+    "description": "Task Force Orange.  The Activity.  You followed people for a living in cities where being noticed meant dying, and you were never noticed.  Send me, you used to say.  Nobody is asking anymore.  You are going anyway.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 5,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_elec_circuits",
+      "prof_elec_soldering"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 4,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "speech"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      },
+      {
+        "level": 3,
+        "name": "computer"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "driving"
+      },
+      {
+        "level": 1,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "hoodie"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "sneakers"
+          },
+          {
+            "item": "ballistic_vest_concealable"
+          },
+          {
+            "item": "cell_phone"
+          },
+          {
+            "item": "wallet_leather"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "bottle_plastic",
+            "charges": 2
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "knife_folding"
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "camera"
+          },
+          {
+            "group": "charged_laptop"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "tfo_surveillance_bionic",
+    "name": {
+      "male": "Bionic TFO - Surveillance Operative",
+      "female": "Bionic TFO - Surveillance Operative"
+    },
+    "description": "Task Force Orange.  The Activity.  You followed people for a living in cities where being noticed meant dying, and you were never noticed.  Send me, you used to say.  Nobody is asking anymore.  You are going anyway.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 8,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_elec_circuits",
+      "prof_elec_soldering"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 4,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "speech"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      },
+      {
+        "level": 3,
+        "name": "computer"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "driving"
+      },
+      {
+        "level": 1,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "hoodie"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "sneakers"
+          },
+          {
+            "item": "ballistic_vest_concealable"
+          },
+          {
+            "item": "cell_phone"
+          },
+          {
+            "item": "wallet_leather"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "bottle_plastic",
+            "charges": 2
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "knife_folding"
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "camera"
+          },
+          {
+            "group": "charged_laptop"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_face_mask",
+      "bio_ears",
+      "bio_night_vision",
+      "bio_scent_mask",
+      "bio_metabolics",
+      "bio_power_storage"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "tfo_sigint",
+    "name": {
+      "male": "TFO - SIGINT Collector",
+      "female": "TFO - SIGINT Collector"
+    },
+    "description": "Close-access signals intelligence: you parked the van, flew the antenna, and pulled other people's secrets out of the air for the task forces with color names.  The spectrum is mostly screaming now.  Send me.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_elec_circuits",
+      "prof_elec_soldering"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 3,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "computer"
+      },
+      {
+        "level": 4,
+        "name": "electronics"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "hoodie"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "sneakers"
+          },
+          {
+            "item": "ballistic_vest_concealable"
+          },
+          {
+            "item": "cell_phone"
+          },
+          {
+            "item": "wallet_leather"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "bottle_plastic",
+            "charges": 2
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "knife_folding"
+          },
+          {
+            "group": "charged_smart_phone"
+          },
+          {
+            "group": "charged_laptop",
+            "contents-item": [
+              "software_robotics"
+            ]
+          },
+          {
+            "item": "bot_grenade_hack",
+            "count": 2
+          },
+          {
+            "item": "bot_c4_hack"
+          },
+          {
+            "item": "sof_mp7",
+            "ammo-item": "46x30_fmj_sof",
+            "charges": 40,
+            "container-item": "duffelbag"
+          },
+          {
+            "item": "sof_mp7_mag_40",
+            "ammo-item": "46x30_fmj_sof",
+            "charges": 40,
+            "count": 2
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "tfo_sigint_bionic",
+    "name": {
+      "male": "Bionic TFO - SIGINT Collector",
+      "female": "Bionic TFO - SIGINT Collector"
+    },
+    "description": "Close-access signals intelligence: you parked the van, flew the antenna, and pulled other people's secrets out of the air for the task forces with color names.  The spectrum is mostly screaming now.  Send me.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 8,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_elec_circuits",
+      "prof_elec_soldering"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 3,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "computer"
+      },
+      {
+        "level": 4,
+        "name": "electronics"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "hoodie"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "sneakers"
+          },
+          {
+            "item": "ballistic_vest_concealable"
+          },
+          {
+            "item": "cell_phone"
+          },
+          {
+            "item": "wallet_leather"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "bottle_plastic",
+            "charges": 2
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "knife_folding"
+          },
+          {
+            "group": "charged_smart_phone"
+          },
+          {
+            "group": "charged_laptop",
+            "contents-item": [
+              "software_robotics"
+            ]
+          },
+          {
+            "item": "bot_grenade_hack",
+            "count": 2
+          },
+          {
+            "item": "bot_c4_hack"
+          },
+          {
+            "item": "sof_mp7",
+            "ammo-item": "46x30_fmj_sof",
+            "charges": 40,
+            "container-item": "duffelbag"
+          },
+          {
+            "item": "sof_mp7_mag_40",
+            "ammo-item": "46x30_fmj_sof",
+            "charges": 40,
+            "count": 2
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_remote",
+      "bio_fingerhack",
+      "bio_ar",
+      "bio_int_enhancer",
+      "bio_electrokit",
+      "bio_cable",
+      "bio_targeting",
+      "bio_power_storage_mkII",
+      "bio_alarm",
+      "bio_radio"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "tfo_shooter",
+    "name": {
+      "male": "TFO - Operative",
+      "female": "TFO - Operative"
+    },
+    "description": "The Activity mostly watches and listens, but some nights watching is not enough, and for those nights there was you and a suppressed LVAW in a gym bag.  Send me.  It still works as a prayer.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 5,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_elec_circuits",
+      "prof_elec_soldering"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 4,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "speech"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      },
+      {
+        "level": 3,
+        "name": "computer"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "driving"
+      },
+      {
+        "level": 1,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "hoodie"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "sneakers"
+          },
+          {
+            "item": "ballistic_vest_concealable"
+          },
+          {
+            "item": "cell_phone"
+          },
+          {
+            "item": "wallet_leather"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "bottle_plastic",
+            "charges": 2
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "knife_folding"
+          },
+          {
+            "item": "lvaw_300blk_sof",
+            "ammo-item": "300blk_ss",
+            "charges": 30,
+            "container-item": "duffelbag"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "300blk_ss",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "tfo_shooter_bionic",
+    "name": {
+      "male": "Bionic TFO - Operative",
+      "female": "Bionic TFO - Operative"
+    },
+    "description": "The Activity mostly watches and listens, but some nights watching is not enough, and for those nights there was you and a suppressed LVAW in a gym bag.  Send me.  It still works as a prayer.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 8,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_elec_circuits",
+      "prof_elec_soldering"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 4,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "speech"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      },
+      {
+        "level": 3,
+        "name": "computer"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "driving"
+      },
+      {
+        "level": 1,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "hoodie"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "sneakers"
+          },
+          {
+            "item": "ballistic_vest_concealable"
+          },
+          {
+            "item": "cell_phone"
+          },
+          {
+            "item": "wallet_leather"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "bottle_plastic",
+            "charges": 2
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "knife_folding"
+          },
+          {
+            "item": "lvaw_300blk_sof",
+            "ammo-item": "300blk_ss",
+            "charges": 30,
+            "container-item": "duffelbag"
+          },
+          {
+            "item": "stanag30",
+            "ammo-item": "300blk_ss",
+            "charges": 30,
+            "count": 3
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_face_mask",
+      "bio_ears",
+      "bio_night_vision",
+      "bio_scent_mask",
+      "bio_metabolics",
+      "bio_power_storage"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "tfo_medic",
+    "name": {
+      "male": "TFO - Field Medic",
+      "female": "TFO - Field Medic"
+    },
+    "description": "Somebody has to sew up the people who officially were never there, in apartments that officially were never rented.  Your kit fits in a backpack and your questions fit in zero.  Send me.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 6,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "hoodie"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "sneakers"
+          },
+          {
+            "item": "ballistic_vest_concealable"
+          },
+          {
+            "item": "cell_phone"
+          },
+          {
+            "item": "wallet_leather"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "bottle_plastic",
+            "charges": 2
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "knife_folding"
+          },
+          {
+            "group": "full_ifak"
+          },
+          {
+            "group": "full_ifak"
+          },
+          {
+            "item": "sof_mp7",
+            "ammo-item": "46x30_fmj_sof",
+            "charges": 40,
+            "container-item": "duffelbag"
+          },
+          {
+            "item": "sof_mp7_mag_40",
+            "ammo-item": "46x30_fmj_sof",
+            "charges": 40,
+            "count": 2
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "tfo_medic_bionic",
+    "name": {
+      "male": "Bionic TFO - Field Medic",
+      "female": "Bionic TFO - Field Medic"
+    },
+    "description": "Somebody has to sew up the people who officially were never there, in apartments that officially were never rented.  Your kit fits in a backpack and your questions fit in zero.  Send me.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 6,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 6,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "hoodie"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "sneakers"
+          },
+          {
+            "item": "ballistic_vest_concealable"
+          },
+          {
+            "item": "cell_phone"
+          },
+          {
+            "item": "wallet_leather"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "bottle_plastic",
+            "charges": 2
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "knife_folding"
+          },
+          {
+            "group": "full_ifak"
+          },
+          {
+            "group": "full_ifak"
+          },
+          {
+            "item": "sof_mp7",
+            "ammo-item": "46x30_fmj_sof",
+            "charges": 40,
+            "container-item": "duffelbag"
+          },
+          {
+            "item": "sof_mp7_mag_40",
+            "ammo-item": "46x30_fmj_sof",
+            "charges": 40,
+            "count": 2
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_purifier",
+      "bio_metabolics",
+      "bio_armor_torso",
+      "bio_armor_eyes",
+      "bio_power_storage_mkII"
+    ]
+  }
+]

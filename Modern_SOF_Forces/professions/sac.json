@@ -1,0 +1,1155 @@
+[
+  {
+    "type": "profession",
+    "id": "sac_pmoo",
+    "name": {
+      "male": "SAC - Paramilitary Operations Officer",
+      "female": "SAC - Paramilitary Operations Officer"
+    },
+    "description": "Special Activities Center, Ground Branch.  You fought the wars that never appeared in the budget, with weapons bought from the people you fought.  Tertia optio: when diplomacy fails and armies can't be sent, there is a third option.  You are what's left of it.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 5,
+        "name": "gun"
+      },
+      {
+        "level": 5,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 3,
+        "name": "throw"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "hoodie"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "sneakers"
+          },
+          {
+            "item": "ballistic_vest_concealable"
+          },
+          {
+            "item": "cell_phone"
+          },
+          {
+            "item": "wallet_leather"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "bottle_plastic",
+            "charges": 2
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "knife_folding"
+          },
+          {
+            "item": "ak47",
+            "ammo-item": "762_m87",
+            "charges": 30,
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "akmag30",
+            "ammo-item": "762_m87",
+            "charges": 30,
+            "count": 3
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sac_pmoo_bionic",
+    "name": {
+      "male": "Bionic SAC - Paramilitary Operations Officer",
+      "female": "Bionic SAC - Paramilitary Operations Officer"
+    },
+    "description": "Special Activities Center, Ground Branch.  You fought the wars that never appeared in the budget, with weapons bought from the people you fought.  Tertia optio: when diplomacy fails and armies can't be sent, there is a third option.  You are what's left of it.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 7,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_rifles_pro",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 5,
+        "name": "gun"
+      },
+      {
+        "level": 5,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 3,
+        "name": "melee"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 3,
+        "name": "throw"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "hoodie"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "sneakers"
+          },
+          {
+            "item": "ballistic_vest_concealable"
+          },
+          {
+            "item": "cell_phone"
+          },
+          {
+            "item": "wallet_leather"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "bottle_plastic",
+            "charges": 2
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "knife_folding"
+          },
+          {
+            "item": "ak47",
+            "ammo-item": "762_m87",
+            "charges": 30,
+            "custom-flags": [
+              "auto_wield"
+            ]
+          },
+          {
+            "item": "akmag30",
+            "ammo-item": "762_m87",
+            "charges": 30,
+            "count": 3
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_adrenaline",
+      "bio_armor_torso",
+      "bio_armor_eyes",
+      "bio_cqb",
+      "bio_metabolics",
+      "bio_power_storage_mkII"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sac_targeting",
+    "name": {
+      "male": "SAC - Targeting Officer",
+      "female": "SAC - Targeting Officer"
+    },
+    "description": "You built the target packages: who, where, when, and how much it would cost.  The last package you built is still open on a laptop in a facility that no longer answers.  Tertia optio.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 5,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_elec_circuits",
+      "prof_elec_soldering"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 4,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "speech"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      },
+      {
+        "level": 4,
+        "name": "computer"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "driving"
+      },
+      {
+        "level": 1,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "hoodie"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "sneakers"
+          },
+          {
+            "item": "ballistic_vest_concealable"
+          },
+          {
+            "item": "cell_phone"
+          },
+          {
+            "item": "wallet_leather"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "bottle_plastic",
+            "charges": 2
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "knife_folding"
+          },
+          {
+            "group": "charged_laptop"
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "camera"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sac_targeting_bionic",
+    "name": {
+      "male": "Bionic SAC - Targeting Officer",
+      "female": "Bionic SAC - Targeting Officer"
+    },
+    "description": "You built the target packages: who, where, when, and how much it would cost.  The last package you built is still open on a laptop in a facility that no longer answers.  Tertia optio.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 8,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_elec_circuits",
+      "prof_elec_soldering"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 4,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "speech"
+      },
+      {
+        "level": 3,
+        "name": "dodge"
+      },
+      {
+        "level": 4,
+        "name": "computer"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "driving"
+      },
+      {
+        "level": 1,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "hoodie"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "sneakers"
+          },
+          {
+            "item": "ballistic_vest_concealable"
+          },
+          {
+            "item": "cell_phone"
+          },
+          {
+            "item": "wallet_leather"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "bottle_plastic",
+            "charges": 2
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "knife_folding"
+          },
+          {
+            "group": "charged_laptop"
+          },
+          {
+            "item": "binoculars"
+          },
+          {
+            "item": "camera"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_face_mask",
+      "bio_ears",
+      "bio_night_vision",
+      "bio_scent_mask",
+      "bio_metabolics",
+      "bio_power_storage"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sac_comms",
+    "name": {
+      "male": "SAC - Communications Officer",
+      "female": "SAC - Communications Officer"
+    },
+    "description": "Covert commo for officers in places the State Department pretended not to know about.  Encrypted, deniable, and now mostly unanswered.  Tertia optio.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_elec_circuits",
+      "prof_elec_soldering"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 3,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "computer"
+      },
+      {
+        "level": 4,
+        "name": "electronics"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "hoodie"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "sneakers"
+          },
+          {
+            "item": "ballistic_vest_concealable"
+          },
+          {
+            "item": "cell_phone"
+          },
+          {
+            "item": "wallet_leather"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "bottle_plastic",
+            "charges": 2
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "knife_folding"
+          },
+          {
+            "group": "charged_smart_phone"
+          },
+          {
+            "group": "charged_laptop",
+            "contents-item": [
+              "software_robotics"
+            ]
+          },
+          {
+            "item": "bot_grenade_hack",
+            "count": 2
+          },
+          {
+            "item": "bot_c4_hack"
+          },
+          {
+            "item": "sof_mp7",
+            "ammo-item": "46x30_fmj_sof",
+            "charges": 40,
+            "container-item": "duffelbag"
+          },
+          {
+            "item": "sof_mp7_mag_40",
+            "ammo-item": "46x30_fmj_sof",
+            "charges": 40,
+            "count": 2
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sac_comms_bionic",
+    "name": {
+      "male": "Bionic SAC - Communications Officer",
+      "female": "Bionic SAC - Communications Officer"
+    },
+    "description": "Covert commo for officers in places the State Department pretended not to know about.  Encrypted, deniable, and now mostly unanswered.  Tertia optio.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 8,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar",
+      "prof_elec_circuits",
+      "prof_elec_soldering"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 3,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 4,
+        "name": "computer"
+      },
+      {
+        "level": 4,
+        "name": "electronics"
+      },
+      {
+        "level": 2,
+        "name": "firstaid"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "hoodie"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "sneakers"
+          },
+          {
+            "item": "ballistic_vest_concealable"
+          },
+          {
+            "item": "cell_phone"
+          },
+          {
+            "item": "wallet_leather"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "bottle_plastic",
+            "charges": 2
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "knife_folding"
+          },
+          {
+            "group": "charged_smart_phone"
+          },
+          {
+            "group": "charged_laptop",
+            "contents-item": [
+              "software_robotics"
+            ]
+          },
+          {
+            "item": "bot_grenade_hack",
+            "count": 2
+          },
+          {
+            "item": "bot_c4_hack"
+          },
+          {
+            "item": "sof_mp7",
+            "ammo-item": "46x30_fmj_sof",
+            "charges": 40,
+            "container-item": "duffelbag"
+          },
+          {
+            "item": "sof_mp7_mag_40",
+            "ammo-item": "46x30_fmj_sof",
+            "charges": 40,
+            "count": 2
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_remote",
+      "bio_fingerhack",
+      "bio_ar",
+      "bio_int_enhancer",
+      "bio_electrokit",
+      "bio_cable",
+      "bio_targeting",
+      "bio_power_storage_mkII",
+      "bio_alarm",
+      "bio_radio"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sac_medic",
+    "name": {
+      "male": "SAC - Field Medic",
+      "female": "SAC - Field Medic"
+    },
+    "description": "Ground Branch medics patch gunshot wounds in safehouses and call it a quiet week.  The safehouse network is gone; the habit of keeping people alive is not.  Tertia optio.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 4,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 6,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "hoodie"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "sneakers"
+          },
+          {
+            "item": "ballistic_vest_concealable"
+          },
+          {
+            "item": "cell_phone"
+          },
+          {
+            "item": "wallet_leather"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "bottle_plastic",
+            "charges": 2
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "knife_folding"
+          },
+          {
+            "group": "full_ifak"
+          },
+          {
+            "group": "full_ifak"
+          },
+          {
+            "item": "ak47",
+            "ammo-item": "762_m87",
+            "charges": 30
+          },
+          {
+            "item": "akmag30",
+            "ammo-item": "762_m87",
+            "charges": 30,
+            "count": 2
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "sac_medic_bionic",
+    "name": {
+      "male": "Bionic SAC - Field Medic",
+      "female": "Bionic SAC - Field Medic"
+    },
+    "description": "Ground Branch medics patch gunshot wounds in safehouses and call it a quiet week.  The safehouse network is gone; the habit of keeping people alive is not.  Tertia optio.  The augmentation package under your skin came out of a program that no longer exists; the hardware has outlived the paperwork, and it will outlive a lot more than that.",
+    "npc_background": "BG_survival_story_SOLDIER",
+    "points": 6,
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_knives_familiar",
+      "prof_auto_rifles_familiar",
+      "prof_auto_pistols_familiar"
+    ],
+    "skills": [
+      {
+        "level": 4,
+        "name": "gun"
+      },
+      {
+        "level": 4,
+        "name": "rifle"
+      },
+      {
+        "level": 3,
+        "name": "pistol"
+      },
+      {
+        "level": 2,
+        "name": "melee"
+      },
+      {
+        "level": 6,
+        "name": "firstaid"
+      },
+      {
+        "level": 2,
+        "name": "survival"
+      }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          {
+            "item": "jeans"
+          },
+          {
+            "item": "tshirt"
+          },
+          {
+            "item": "hoodie"
+          },
+          {
+            "item": "socks"
+          },
+          {
+            "item": "sneakers"
+          },
+          {
+            "item": "ballistic_vest_concealable"
+          },
+          {
+            "item": "cell_phone"
+          },
+          {
+            "item": "wallet_leather"
+          },
+          {
+            "item": "water_clean",
+            "container-item": "bottle_plastic",
+            "charges": 2
+          },
+          {
+            "item": "glock_17",
+            "ammo-item": "9mm",
+            "charges": 17,
+            "container-item": "holster"
+          },
+          {
+            "item": "glock17_22",
+            "ammo-item": "9mm",
+            "charges": 22,
+            "count": 2
+          },
+          {
+            "item": "knife_folding"
+          },
+          {
+            "group": "full_ifak"
+          },
+          {
+            "group": "full_ifak"
+          },
+          {
+            "item": "ak47",
+            "ammo-item": "762_m87",
+            "charges": 30
+          },
+          {
+            "item": "akmag30",
+            "ammo-item": "762_m87",
+            "charges": 30,
+            "count": 2
+          },
+          {
+            "item": "ballistic_vest_esapi"
+          }
+        ]
+      },
+      "male": {
+        "entries": [
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      },
+      "female": {
+        "entries": [
+          {
+            "item": "sports_bra"
+          },
+          {
+            "item": "boxer_shorts"
+          }
+        ]
+      }
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ],
+    "CBMs": [
+      "bio_purifier",
+      "bio_metabolics",
+      "bio_armor_torso",
+      "bio_armor_eyes",
+      "bio_power_storage_mkII"
+    ]
+  }
+]
