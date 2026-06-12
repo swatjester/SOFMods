@@ -1,0 +1,67 @@
+[
+  {
+    "id": "mon_zombie_sof_operator",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_soldier",
+    "looks_like": "mon_zombie_soldier",
+    "name": {
+      "str": "zombie SOF operator"
+    },
+    "description": "Plates, suppressed rifle, night optics - all of it still strapped down exactly where doctrine says.  Whatever team it kicked doors for doesn't exist anymore, but the muscle memory clearly didn't get the message.",
+    "hp": 110,
+    "speed": 85,
+    "death_drops": "mon_zombie_sof_operator_death_drops"
+  },
+  {
+    "id": "mon_zombie_sof_sniper",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_soldier",
+    "looks_like": "mon_zombie_soldier",
+    "name": {
+      "str": "zombie SOF marksman"
+    },
+    "description": "A long precision rifle is still slung across its back, optic fogged with something dark.  It carries itself with an unsettling, patient economy of motion.",
+    "hp": 100,
+    "speed": 85,
+    "death_drops": "mon_zombie_sof_sniper_death_drops"
+  },
+  {
+    "id": "mon_zombie_sof_gunner",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_soldier",
+    "looks_like": "mon_zombie_soldier",
+    "name": {
+      "str": "zombie SOF gunner"
+    },
+    "description": "It drags a paratrooper machine gun by the sling like a child's toy, harness still cinched tight over rotting plates.  The belt is mostly spent.  Mostly.",
+    "hp": 120,
+    "speed": 78,
+    "death_drops": "mon_zombie_sof_gunner_death_drops"
+  },
+  {
+    "id": "mon_zombie_sof_grenadier",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_soldier",
+    "looks_like": "mon_zombie_soldier",
+    "name": {
+      "str": "zombie SOF grenadier"
+    },
+    "description": "The launcher on its chest rig is loaded and the pouches sag with things that should not be left in the sun.  It walks like the blast radius is somebody else's problem - which, now, it is.",
+    "hp": 105,
+    "speed": 82,
+    "death_drops": "mon_zombie_sof_grenadier_death_drops"
+  },
+  {
+    "id": "mon_zombie_sof_medic",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_soldier",
+    "looks_like": "mon_zombie_soldier",
+    "name": {
+      "str": "zombie SOF medic"
+    },
+    "description": "The aid bag on its back is torn open at one corner, trailing gauze like a streamer.  It was the one who kept everyone else alive.  The irony does not seem to bother it.",
+    "hp": 100,
+    "speed": 82,
+    "death_drops": "mon_zombie_sof_medic_death_drops"
+  }
+]

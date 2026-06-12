@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sp10m",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "copy-from": "mrgg_s",
+    "looks_like": "m110a1",
+    "name": {
+      "str": "Seekins SP10-M"
+    },
+    "//": "Seekins Precision SP10 Match in 6.5mm Creedmoor. Same niche as the MRGG-S but a 22-inch heavy match barrel: longer and heavier, slightly better reach, slightly worse recoil control. Default rifle for the CAG sniper when that profession lands (Phase 2).",
+    "description": "The Seekins Precision SP10-M is a large-frame precision AR in 6.5mm Creedmoor built around a 22-inch heavy match barrel.  It out-reaches the MRGG-S by a hair and rewards a stable, supported position, but all that steel hanging off the front makes it slower to drive between targets and harsher to run fast.  Feeds from the same magazines as the MRGG.",
+    "weight": "4950 g",
+    "volume": "4400 ml",
+    "longest_side": "1130 mm",
+    "price": "3800 USD",
+    "price_postapoc": "110 USD",
+    "dispersion": 45,
+    "range": 4,
+    "handling": 21,
+    "min_cycle_recoil": 2270,
+    "barrel_volume": "950 ml"
+  }
+]

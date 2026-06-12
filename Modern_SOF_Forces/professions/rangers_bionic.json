@@ -8,7 +8,7 @@
     },
     "description": "You are an augmented assaulter in the 75th Ranger Regiment, built for the brutal seconds after the breach.  Reinforced organs and ballistic eye protection keep you in the fight, while your adrenaline pump and close-quarters combat controller turn room-clearing into a practiced machine rhythm.  Rangers lead the way, and you were rebuilt to be first through the door.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 10,
+    "points": 8,
     "proficiencies": [
       "prof_gunsmithing_basic",
       "prof_gun_cleaning",
@@ -189,7 +189,7 @@
     },
     "description": "You are an augmented sniper attached to a 75th Ranger Regiment element, a patient hunter whose eyes and nervous system were rebuilt for the long shot.  Bionic optics, thermal vision, targeting assistance, scent suppression, climate control, and metabolic power let you wait motionless until the world offers a single clean angle.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 10,
+    "points": 9,
     "proficiencies": [
       "prof_gunsmithing_basic",
       "prof_gun_cleaning",
@@ -360,7 +360,7 @@
     },
     "description": "You are an augmented breacher in the 75th Ranger Regiment, a walking entry package of hydraulic strength, armored limbs, flash protection, filtered air, and sonic force.  Doors, walls, smoke, dust, and shock are problems for ordinary bodies; yours was rebuilt to make openings.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 10,
+    "points": 9,
     "proficiencies": [
       "prof_gunsmithing_basic",
       "prof_gun_cleaning",
@@ -549,7 +549,7 @@
     },
     "description": "You are an augmented grenadier in the 75th Ranger Regiment, the squad's pocket artillery with bionic fire-control support.  Targeting systems, recoil compensation, throwing assistance, armored hands and eyes, and assisted joints help you move, aim, and place explosive force exactly where the squad needs it.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 10,
+    "points": 8,
     "proficiencies": [
       "prof_gunsmithing_basic",
       "prof_gun_cleaning",
@@ -732,7 +732,7 @@
     },
     "description": "You are an augmented small-UAS operator for a 75th Ranger Regiment element, wired into radios, drones, overlays, and battlefield electronics.  Remote control, integrated AR, hacking tools, circuitry implants, enhanced cognition, and targeting support make you the squad's networked eye and striking hand.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 10,
+    "points": 9,
     "proficiencies": [
       "prof_gunsmithing_basic",
       "prof_gun_cleaning",
@@ -917,7 +917,7 @@
     },
     "description": "You are an augmented machine gunner in the 75th Ranger Regiment, a mobile base of fire built to keep moving with the assault.  Recoil compensation, targeting support, armored arms, skeletal bracing, joint servos, and metabolic power let you carry the SAW, feed it, and shift positions before the enemy can answer.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 10,
+    "points": 7,
     "proficiencies": [
       "prof_gunsmithing_basic",
       "prof_gun_cleaning",
@@ -1079,7 +1079,7 @@
     },
     "description": "You are an augmented weapons squad gunner in the 75th Ranger Regiment, rebuilt as a heavier firing platform for the regiment's crew-served violence.  Recoil compensation, targeting support, skeletal bracing, muscle augmentation, torso armor, and protective lenses let you handle the M240 and the blast-fragment world around it.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 10,
+    "points": 7,
     "proficiencies": [
       "prof_gunsmithing_basic",
       "prof_gun_cleaning",
@@ -1238,7 +1238,7 @@
     "name": { "male": "75th Ranger - Bionic Medic", "female": "75th Ranger - Bionic Medic" },
     "description": "You are an augmented combat medic in the 75th Ranger Regiment, carrying trauma gear and enough built-in resilience to keep working while the room is still loud.  Your Mk18 keeps you with the assault, but your real job is making sure the wounded get another chance.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 10,
+    "points": 6,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar" ],
     "skills": [
       { "level": 4, "name": "gun" },
@@ -1265,7 +1265,7 @@
     "name": { "male": "75th Ranger - Bionic Fire Support", "female": "75th Ranger - Bionic Fire Support" },
     "description": "You are an augmented Ranger fire support specialist, built to carry and aim the Carl Gustaf while keeping up with the assault.  Targeting assistance, recoil control, and reinforced joints make the heavy answer feel just light enough.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 10,
+    "points": 8,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_pistols_familiar" ],
     "skills": [
       { "level": 4, "name": "gun" },
@@ -1293,7 +1293,7 @@
     "name": { "male": "75th Ranger - Bionic JTAC", "female": "75th Ranger - Bionic JTAC" },
     "description": "You are an augmented JTAC with a Ranger element, wired for radios, overlays, optics, and the discipline to turn chaos into marks and movement.  The aircraft are gone, but your habits of observation and signaling still keep the team alive.",
     "npc_background": "BG_survival_story_SOLDIER",
-    "points": 10,
+    "points": 8,
     "proficiencies": [ "prof_gunsmithing_basic", "prof_gun_cleaning", "prof_knives_familiar", "prof_auto_rifles_familiar", "prof_auto_pistols_familiar", "prof_spotting" ],
     "skills": [
       { "level": 4, "name": "gun" },

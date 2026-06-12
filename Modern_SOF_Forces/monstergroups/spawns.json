@@ -1,0 +1,83 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MIL_STRONG",
+    "//": "Same-name monstergroup definitions APPEND to the base group in TLG (no copy-from needed; 'override': true would replace). Weights are tiny next to the base group's ~1000 total, so zombified SOF stay rare.",
+    "monsters": [
+      {
+        "monster": "mon_zombie_sof_operator",
+        "weight": 8,
+        "cost_multiplier": 3
+      },
+      {
+        "monster": "mon_zombie_sof_sniper",
+        "weight": 4,
+        "cost_multiplier": 3
+      },
+      {
+        "monster": "mon_zombie_sof_gunner",
+        "weight": 4,
+        "cost_multiplier": 3
+      },
+      {
+        "monster": "mon_zombie_sof_grenadier",
+        "weight": 4,
+        "cost_multiplier": 3
+      },
+      {
+        "monster": "mon_zombie_sof_medic",
+        "weight": 4,
+        "cost_multiplier": 2
+      }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MIL_BASE",
+    "//": "See GROUP_MIL_STRONG note.",
+    "monsters": [
+      {
+        "monster": "mon_zombie_sof_operator",
+        "weight": 5,
+        "cost_multiplier": 3
+      },
+      {
+        "monster": "mon_zombie_sof_sniper",
+        "weight": 3,
+        "cost_multiplier": 3
+      },
+      {
+        "monster": "mon_zombie_sof_gunner",
+        "weight": 3,
+        "cost_multiplier": 3
+      },
+      {
+        "monster": "mon_zombie_sof_grenadier",
+        "weight": 3,
+        "cost_multiplier": 3
+      },
+      {
+        "monster": "mon_zombie_sof_medic",
+        "weight": 3,
+        "cost_multiplier": 2
+      }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MAYBE_MIL",
+    "//": "See GROUP_MIL_STRONG note.",
+    "monsters": [
+      {
+        "monster": "mon_zombie_sof_operator",
+        "weight": 3,
+        "cost_multiplier": 3
+      },
+      {
+        "monster": "mon_zombie_sof_medic",
+        "weight": 2,
+        "cost_multiplier": 2
+      }
+    ]
+  }
+]

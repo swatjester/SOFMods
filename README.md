@@ -40,7 +40,7 @@ Adds modern SOF weapons and support equipment:
 - **MRGG rifle family:** MRGG-A and MRGG-S battle rifles in 6.5mm Creedmoor, SOF-kitted variants, 6.5mm magazines and ammo, .308 conversion barrel, and .308 magazine support.
 - **AR-platform upgrades:** 12.5-inch GL/SSC, 16-inch recce, and 18-inch Mk12 SPR upper receivers.
 - **SOF carbines and SMGs:** LVAW carbine in .300 BLK, GL/SSC M4 build, Colt 9mm SMG, MP7, and standalone M320 smoke launcher.
-- **Precision and support weapons:** M110 SASS, KAC SR-25/Mk 11, M249 Para setup, M240 short/collapsible variants, KAC LAMG, M7 rifle, M8 carbine, and M250 machine gun.
+- **Precision and support weapons:** M110 SASS, KAC SR-25/Mk 11, Seekins SP10-M, M249 Para setup, M240 short/collapsible variants, KAC LAMG, M7 rifle, M8 carbine, and M250 machine gun.
 - **Launchers and ordnance:** deployable M252 81mm mortar with HE shells, Mk 153 SMAW with 83mm HEDP rockets, and FGM-148 Javelin CLU with missiles.
 - **Gunmods:** short suppressor, grippod, M249 Para stock/barrel, M240 collapsible stock/short barrel, and MRGG conversion parts.
 - **Load-bearing gear:** MOLLE pouches, role-configured battle belts, holsters, drone bag, breaching retention gear, and IFAK contents.
@@ -56,7 +56,9 @@ Adds solo-start scenarios and playable professions for modern SOF characters:
 
 - **75th Ranger Regiment scenario:** `Rangers Lead the Way`.
 - **Recon Company scenario:** `Eyes Forward`.
-- **Scenario balance note:** these scenarios are not yet balanced for point cost, either against each other or against vanilla scenarios.
+- **Low-visibility scenario:** `Gray Man` — an undercover operator (plus bionic variant) starting in the city with a concealed LVAW.
+- **Zombified SOF:** rare zombie SOF operator, marksman, gunner, grenadier, and medic enemies in military spawn groups, dropping role-appropriate gear.
+- **Balance:** profession and scenario point costs follow a documented rubric anchored to vanilla military professions.
 - **75th Ranger Regiment professions:** assaulter, sniper, breacher, grenadier, drone operator, machine gunner, weapons-squad gunner, medic, fire support, and JTAC.
 - **Multifunctional Reconnaissance Company professions:** scout, sniper, machine gunner, grenadier, drone operator, medic, and JTAC.
 - **Bionic variants:** augmented versions of the Ranger and Recon professions with bionic loadouts.
