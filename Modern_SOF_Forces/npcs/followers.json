@@ -1,0 +1,82 @@
+[
+  {
+    "type": "npc",
+    "id": "sof_follower_ranger_rifleman",
+    "//": "Scenario-specific follower; spawned by SOF group-start EOCs, should not spawn elsewhere.",
+    "class": "NC_SOF_RANGER_RIFLEMAN",
+    "attitude": 3,
+    "mission": 0,
+    "chat": "TALK_DONE",
+    "faction": "your_followers"
+  },
+  {
+    "type": "npc",
+    "id": "sof_follower_ranger_gunner",
+    "//": "Scenario-specific follower; spawned by SOF group-start EOCs, should not spawn elsewhere.",
+    "class": "NC_SOF_RANGER_GUNNER",
+    "attitude": 3,
+    "mission": 0,
+    "chat": "TALK_DONE",
+    "faction": "your_followers"
+  },
+  {
+    "type": "npc",
+    "id": "sof_follower_ranger_grenadier",
+    "//": "Scenario-specific follower; spawned by SOF group-start EOCs, should not spawn elsewhere.",
+    "class": "NC_SOF_RANGER_GRENADIER",
+    "attitude": 3,
+    "mission": 0,
+    "chat": "TALK_DONE",
+    "faction": "your_followers"
+  },
+  {
+    "type": "npc",
+    "id": "sof_follower_ranger_medic",
+    "//": "Scenario-specific follower; spawned by SOF group-start EOCs, should not spawn elsewhere.",
+    "class": "NC_SOF_RANGER_MEDIC",
+    "attitude": 3,
+    "mission": 0,
+    "chat": "TALK_DONE",
+    "faction": "your_followers"
+  },
+  {
+    "type": "npc",
+    "id": "sof_follower_recon_scout",
+    "//": "Scenario-specific follower; spawned by SOF group-start EOCs, should not spawn elsewhere.",
+    "class": "NC_SOF_RECON_SCOUT",
+    "attitude": 3,
+    "mission": 0,
+    "chat": "TALK_DONE",
+    "faction": "your_followers"
+  },
+  {
+    "type": "npc",
+    "id": "sof_follower_recon_sniper",
+    "//": "Scenario-specific follower; spawned by SOF group-start EOCs, should not spawn elsewhere.",
+    "class": "NC_SOF_RECON_SNIPER",
+    "attitude": 3,
+    "mission": 0,
+    "chat": "TALK_DONE",
+    "faction": "your_followers"
+  },
+  {
+    "type": "npc",
+    "id": "sof_follower_recon_gunner",
+    "//": "Scenario-specific follower; spawned by SOF group-start EOCs, should not spawn elsewhere.",
+    "class": "NC_SOF_RECON_GUNNER",
+    "attitude": 3,
+    "mission": 0,
+    "chat": "TALK_DONE",
+    "faction": "your_followers"
+  },
+  {
+    "type": "npc",
+    "id": "sof_follower_recon_medic",
+    "//": "Scenario-specific follower; spawned by SOF group-start EOCs, should not spawn elsewhere.",
+    "class": "NC_SOF_RECON_MEDIC",
+    "attitude": 3,
+    "mission": 0,
+    "chat": "TALK_DONE",
+    "faction": "your_followers"
+  }
+]

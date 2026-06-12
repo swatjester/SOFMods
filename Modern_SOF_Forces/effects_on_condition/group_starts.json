@@ -1,0 +1,166 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "eoc_sof_ranger_buddy",
+    "effect": [
+      {
+        "u_spawn_npc": "sof_follower_ranger_rifleman",
+        "real_count": 1,
+        "min_radius": 1,
+        "max_radius": 6,
+        "spawn_message": "Your teammate moves up beside you.",
+        "spawn_message_plural": "Your teammates move up around you."
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "eoc_sof_ranger_fireteam",
+    "effect": [
+      {
+        "u_spawn_npc": "sof_follower_ranger_rifleman",
+        "real_count": 1,
+        "min_radius": 1,
+        "max_radius": 6,
+        "spawn_message": "Your teammate moves up beside you.",
+        "spawn_message_plural": "Your teammates move up around you."
+      },
+      {
+        "u_spawn_npc": "sof_follower_ranger_gunner",
+        "real_count": 1,
+        "min_radius": 1,
+        "max_radius": 6,
+        "spawn_message": "Your teammate moves up beside you.",
+        "spawn_message_plural": "Your teammates move up around you."
+      },
+      {
+        "u_spawn_npc": "sof_follower_ranger_grenadier",
+        "real_count": 1,
+        "min_radius": 1,
+        "max_radius": 6,
+        "spawn_message": "Your teammate moves up beside you.",
+        "spawn_message_plural": "Your teammates move up around you."
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "eoc_sof_ranger_squad",
+    "effect": [
+      {
+        "u_spawn_npc": "sof_follower_ranger_rifleman",
+        "real_count": 3,
+        "min_radius": 1,
+        "max_radius": 6,
+        "spawn_message": "Your teammate moves up beside you.",
+        "spawn_message_plural": "Your teammates move up around you."
+      },
+      {
+        "u_spawn_npc": "sof_follower_ranger_gunner",
+        "real_count": 2,
+        "min_radius": 1,
+        "max_radius": 6,
+        "spawn_message": "Your teammate moves up beside you.",
+        "spawn_message_plural": "Your teammates move up around you."
+      },
+      {
+        "u_spawn_npc": "sof_follower_ranger_grenadier",
+        "real_count": 2,
+        "min_radius": 1,
+        "max_radius": 6,
+        "spawn_message": "Your teammate moves up beside you.",
+        "spawn_message_plural": "Your teammates move up around you."
+      },
+      {
+        "u_spawn_npc": "sof_follower_ranger_medic",
+        "real_count": 1,
+        "min_radius": 1,
+        "max_radius": 6,
+        "spawn_message": "Your teammate moves up beside you.",
+        "spawn_message_plural": "Your teammates move up around you."
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "eoc_sof_recon_buddy",
+    "effect": [
+      {
+        "u_spawn_npc": "sof_follower_recon_scout",
+        "real_count": 1,
+        "min_radius": 1,
+        "max_radius": 6,
+        "spawn_message": "Your teammate moves up beside you.",
+        "spawn_message_plural": "Your teammates move up around you."
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "eoc_sof_recon_team",
+    "effect": [
+      {
+        "u_spawn_npc": "sof_follower_recon_scout",
+        "real_count": 1,
+        "min_radius": 1,
+        "max_radius": 6,
+        "spawn_message": "Your teammate moves up beside you.",
+        "spawn_message_plural": "Your teammates move up around you."
+      },
+      {
+        "u_spawn_npc": "sof_follower_recon_sniper",
+        "real_count": 1,
+        "min_radius": 1,
+        "max_radius": 6,
+        "spawn_message": "Your teammate moves up beside you.",
+        "spawn_message_plural": "Your teammates move up around you."
+      },
+      {
+        "u_spawn_npc": "sof_follower_recon_medic",
+        "real_count": 1,
+        "min_radius": 1,
+        "max_radius": 6,
+        "spawn_message": "Your teammate moves up beside you.",
+        "spawn_message_plural": "Your teammates move up around you."
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "eoc_sof_recon_section",
+    "effect": [
+      {
+        "u_spawn_npc": "sof_follower_recon_scout",
+        "real_count": 2,
+        "min_radius": 1,
+        "max_radius": 6,
+        "spawn_message": "Your teammate moves up beside you.",
+        "spawn_message_plural": "Your teammates move up around you."
+      },
+      {
+        "u_spawn_npc": "sof_follower_recon_sniper",
+        "real_count": 1,
+        "min_radius": 1,
+        "max_radius": 6,
+        "spawn_message": "Your teammate moves up beside you.",
+        "spawn_message_plural": "Your teammates move up around you."
+      },
+      {
+        "u_spawn_npc": "sof_follower_recon_gunner",
+        "real_count": 1,
+        "min_radius": 1,
+        "max_radius": 6,
+        "spawn_message": "Your teammate moves up beside you.",
+        "spawn_message_plural": "Your teammates move up around you."
+      },
+      {
+        "u_spawn_npc": "sof_follower_recon_medic",
+        "real_count": 1,
+        "min_radius": 1,
+        "max_radius": 6,
+        "spawn_message": "Your teammate moves up beside you.",
+        "spawn_message_plural": "Your teammates move up around you."
+      }
+    ]
+  }
+]

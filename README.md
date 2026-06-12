@@ -67,6 +67,10 @@ Adds solo-start scenarios and playable professions for modern SOF characters:
 
 Eleven new scenario families with 116 professions covering the major U.S. SOF, conventional, and contractor units: Task Force Red (75th + RRC), Task Force Blue (DEVGRU), Task Force Green (CAG), Task Force Orange (TFO/ISA), SEALs, Special Forces ODA, SAC, AFSOC, a combined Marines family (infantry, Force Recon, MARSOC), Army Infantry (NGSW-equipped), and PMCs (Greywater and Double Canopy). SOF units include bionic variants. The M27 IAR has been added as the HK416-pattern rifle for Marines and CAG.
 
+### Modern_SOF_Forces - Group starts
+
+Separate scenarios let you start with NPC teammates already following you, at doctrinal sizes: Ranger Buddy Team, Fireteam, and Squad; Recon Buddy Team, Recon Team, and Section. Solo scenarios are unchanged. Teammates spawn with role-appropriate weapons and kit and start as members of your faction.
+
 ### Modern_SOF_Vehicles
 
 Adds modern tactical vehicles and vehicle parts:

@@ -1,0 +1,261 @@
+[
+  {
+    "id": "sof_npc_worn_ranger",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "item": "boxer_shorts"
+      },
+      {
+        "item": "socks"
+      },
+      {
+        "item": "combat_shirt"
+      },
+      {
+        "item": "jacket_army_modern"
+      },
+      {
+        "item": "pants_army"
+      },
+      {
+        "item": "gloves_tactical"
+      },
+      {
+        "item": "boots_combat"
+      },
+      {
+        "item": "balaclava"
+      },
+      {
+        "item": "tac_helmet"
+      },
+      {
+        "item": "ballistic_vest_esapi"
+      },
+      {
+        "group": "battle_belt_assaulter"
+      }
+    ]
+  },
+  {
+    "id": "sof_npc_worn_recon",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "item": "boxer_shorts"
+      },
+      {
+        "item": "socks"
+      },
+      {
+        "item": "combat_shirt"
+      },
+      {
+        "item": "jacket_army_modern"
+      },
+      {
+        "item": "pants_army"
+      },
+      {
+        "item": "gloves_tactical"
+      },
+      {
+        "item": "boots_combat"
+      },
+      {
+        "item": "balaclava"
+      },
+      {
+        "item": "helmet_army"
+      },
+      {
+        "item": "ballistic_vest_esapi"
+      },
+      {
+        "group": "battle_belt_assaulter"
+      }
+    ]
+  },
+  {
+    "id": "sof_npc_weapon_mrgg",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "item": "mrgg_a_sof",
+        "ammo-item": "65creedmoor_fmj",
+        "charges": 20
+      }
+    ]
+  },
+  {
+    "id": "sof_npc_weapon_mrgg_plain",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "item": "mrgg_a",
+        "ammo-item": "65creedmoor_fmj",
+        "charges": 20,
+        "contents-item": [
+          "holo_sight",
+          "shoulder_strap"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sof_npc_weapon_mrgg_s",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "item": "mrgg_s_sof",
+        "ammo-item": "65creedmoor_fmj",
+        "charges": 20
+      }
+    ]
+  },
+  {
+    "id": "sof_npc_weapon_m249",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "item": "m249_para",
+        "ammo-item": "223",
+        "charges": 100,
+        "contents-item": [
+          "holo_sight",
+          "shoulder_strap"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sof_npc_weapon_m4_glssc",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "group": "m4_glssc"
+      }
+    ]
+  },
+  {
+    "id": "sof_npc_weapon_m4_cqbr",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "group": "m4_cqbr"
+      }
+    ]
+  },
+  {
+    "id": "sof_npc_carry_mrgg",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "item": "mrgg_mag",
+        "ammo-item": "65creedmoor_fmj",
+        "charges": 20,
+        "count": 3
+      },
+      {
+        "group": "full_ifak"
+      },
+      {
+        "item": "water_clean",
+        "container-item": "canteen"
+      }
+    ]
+  },
+  {
+    "id": "sof_npc_carry_m249",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "item": "belt223",
+        "ammo-item": "223",
+        "charges": 200
+      },
+      {
+        "group": "full_ifak"
+      },
+      {
+        "item": "water_clean",
+        "container-item": "canteen"
+      }
+    ]
+  },
+  {
+    "id": "sof_npc_carry_m4",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "item": "stanag30",
+        "ammo-item": "223",
+        "charges": 30,
+        "count": 3
+      },
+      {
+        "group": "full_ifak"
+      },
+      {
+        "item": "water_clean",
+        "container-item": "canteen"
+      }
+    ]
+  },
+  {
+    "id": "sof_npc_carry_grenadier",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "item": "stanag30",
+        "ammo-item": "223",
+        "charges": 30,
+        "count": 3
+      },
+      {
+        "item": "40x46mm_m433",
+        "charges": 6
+      },
+      {
+        "group": "full_ifak"
+      },
+      {
+        "item": "water_clean",
+        "container-item": "canteen"
+      }
+    ]
+  },
+  {
+    "id": "sof_npc_carry_medic",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      {
+        "item": "stanag30",
+        "ammo-item": "223",
+        "charges": 30,
+        "count": 3
+      },
+      {
+        "group": "delta_bag_filled"
+      },
+      {
+        "item": "water_clean",
+        "container-item": "canteen"
+      }
+    ]
+  }
+]

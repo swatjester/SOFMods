@@ -1,0 +1,802 @@
+[
+  {
+    "type": "npc_class",
+    "id": "NC_SOF_RANGER_RIFLEMAN",
+    "name": {
+      "str": "Ranger Rifleman"
+    },
+    "job_description": "Rangers lead the way.",
+    "common": false,
+    "traits": [
+      {
+        "group": "BG_survival_story_SOLDIER"
+      },
+      {
+        "group": "NPC_starting_traits"
+      },
+      {
+        "group": "Appearance_demographics"
+      }
+    ],
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_auto_rifles_familiar"
+    ],
+    "bonus_str": {
+      "rng": [
+        1,
+        2
+      ]
+    },
+    "bonus_dex": {
+      "rng": [
+        1,
+        2
+      ]
+    },
+    "bonus_per": {
+      "rng": [
+        0,
+        2
+      ]
+    },
+    "skills": [
+      {
+        "skill": "ALL",
+        "level": {
+          "sum": [
+            {
+              "dice": [
+                2,
+                2
+              ]
+            },
+            {
+              "constant": 0
+            }
+          ]
+        }
+      },
+      {
+        "skill": "rifle",
+        "bonus": {
+          "rng": [
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "skill": "gun",
+        "bonus": {
+          "rng": [
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "skill": "dodge",
+        "bonus": {
+          "rng": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "skill": "firstaid",
+        "bonus": {
+          "rng": [
+            1,
+            2
+          ]
+        }
+      }
+    ],
+    "worn_override": "sof_npc_worn_ranger",
+    "weapon_override": "sof_npc_weapon_mrgg",
+    "carry_override": "sof_npc_carry_mrgg"
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_SOF_RANGER_GUNNER",
+    "name": {
+      "str": "Ranger Automatic Rifleman"
+    },
+    "job_description": "Rangers lead the way.  I bring the volume.",
+    "common": false,
+    "traits": [
+      {
+        "group": "BG_survival_story_SOLDIER"
+      },
+      {
+        "group": "NPC_starting_traits"
+      },
+      {
+        "group": "Appearance_demographics"
+      }
+    ],
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_auto_rifles_familiar"
+    ],
+    "bonus_str": {
+      "rng": [
+        1,
+        2
+      ]
+    },
+    "bonus_dex": {
+      "rng": [
+        1,
+        2
+      ]
+    },
+    "bonus_per": {
+      "rng": [
+        0,
+        2
+      ]
+    },
+    "skills": [
+      {
+        "skill": "ALL",
+        "level": {
+          "sum": [
+            {
+              "dice": [
+                2,
+                2
+              ]
+            },
+            {
+              "constant": 0
+            }
+          ]
+        }
+      },
+      {
+        "skill": "rifle",
+        "bonus": {
+          "rng": [
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "skill": "gun",
+        "bonus": {
+          "rng": [
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "skill": "dodge",
+        "bonus": {
+          "rng": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "skill": "firstaid",
+        "bonus": {
+          "rng": [
+            1,
+            2
+          ]
+        }
+      }
+    ],
+    "worn_override": "sof_npc_worn_ranger",
+    "weapon_override": "sof_npc_weapon_m249",
+    "carry_override": "sof_npc_carry_m249"
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_SOF_RANGER_GRENADIER",
+    "name": {
+      "str": "Ranger Grenadier"
+    },
+    "job_description": "Rangers lead the way, in a gentle arc.",
+    "common": false,
+    "traits": [
+      {
+        "group": "BG_survival_story_SOLDIER"
+      },
+      {
+        "group": "NPC_starting_traits"
+      },
+      {
+        "group": "Appearance_demographics"
+      }
+    ],
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_auto_rifles_familiar"
+    ],
+    "bonus_str": {
+      "rng": [
+        1,
+        2
+      ]
+    },
+    "bonus_dex": {
+      "rng": [
+        1,
+        2
+      ]
+    },
+    "bonus_per": {
+      "rng": [
+        0,
+        2
+      ]
+    },
+    "skills": [
+      {
+        "skill": "ALL",
+        "level": {
+          "sum": [
+            {
+              "dice": [
+                2,
+                2
+              ]
+            },
+            {
+              "constant": 0
+            }
+          ]
+        }
+      },
+      {
+        "skill": "rifle",
+        "bonus": {
+          "rng": [
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "skill": "gun",
+        "bonus": {
+          "rng": [
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "skill": "dodge",
+        "bonus": {
+          "rng": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "skill": "firstaid",
+        "bonus": {
+          "rng": [
+            1,
+            2
+          ]
+        }
+      }
+    ],
+    "worn_override": "sof_npc_worn_ranger",
+    "weapon_override": "sof_npc_weapon_m4_glssc",
+    "carry_override": "sof_npc_carry_grenadier"
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_SOF_RANGER_MEDIC",
+    "name": {
+      "str": "Ranger Medic"
+    },
+    "job_description": "Rangers lead the way.  I keep them moving.",
+    "common": false,
+    "traits": [
+      {
+        "group": "BG_survival_story_SOLDIER"
+      },
+      {
+        "group": "NPC_starting_traits"
+      },
+      {
+        "group": "Appearance_demographics"
+      }
+    ],
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_auto_rifles_familiar"
+    ],
+    "bonus_str": {
+      "rng": [
+        1,
+        2
+      ]
+    },
+    "bonus_dex": {
+      "rng": [
+        1,
+        2
+      ]
+    },
+    "bonus_per": {
+      "rng": [
+        0,
+        2
+      ]
+    },
+    "skills": [
+      {
+        "skill": "ALL",
+        "level": {
+          "sum": [
+            {
+              "dice": [
+                2,
+                2
+              ]
+            },
+            {
+              "constant": 0
+            }
+          ]
+        }
+      },
+      {
+        "skill": "rifle",
+        "bonus": {
+          "rng": [
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "skill": "gun",
+        "bonus": {
+          "rng": [
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "skill": "dodge",
+        "bonus": {
+          "rng": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "skill": "firstaid",
+        "bonus": {
+          "rng": [
+            1,
+            2
+          ]
+        }
+      }
+    ],
+    "worn_override": "sof_npc_worn_ranger",
+    "weapon_override": "sof_npc_weapon_m4_cqbr",
+    "carry_override": "sof_npc_carry_medic"
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_SOF_RECON_SCOUT",
+    "name": {
+      "str": "Recon Scout"
+    },
+    "job_description": "Eyes forward.",
+    "common": false,
+    "traits": [
+      {
+        "group": "BG_survival_story_SOLDIER"
+      },
+      {
+        "group": "NPC_starting_traits"
+      },
+      {
+        "group": "Appearance_demographics"
+      }
+    ],
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_auto_rifles_familiar"
+    ],
+    "bonus_str": {
+      "rng": [
+        1,
+        2
+      ]
+    },
+    "bonus_dex": {
+      "rng": [
+        1,
+        2
+      ]
+    },
+    "bonus_per": {
+      "rng": [
+        0,
+        2
+      ]
+    },
+    "skills": [
+      {
+        "skill": "ALL",
+        "level": {
+          "sum": [
+            {
+              "dice": [
+                2,
+                2
+              ]
+            },
+            {
+              "constant": 0
+            }
+          ]
+        }
+      },
+      {
+        "skill": "rifle",
+        "bonus": {
+          "rng": [
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "skill": "gun",
+        "bonus": {
+          "rng": [
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "skill": "dodge",
+        "bonus": {
+          "rng": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "skill": "firstaid",
+        "bonus": {
+          "rng": [
+            1,
+            2
+          ]
+        }
+      }
+    ],
+    "worn_override": "sof_npc_worn_recon",
+    "weapon_override": "sof_npc_weapon_mrgg_plain",
+    "carry_override": "sof_npc_carry_mrgg"
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_SOF_RECON_SNIPER",
+    "name": {
+      "str": "Recon Sniper"
+    },
+    "job_description": "Eyes forward, way forward.",
+    "common": false,
+    "traits": [
+      {
+        "group": "BG_survival_story_SOLDIER"
+      },
+      {
+        "group": "NPC_starting_traits"
+      },
+      {
+        "group": "Appearance_demographics"
+      }
+    ],
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_auto_rifles_familiar"
+    ],
+    "bonus_str": {
+      "rng": [
+        1,
+        2
+      ]
+    },
+    "bonus_dex": {
+      "rng": [
+        1,
+        2
+      ]
+    },
+    "bonus_per": {
+      "rng": [
+        0,
+        2
+      ]
+    },
+    "skills": [
+      {
+        "skill": "ALL",
+        "level": {
+          "sum": [
+            {
+              "dice": [
+                2,
+                2
+              ]
+            },
+            {
+              "constant": 0
+            }
+          ]
+        }
+      },
+      {
+        "skill": "rifle",
+        "bonus": {
+          "rng": [
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "skill": "gun",
+        "bonus": {
+          "rng": [
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "skill": "dodge",
+        "bonus": {
+          "rng": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "skill": "firstaid",
+        "bonus": {
+          "rng": [
+            1,
+            2
+          ]
+        }
+      }
+    ],
+    "worn_override": "sof_npc_worn_recon",
+    "weapon_override": "sof_npc_weapon_mrgg_s",
+    "carry_override": "sof_npc_carry_mrgg"
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_SOF_RECON_GUNNER",
+    "name": {
+      "str": "Recon Machine Gunner"
+    },
+    "job_description": "Eyes forward.  Belt loaded.",
+    "common": false,
+    "traits": [
+      {
+        "group": "BG_survival_story_SOLDIER"
+      },
+      {
+        "group": "NPC_starting_traits"
+      },
+      {
+        "group": "Appearance_demographics"
+      }
+    ],
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_auto_rifles_familiar"
+    ],
+    "bonus_str": {
+      "rng": [
+        1,
+        2
+      ]
+    },
+    "bonus_dex": {
+      "rng": [
+        1,
+        2
+      ]
+    },
+    "bonus_per": {
+      "rng": [
+        0,
+        2
+      ]
+    },
+    "skills": [
+      {
+        "skill": "ALL",
+        "level": {
+          "sum": [
+            {
+              "dice": [
+                2,
+                2
+              ]
+            },
+            {
+              "constant": 0
+            }
+          ]
+        }
+      },
+      {
+        "skill": "rifle",
+        "bonus": {
+          "rng": [
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "skill": "gun",
+        "bonus": {
+          "rng": [
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "skill": "dodge",
+        "bonus": {
+          "rng": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "skill": "firstaid",
+        "bonus": {
+          "rng": [
+            1,
+            2
+          ]
+        }
+      }
+    ],
+    "worn_override": "sof_npc_worn_recon",
+    "weapon_override": "sof_npc_weapon_m249",
+    "carry_override": "sof_npc_carry_m249"
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_SOF_RECON_MEDIC",
+    "name": {
+      "str": "Recon Medic"
+    },
+    "job_description": "Eyes forward.  Wounds closed.",
+    "common": false,
+    "traits": [
+      {
+        "group": "BG_survival_story_SOLDIER"
+      },
+      {
+        "group": "NPC_starting_traits"
+      },
+      {
+        "group": "Appearance_demographics"
+      }
+    ],
+    "proficiencies": [
+      "prof_gunsmithing_basic",
+      "prof_gun_cleaning",
+      "prof_auto_rifles_familiar"
+    ],
+    "bonus_str": {
+      "rng": [
+        1,
+        2
+      ]
+    },
+    "bonus_dex": {
+      "rng": [
+        1,
+        2
+      ]
+    },
+    "bonus_per": {
+      "rng": [
+        0,
+        2
+      ]
+    },
+    "skills": [
+      {
+        "skill": "ALL",
+        "level": {
+          "sum": [
+            {
+              "dice": [
+                2,
+                2
+              ]
+            },
+            {
+              "constant": 0
+            }
+          ]
+        }
+      },
+      {
+        "skill": "rifle",
+        "bonus": {
+          "rng": [
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "skill": "gun",
+        "bonus": {
+          "rng": [
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "skill": "dodge",
+        "bonus": {
+          "rng": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "skill": "firstaid",
+        "bonus": {
+          "rng": [
+            1,
+            2
+          ]
+        }
+      }
+    ],
+    "worn_override": "sof_npc_worn_recon",
+    "weapon_override": "sof_npc_weapon_m4_cqbr",
+    "carry_override": "sof_npc_carry_medic"
+  }
+]

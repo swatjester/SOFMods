@@ -1,0 +1,260 @@
+[
+  {
+    "type": "scenario",
+    "id": "scen_ranger_buddy",
+    "name": "Rangers Lead the Way - Buddy Team",
+    "points": 3,
+    "description": "Your element was torn apart on the objective, but when the dust settled your Ranger buddy was still on your shoulder, weapon up, scanning his sector like the world hadn't just ended.  Two Rangers is not a squad.  It has, historically, been enough.  Rangers lead the way.",
+    "start_name": "On the Objective",
+    "allowed_locs": [
+      "sloc_field",
+      "sloc_forest",
+      "sloc_road"
+    ],
+    "professions": [
+      "ranger_assaulter",
+      "ranger_assaulter_bionic",
+      "ranger_sniper",
+      "ranger_sniper_bionic",
+      "ranger_breacher",
+      "ranger_breacher_bionic",
+      "ranger_grenadier",
+      "ranger_grenadier_bionic",
+      "ranger_drone_op",
+      "ranger_drone_op_bionic",
+      "ranger_machinegunner",
+      "ranger_machinegunner_bionic",
+      "ranger_weapons_gunner",
+      "ranger_weapons_gunner_bionic",
+      "ranger_medic",
+      "ranger_medic_bionic",
+      "ranger_fire_support",
+      "ranger_fire_support_bionic",
+      "ranger_jtac",
+      "ranger_jtac_bionic",
+      "rrc_team_leader",
+      "rrc_team_leader_bionic",
+      "rrc_sniper",
+      "rrc_sniper_bionic",
+      "rrc_comms",
+      "rrc_comms_bionic",
+      "rrc_medic",
+      "rrc_medic_bionic"
+    ],
+    "flags": [
+      "LONE_START",
+      "CITY_START"
+    ],
+    "eoc": [
+      "eoc_sof_ranger_buddy"
+    ]
+  },
+  {
+    "type": "scenario",
+    "id": "scen_ranger_fireteam",
+    "name": "Rangers Lead the Way - Fireteam",
+    "points": 5,
+    "description": "The squad is gone, but your fireteam made it off the objective intact: automatic rifleman, grenadier, rifleman, and you carrying the team leader's radio that nobody answers anymore.  Four Rangers with full kit and fire discipline.  The dead outnumber you considerably.  They are still the ones in trouble.  Rangers lead the way.",
+    "start_name": "On the Objective",
+    "allowed_locs": [
+      "sloc_field",
+      "sloc_forest",
+      "sloc_road"
+    ],
+    "professions": [
+      "ranger_assaulter",
+      "ranger_assaulter_bionic",
+      "ranger_sniper",
+      "ranger_sniper_bionic",
+      "ranger_breacher",
+      "ranger_breacher_bionic",
+      "ranger_grenadier",
+      "ranger_grenadier_bionic",
+      "ranger_drone_op",
+      "ranger_drone_op_bionic",
+      "ranger_machinegunner",
+      "ranger_machinegunner_bionic",
+      "ranger_weapons_gunner",
+      "ranger_weapons_gunner_bionic",
+      "ranger_medic",
+      "ranger_medic_bionic",
+      "ranger_fire_support",
+      "ranger_fire_support_bionic",
+      "ranger_jtac",
+      "ranger_jtac_bionic",
+      "rrc_team_leader",
+      "rrc_team_leader_bionic",
+      "rrc_sniper",
+      "rrc_sniper_bionic",
+      "rrc_comms",
+      "rrc_comms_bionic",
+      "rrc_medic",
+      "rrc_medic_bionic"
+    ],
+    "flags": [
+      "LONE_START",
+      "CITY_START"
+    ],
+    "eoc": [
+      "eoc_sof_ranger_fireteam"
+    ]
+  },
+  {
+    "type": "scenario",
+    "id": "scen_ranger_squad",
+    "name": "Rangers Lead the Way - Squad",
+    "points": 8,
+    "description": "Against everything the night threw at you, your squad came through: two fireteams and a doc, nine guns of doctrinal, drilled, bad-tempered order in a world that has none left.  Higher is gone.  The mission is whatever you say it is now, squad leader.  Rangers lead the way.",
+    "start_name": "On the Objective",
+    "allowed_locs": [
+      "sloc_field",
+      "sloc_forest",
+      "sloc_road"
+    ],
+    "professions": [
+      "ranger_assaulter",
+      "ranger_assaulter_bionic",
+      "ranger_sniper",
+      "ranger_sniper_bionic",
+      "ranger_breacher",
+      "ranger_breacher_bionic",
+      "ranger_grenadier",
+      "ranger_grenadier_bionic",
+      "ranger_drone_op",
+      "ranger_drone_op_bionic",
+      "ranger_machinegunner",
+      "ranger_machinegunner_bionic",
+      "ranger_weapons_gunner",
+      "ranger_weapons_gunner_bionic",
+      "ranger_medic",
+      "ranger_medic_bionic",
+      "ranger_fire_support",
+      "ranger_fire_support_bionic",
+      "ranger_jtac",
+      "ranger_jtac_bionic",
+      "rrc_team_leader",
+      "rrc_team_leader_bionic",
+      "rrc_sniper",
+      "rrc_sniper_bionic",
+      "rrc_comms",
+      "rrc_comms_bionic",
+      "rrc_medic",
+      "rrc_medic_bionic"
+    ],
+    "flags": [
+      "LONE_START",
+      "CITY_START"
+    ],
+    "eoc": [
+      "eoc_sof_ranger_squad"
+    ]
+  },
+  {
+    "type": "scenario",
+    "id": "scen_recon_buddy",
+    "name": "Eyes Forward - Buddy Team",
+    "points": 3,
+    "description": "A reconnaissance element travels light, and right now it is at its lightest: you and one other scout, moving by bounds through a world that has stopped reporting in.  Eyes forward.  The other set is watching your back.",
+    "start_name": "On Patrol",
+    "allowed_locs": [
+      "sloc_forest",
+      "sloc_field",
+      "sloc_campsite",
+      "sloc_road"
+    ],
+    "professions": [
+      "recon_scout",
+      "recon_scout_bionic",
+      "recon_sniper",
+      "recon_sniper_bionic",
+      "recon_machinegunner",
+      "recon_machinegunner_bionic",
+      "recon_grenadier",
+      "recon_grenadier_bionic",
+      "recon_drone_op",
+      "recon_drone_op_bionic",
+      "recon_medic",
+      "recon_medic_bionic",
+      "recon_jtac",
+      "recon_jtac_bionic"
+    ],
+    "flags": [
+      "LONE_START"
+    ],
+    "eoc": [
+      "eoc_sof_recon_buddy"
+    ]
+  },
+  {
+    "type": "scenario",
+    "id": "scen_recon_team",
+    "name": "Eyes Forward - Recon Team",
+    "points": 5,
+    "description": "Your recon team made it out of the hide site together: scout, sniper, medic, and you.  Four people who are very good at not being seen, in a world where being seen is fatal.  Eyes forward.",
+    "start_name": "On Patrol",
+    "allowed_locs": [
+      "sloc_forest",
+      "sloc_field",
+      "sloc_campsite",
+      "sloc_road"
+    ],
+    "professions": [
+      "recon_scout",
+      "recon_scout_bionic",
+      "recon_sniper",
+      "recon_sniper_bionic",
+      "recon_machinegunner",
+      "recon_machinegunner_bionic",
+      "recon_grenadier",
+      "recon_grenadier_bionic",
+      "recon_drone_op",
+      "recon_drone_op_bionic",
+      "recon_medic",
+      "recon_medic_bionic",
+      "recon_jtac",
+      "recon_jtac_bionic"
+    ],
+    "flags": [
+      "LONE_START"
+    ],
+    "eoc": [
+      "eoc_sof_recon_team"
+    ]
+  },
+  {
+    "type": "scenario",
+    "id": "scen_recon_section",
+    "name": "Eyes Forward - Section",
+    "points": 7,
+    "description": "The company is gone, but your section answered the rally point: scouts, the long gun, the belt-fed, and the doc.  Six of you, with the discipline to stay quiet and the firepower to get loud on schedule.  Eyes forward.",
+    "start_name": "On Patrol",
+    "allowed_locs": [
+      "sloc_forest",
+      "sloc_field",
+      "sloc_campsite",
+      "sloc_road"
+    ],
+    "professions": [
+      "recon_scout",
+      "recon_scout_bionic",
+      "recon_sniper",
+      "recon_sniper_bionic",
+      "recon_machinegunner",
+      "recon_machinegunner_bionic",
+      "recon_grenadier",
+      "recon_grenadier_bionic",
+      "recon_drone_op",
+      "recon_drone_op_bionic",
+      "recon_medic",
+      "recon_medic_bionic",
+      "recon_jtac",
+      "recon_jtac_bionic"
+    ],
+    "flags": [
+      "LONE_START"
+    ],
+    "eoc": [
+      "eoc_sof_recon_section"
+    ]
+  }
+]
